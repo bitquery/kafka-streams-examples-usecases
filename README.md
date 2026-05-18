@@ -10,12 +10,12 @@ Shared conventions apply across baseline consumers (default transport settings, 
 
 ## Repository layout
 
-| Folder | Role |
-|--------|------|
-| [`python-consumer-example/`](./python-consumer-example/) | Kafka consumer using **`confluent_kafka`** + Bitquery Solana protobuf helpers. |
-| [`js-consumer-example/`](./js-consumer-example/) | Kafka consumer using **KafkaJS** + **`bitquery-protobuf-schema`**. |
-| [`go-consumer-example/`](./go-consumer-example/) | Kafka consumer using **`confluent-kafka-go`** + **`github.com/bitquery/streaming_protobuf/v2`**. |
-| [`usecases/`](./usecases/) | Additional examples keyed to specific chains or workflows. Each subfolder includes its own README. See [`usecases/README.md`](./usecases/README.md). |
+| Folder                                                   | Role                                                                                                                                                 |
+| -------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [`python-consumer-example/`](./python-consumer-example/) | Kafka consumer using **`confluent_kafka`** + Bitquery Solana protobuf helpers.                                                                       |
+| [`js-consumer-example/`](./js-consumer-example/)         | Kafka consumer using **KafkaJS** + **`bitquery-protobuf-schema`**.                                                                                   |
+| [`go-consumer-example/`](./go-consumer-example/)         | Kafka consumer using **`confluent-kafka-go`** + **`github.com/bitquery/streaming_protobuf/v2`**.                                                     |
+| [`usecases/`](./usecases/)                               | Additional examples keyed to specific chains or workflows. Each subfolder includes its own README. See [`usecases/README.md`](./usecases/README.md). |
 
 Each baseline consumer folder is **self-contained** (no cross-imports between language folders).
 
@@ -25,11 +25,11 @@ Each baseline consumer folder is **self-contained** (no cross-imports between la
 
 Baseline consumers use Bitquery-published helpers for protobuf decoding:
 
-| Language | Package |
-|----------|---------|
-| **Python** | [`bitquery-pb2-kafka-package`](https://pypi.org/project/bitquery-pb2-kafka-package/) (PyPI) |
-| **JavaScript** | [`bitquery-protobuf-schema`](https://www.npmjs.com/package/bitquery-protobuf-schema) (npm) |
-| **Go** | [`github.com/bitquery/streaming_protobuf/v2`](https://pkg.go.dev/github.com/bitquery/streaming_protobuf/v2) — import paths depend on chain and message |
+| Language       | Package                                                                                                                                                |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Python**     | [`bitquery-pb2-kafka-package`](https://pypi.org/project/bitquery-pb2-kafka-package/) (PyPI)                                                            |
+| **JavaScript** | [`bitquery-protobuf-schema`](https://www.npmjs.com/package/bitquery-protobuf-schema) (npm)                                                             |
+| **Go**         | [`github.com/bitquery/streaming_protobuf/v2`](https://pkg.go.dev/github.com/bitquery/streaming_protobuf/v2) — import paths depend on chain and message |
 
 ---
 
@@ -43,13 +43,13 @@ JSON mirror payloads for inspecting topic structure offline — **[bitquery/kafk
 
 These defaults keep behavior consistent across languages and make stdout easy to pipe or parse:
 
-| Topic | Convention |
-|-------|----------------|
+| Topic                | Convention                                                                                                                                                                                                                                                                                                            |
+| -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Transport & auth** | **`SASL_PLAINTEXT`** + **SCRAM-SHA-512** on **`9092`**. Optional **TLS**: **`SASL_SSL`** on **`9093`** and PEM paths — **[Optional TLS](#optional-tls-sasl_ssl-port-9093)** and Bitquery’s **[SSL connection (SASL_SSL)](https://docs.bitquery.io/docs/streams/kafka-streaming-concepts/#ssl-connection-sasl_ssl-)**. |
-| **Credentials** | **`KAFKA_USERNAME`**, **`KAFKA_PASSWORD`** from the environment or **`.env`** (see each **`/.env.example`**). |
-| **Stdout** | Decoded protobuf only (readable field tree; **`bytes`** encoded as Solana-style **base58**). Omit partition/offset noise. |
-| **Stderr** | Logging, errors, lifecycle messages. |
-| **Offsets** | **`enable.auto.commit`** (and equivalents) disabled unless documented otherwise — restarts may re-read depending on consumer group and retention. |
+| **Credentials**      | **`KAFKA_USERNAME`**, **`KAFKA_PASSWORD`** from the environment or **`.env`** (see each **`/.env.example`**).                                                                                                                                                                                                         |
+| **Stdout**           | Decoded protobuf only (readable field tree; **`bytes`** encoded as Solana-style **base58**). Omit partition/offset noise.                                                                                                                                                                                             |
+| **Stderr**           | Logging, errors, lifecycle messages.                                                                                                                                                                                                                                                                                  |
+| **Offsets**          | **`enable.auto.commit`** (and equivalents) disabled unless documented otherwise — restarts may re-read depending on consumer group and retention.                                                                                                                                                                     |
 
 ---
 
@@ -59,11 +59,11 @@ Baseline consumers use **`SASL_PLAINTEXT`** on **`9092`** by default. For TLS + 
 
 Use these PEM filenames (aligned with Bitquery docs):
 
-| File | Typical librdkafka-style key |
-|------|-------------------------------|
-| **`server.cer.pem`** | **`ssl.ca.location`** |
+| File                 | Typical librdkafka-style key   |
+| -------------------- | ------------------------------ |
+| **`server.cer.pem`** | **`ssl.ca.location`**          |
 | **`client.cer.pem`** | **`ssl.certificate.location`** |
-| **`client.key.pem`** | **`ssl.key.location`** |
+| **`client.key.pem`** | **`ssl.key.location`**         |
 
 Official copies alongside sample clients: **[bitquery/kafka-consumer-example](https://github.com/bitquery/kafka-consumer-example)** (`server.cer.pem`, `client.cer.pem`, `client.key.pem` at repo root). Example fetch:
 
@@ -97,45 +97,56 @@ Which topics you may consume depends on **Bitquery provisioning** for your accou
 
 Match **`KAFKA_TOPIC`** (or subscription config) to the **protobuf message type** your decoder expects — swapping topic alone without the right generated types will fail decode.
 
+### Trading (`trading` namespace)
+
+Multi-chain streams (not tied to a single chain prefix). Both use the **same Kafka credentials** as your subscription.
+
+| Topic                | Description                                                                                                                                                                                                                                                                                                                          |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **`trading.prices`** | Multi-chain **Price Index** streams. See the **[Crypto Price APIs](https://docs.bitquery.io/docs/category/crypto-price-apis/)** documentation for usage.                                                                                                                                                                             |
+| **`trading.trades`** | Multi-chain Real-time Trader focused **DEX trades**, aligned with the **[Crypto Trades API](https://docs.bitquery.io/docs/category/crypto-trades-api/)**. Message layout is defined in **[`market/trades.proto`](https://github.com/bitquery/streaming_protobuf/blob/main/market/trades.proto)** in Bitquery **Streaming Protobuf**. |
+
+Example JSON mirrors: **[kafka-data-sample](https://github.com/bitquery/kafka-data-sample)** (`trading_prices_sample.json`, `trading_trades.json`).
+
 ### Bitcoin
 
-| Topic | Top-level protobuf message |
-|-------|---------------------------|
-| `btc.transactions.proto` | *(Bitcoin transactions — decode using Bitquery Bitcoin protobuf definitions)* |
+| Topic                    | Top-level protobuf message                                                    |
+| ------------------------ | ----------------------------------------------------------------------------- |
+| `btc.transactions.proto` | _(Bitcoin transactions — decode using Bitquery Bitcoin protobuf definitions)_ |
 
 ### Ethereum (`eth`)
 
-| Topic | Top-level protobuf message |
-|-------|---------------------------|
-| `eth.transactions.proto` | **`ParsedAbiBlockMessage`** |
-| `eth.tokens.proto` | **`TokenBlockMessage`** |
-| `eth.dextrades.proto` | **`DexBlockMessage`** |
-| `eth.raw.proto` | **`BlockMessage`** (raw block data) |
-| `eth.broadcasted.transactions.proto` | **`ParsedAbiBlockMessage`** |
-| `eth.broadcasted.tokens.proto` | **`TokenBlockMessage`** |
-| `eth.broadcasted.dextrades.proto` | **`DexBlockMessage`** |
-| `eth.broadcasted.raw.proto` | **`BlockMessage`** (raw broadcasted block data) |
+| Topic                                | Top-level protobuf message                      |
+| ------------------------------------ | ----------------------------------------------- |
+| `eth.transactions.proto`             | **`ParsedAbiBlockMessage`**                     |
+| `eth.tokens.proto`                   | **`TokenBlockMessage`**                         |
+| `eth.dextrades.proto`                | **`DexBlockMessage`**                           |
+| `eth.raw.proto`                      | **`BlockMessage`** (raw block data)             |
+| `eth.broadcasted.transactions.proto` | **`ParsedAbiBlockMessage`**                     |
+| `eth.broadcasted.tokens.proto`       | **`TokenBlockMessage`**                         |
+| `eth.broadcasted.dextrades.proto`    | **`DexBlockMessage`**                           |
+| `eth.broadcasted.raw.proto`          | **`BlockMessage`** (raw broadcasted block data) |
 
 ### Solana (`solana`)
 
-| Topic | Top-level protobuf message |
-|-------|---------------------------|
+| Topic                       | Top-level protobuf message  |
+| --------------------------- | --------------------------- |
 | `solana.transactions.proto` | **`ParsedIdlBlockMessage`** |
-| `solana.tokens.proto` | **`TokenBlockMessage`** |
-| `solana.dextrades.proto` | **`DexParsedBlockMessage`** |
+| `solana.tokens.proto`       | **`TokenBlockMessage`**     |
+| `solana.dextrades.proto`    | **`DexParsedBlockMessage`** |
 
 ### Tron (`tron`)
 
-| Topic | Notes |
-|-------|--------|
-| `tron.raw.proto` | Raw block data |
-| `tron.transactions.proto` | Transactions |
-| `tron.tokens.proto` | Token transfers |
-| `tron.dextrades.proto` | DEX trades |
-| `tron.broadcasted.raw.proto` | Raw broadcasted block data |
-| `tron.broadcasted.transactions.proto` | Broadcasted transactions |
-| `tron.broadcasted.tokens.proto` | Broadcasted token transfers |
-| `tron.broadcasted.dextrades.proto` | Broadcasted DEX trades |
+| Topic                                 | Notes                       |
+| ------------------------------------- | --------------------------- |
+| `tron.raw.proto`                      | Raw block data              |
+| `tron.transactions.proto`             | Transactions                |
+| `tron.tokens.proto`                   | Token transfers             |
+| `tron.dextrades.proto`                | DEX trades                  |
+| `tron.broadcasted.raw.proto`          | Raw broadcasted block data  |
+| `tron.broadcasted.transactions.proto` | Broadcasted transactions    |
+| `tron.broadcasted.tokens.proto`       | Broadcasted token transfers |
+| `tron.broadcasted.dextrades.proto`    | Broadcasted DEX trades      |
 
 For Tron message type names and imports, use the **streaming protobuf** definitions aligned with each topic ([schemas overview](https://github.com/bitquery/streaming_protobuf)).
 
@@ -145,10 +156,10 @@ Authoritative naming and additions beyond this list appear in Bitquery docs (for
 
 ## Repository contents
 
-| Area | Status |
-|------|--------|
-| Baseline consumers (Python / Node / Go) | Provided |
-| [`usecases/`](./usecases/) | Scenario examples — see [`usecases/README.md`](./usecases/README.md) |
+| Area                                    | Status                                                               |
+| --------------------------------------- | -------------------------------------------------------------------- |
+| Baseline consumers (Python / Node / Go) | Provided                                                             |
+| [`usecases/`](./usecases/)              | Scenario examples — see [`usecases/README.md`](./usecases/README.md) |
 
 ---
 
