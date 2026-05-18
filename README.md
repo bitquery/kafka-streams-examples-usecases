@@ -1,4 +1,4 @@
-# Bitquery Kafka — examples and use cases
+# Bitquery Kafka Streams — Examples and Use Cases
 
 Examples for consuming [Bitquery Kafka streams](https://docs.bitquery.io/docs/category/kafka-streams/) (protobuf over Kafka): **Python**, **Go**, and **Node.js** baseline consumers and scenario-sized projects under [`usecases/`](./usecases/). See [docs.bitquery.io](https://docs.bitquery.io) for Kafka concepts, authentication, and topic details.
 
