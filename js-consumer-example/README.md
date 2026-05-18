@@ -2,10 +2,10 @@
 
 CLI-style **Node.js** app (**not** a browser bundle): **KafkaJS**, **LZ4** (`kafkajs-lz4`), **`bitquery-protobuf-schema`** for runtime protobuf loading, **`.env`** for credentials.
 
-**Official tutorial:** [JavaScript — Solana Kafka shred stream](https://docs.bitquery.io/docs/streams/protobuf/kafka-protobuf-js/)  
+**Official tutorial:** <a href="https://docs.bitquery.io/docs/streams/protobuf/kafka-protobuf-js/" target="_blank" rel="noopener noreferrer">JavaScript — Solana Kafka shred stream</a>  
 (Bitquery titles this “Javascript”; the implementation is **Node + CommonJS**.)
 
-**Parent hub:** [Kafka streams documentation](https://docs.bitquery.io/docs/category/kafka-streams/)
+**Parent hub:** <a href="https://docs.bitquery.io/docs/category/kafka-streams/" target="_blank" rel="noopener noreferrer">Kafka streams documentation</a>
 
 ---
 
@@ -50,9 +50,9 @@ npm start
 
 **This sample defaults to non-TLS Kafka:** **`ssl: false`** + **SASL SCRAM-SHA-512** to **port 9092**. Authentication uses SASL; the **Kafka connection is not TLS**, so **no TLS version** is chosen for that socket.
 
-**Official TLS reference:** Bitquery’s **`SASL_SSL`** brokers (**9093**) and PEM filenames are described in **[Kafka streams concepts — SSL connection (SASL_SSL)](https://docs.bitquery.io/docs/streams/kafka-streaming-concepts/#ssl-connection-sasl_ssl-)**.
+**Official TLS reference:** Bitquery’s **`SASL_SSL`** brokers (**9093**) and PEM filenames are described in **<a href="https://docs.bitquery.io/docs/streams/kafka-streaming-concepts/#ssl-connection-sasl_ssl-" target="_blank" rel="noopener noreferrer">Kafka streams concepts — SSL connection (SASL_SSL)</a>**.
 
-**Certificates:** Use the three PEM files from **[`bitquery/kafka-consumer-example`](https://github.com/bitquery/kafka-consumer-example)** (repo root). How to fetch them: **[root `README.md` — Optional: TLS](../README.md#optional-tls-sasl_ssl-port-9093)**.
+**Certificates:** Use the three PEM files from **<a href="https://github.com/bitquery/kafka-consumer-example" target="_blank" rel="noopener noreferrer">`bitquery/kafka-consumer-example`</a>** (repo root). How to fetch them: **<a href="../README.md#optional-tls-sasl_ssl-port-9093" target="_blank" rel="noopener noreferrer">root `README.md` — Optional: TLS</a>**.
 
 **To use TLS with KafkaJS**, enable **`ssl`** with **`ca`**, **`cert`**, and **`key`** buffers (matching librdkafka’s **`ssl.ca.location`** / **`ssl.certificate.location`** / **`ssl.key.location`**), point brokers at **`9093`**, keep **`mechanism: 'scram-sha-512'`**, and mirror Bitquery’s **`ssl.endpoint.identification.algorithm: 'none'`** intent via **`rejectUnauthorized: false`** only if your ops/security posture allows it (prefer verifying the server hostname when possible). The example assumes PEMs live **`src/certs/`** under **`js-consumer-example/`** — change **`certDir`** to match where you saved the files:
 
@@ -74,7 +74,7 @@ const kafka = new Kafka({
 });
 ```
 
-**TLS version:** Use Node **`tls`** options on **`ssl`** if needed — e.g. **`minVersion`** (see [Node.js `tls.connect` options](https://nodejs.org/api/tls.html#tlsconnectoptions-callback)). Defaults are typically **TLS 1.2+** when unset.
+**TLS version:** Use Node **`tls`** options on **`ssl`** if needed — e.g. **`minVersion`** (see <a href="https://nodejs.org/api/tls.html#tlsconnectoptions-callback" target="_blank" rel="noopener noreferrer">Node.js `tls.connect` options</a>). Defaults are typically **TLS 1.2+** when unset.
 
 ---
 
@@ -96,7 +96,7 @@ Optional variables are documented in **`.env.example`** (topic, bootstrap server
 |---------|--------|
 | **`loadProto` / decode errors** | **`KAFKA_TOPIC`** matches a topic and schema enabled for your account. |
 | **Connection / SASL** | Outbound access to brokers in **`.env.example`**; credentials correct. |
-| **Flooded terminal** | High-throughput topics — reduce logging or filter in application code (see [filtering guide](https://docs.bitquery.io/docs/streams/protobuf/filtering-kafka-streams/)). |
+| **Flooded terminal** | High-throughput topics — reduce logging or filter in application code (see <a href="https://docs.bitquery.io/docs/streams/protobuf/filtering-kafka-streams/" target="_blank" rel="noopener noreferrer">filtering guide</a>). |
 
 ---
 

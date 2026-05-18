@@ -12,16 +12,16 @@ These directories are copies of published examples cited in Bitquery documentati
 
 | Folder | Scenario | Reference |
 |--------|----------|-----------|
-| [`sniper-bot-bsc/`](./sniper-bot-bsc/) | BSC / launch monitoring with Kafka-backed logic | [`bitquery/sniper-bot-bsc`](https://github.com/bitquery/sniper-bot-bsc) |
-| [`binance-exchange-wallets-monitoring/`](./binance-exchange-wallets-monitoring/) | Many exchange-labeled wallets on BSC (**`bsc.tokens.proto`**) | [`bitquery/binance-exchange-wallets-monitoring`](https://github.com/bitquery/binance-exchange-wallets-monitoring) |
-| [`solana-wallet-tracker/`](./solana-wallet-tracker/) | Large-scale Solana wallet tracking | [Track millions of Solana wallets via Kafka](https://docs.bitquery.io/docs/usecases/track-millions-of-solana-wallets/) |
-| [`realtime-liquidity-drain-detector/`](./realtime-liquidity-drain-detector/) | Real-time liquidity removal patterns | [Realtime liquidity drain detector](https://docs.bitquery.io/docs/usecases/realtime-liquidity-drain-detector/) |
+| <a href="./sniper-bot-bsc/" target="_blank" rel="noopener noreferrer">`sniper-bot-bsc/`</a> | BSC / launch monitoring with Kafka-backed logic | <a href="https://github.com/bitquery/sniper-bot-bsc" target="_blank" rel="noopener noreferrer">`bitquery/sniper-bot-bsc`</a> |
+| <a href="./binance-exchange-wallets-monitoring/" target="_blank" rel="noopener noreferrer">`binance-exchange-wallets-monitoring/`</a> | Many exchange-labeled wallets on BSC (**`bsc.tokens.proto`**) | <a href="https://github.com/bitquery/binance-exchange-wallets-monitoring" target="_blank" rel="noopener noreferrer">`bitquery/binance-exchange-wallets-monitoring`</a> |
+| <a href="./solana-wallet-tracker/" target="_blank" rel="noopener noreferrer">`solana-wallet-tracker/`</a> | Large-scale Solana wallet tracking | <a href="https://docs.bitquery.io/docs/usecases/track-millions-of-solana-wallets/" target="_blank" rel="noopener noreferrer">Track millions of Solana wallets via Kafka</a> |
+| <a href="./realtime-liquidity-drain-detector/" target="_blank" rel="noopener noreferrer">`realtime-liquidity-drain-detector/`</a> | Real-time liquidity removal patterns | <a href="https://docs.bitquery.io/docs/usecases/realtime-liquidity-drain-detector/" target="_blank" rel="noopener noreferrer">Realtime liquidity drain detector</a> |
 
 **Bitquery documentation**
 
-- [Binance exchange wallet monitoring](https://docs.bitquery.io/docs/usecases/binance-exchange-wallet-monitoring/)
-- [Track millions of Solana wallets](https://docs.bitquery.io/docs/usecases/track-millions-of-solana-wallets/)
-- [Realtime liquidity drain detector](https://docs.bitquery.io/docs/usecases/realtime-liquidity-drain-detector/)
+- <a href="https://docs.bitquery.io/docs/usecases/binance-exchange-wallet-monitoring/" target="_blank" rel="noopener noreferrer">Binance exchange wallet monitoring</a>
+- <a href="https://docs.bitquery.io/docs/usecases/track-millions-of-solana-wallets/" target="_blank" rel="noopener noreferrer">Track millions of Solana wallets</a>
+- <a href="https://docs.bitquery.io/docs/usecases/realtime-liquidity-drain-detector/" target="_blank" rel="noopener noreferrer">Realtime liquidity drain detector</a>
 
 Each subdirectory retains its upstream README for prerequisites and runtime instructions.
 
@@ -37,5 +37,5 @@ Each subdirectory retains its upstream README for prerequisites and runtime inst
 
 ## Related documentation
 
-- [Filtering Kafka streams](https://docs.bitquery.io/docs/streams/protobuf/filtering-kafka-streams/)
-- [Kafka streams hub](https://docs.bitquery.io/docs/category/kafka-streams/)
+- <a href="https://docs.bitquery.io/docs/streams/protobuf/filtering-kafka-streams/" target="_blank" rel="noopener noreferrer">Filtering Kafka streams</a>
+- <a href="https://docs.bitquery.io/docs/category/kafka-streams/" target="_blank" rel="noopener noreferrer">Kafka streams hub</a>

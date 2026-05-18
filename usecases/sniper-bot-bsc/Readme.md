@@ -1,6 +1,6 @@
 # 🚀 Bitquery Sniper Trading Bot
 
-The **Sniper Trading Bot** is an automated crypto trading tool built for detecting and trading **newly created [Four Meme tokens](https://docs.bitquery.io/docs/blockchain/BSC/four-meme-api?utm_source=github_readme&utm_medium=referral&utm_campaign=evm_sniper&utm_content=four_meme_api&utm_term=four_meme)** in real time.  
+The **Sniper Trading Bot** is an automated crypto trading tool built for detecting and trading **newly created <a href="https://docs.bitquery.io/docs/blockchain/BSC/four-meme-api?utm_source=github_readme&amp;utm_medium=referral&amp;utm_campaign=evm_sniper&amp;utm_content=four_meme_api&amp;utm_term=four_meme" target="_blank" rel="noopener noreferrer">Four Meme tokens</a>** in real time.  
 It follows a simple, high-frequency strategy — **buy instantly when the token launches** and **sell automatically after one minute**.
 
 ---
@@ -10,9 +10,9 @@ It follows a simple, high-frequency strategy — **buy instantly when the token 
 
 ## 🔍 How It Works: Detecting New Four Meme Tokens
 
-The bot leverages **[Bitquery’s Protobuf Kafka Streams](https://docs.bitquery.io/docs/category/kafka-streams/?utm_source=github_readme&utm_medium=referral&utm_campaign=evm_sniper&utm_content=protobuf_kafka_docs&utm_term=protobuf_kafka)** to receive token creation events in real-time from the **BSC blockchain**.
+The bot leverages **<a href="https://docs.bitquery.io/docs/category/kafka-streams/?utm_source=github_readme&amp;utm_medium=referral&amp;utm_campaign=evm_sniper&amp;utm_content=protobuf_kafka_docs&amp;utm_term=protobuf_kafka" target="_blank" rel="noopener noreferrer">Bitquery’s Protobuf Kafka Streams</a>** to receive token creation events in real-time from the **BSC blockchain**.
 
-You can check out the **[Kafka Protobuf JS example](https://docs.bitquery.io/docs/streams/protobuf/kafka-protobuf-js/?utm_source=github_readme&utm_medium=referral&utm_campaign=evm_sniper&utm_content=kafka_protobuf_js_example&utm_term=kafka_js_example)** for a step-by-step JavaScript implementation.
+You can check out the **<a href="https://docs.bitquery.io/docs/streams/protobuf/kafka-protobuf-js/?utm_source=github_readme&amp;utm_medium=referral&amp;utm_campaign=evm_sniper&amp;utm_content=kafka_protobuf_js_example&amp;utm_term=kafka_js_example" target="_blank" rel="noopener noreferrer">Kafka Protobuf JS example</a>** for a step-by-step JavaScript implementation.
 
 **Key features:**
 - Monitors **new token launches** instantly via **Kafka Streams**
@@ -28,7 +28,7 @@ We define custom wrapper functions:
 - `buyViaLaunchpad` → Buys tokens as soon as they’re created  
 - `sellTokenViaLaunchpad` → Sells after a predefined delay (default: 1 minute)
 
-Learn more about **[ethers.js contract interaction](https://docs.ethers.org/v5/?utm_source=github_readme&utm_medium=referral&utm_campaign=evm_sniper&utm_content=ethers_docs&utm_term=ethers)** and smart contract ABI usage.
+Learn more about **<a href="https://docs.ethers.org/v5/?utm_source=github_readme&amp;utm_medium=referral&amp;utm_campaign=evm_sniper&amp;utm_content=ethers_docs&amp;utm_term=ethers" target="_blank" rel="noopener noreferrer">ethers.js contract interaction</a>** and smart contract ABI usage.
 
 ---
 
@@ -54,7 +54,7 @@ Learn more about **[ethers.js contract interaction](https://docs.ethers.org/v5/?
    PRIVATE_KEY1=
    ```
 
-Contact [Bitquery Support](https://t.me/Bloxy_info/?utm_source=github_readme&utm_medium=referral&utm_campaign=bitcoin_streaming) or fill out this [form](https://bitquery.io/forms/api/?utm_source=github_readme&utm_medium=referral&utm_campaign=bitcoin_streaming) to get Kafka Credentials.
+Contact <a href="https://t.me/Bloxy_info/?utm_source=github_readme&amp;utm_medium=referral&amp;utm_campaign=bitcoin_streaming" target="_blank" rel="noopener noreferrer">Bitquery Support</a> or fill out this <a href="https://bitquery.io/forms/api/?utm_source=github_readme&amp;utm_medium=referral&amp;utm_campaign=bitcoin_streaming" target="_blank" rel="noopener noreferrer">form</a> to get Kafka Credentials.
 
 4. **Run the bot:**
 
@@ -66,7 +66,7 @@ Contact [Bitquery Support](https://t.me/Bloxy_info/?utm_source=github_readme&utm
 
 ## ☁️ Deployment Guide (Google Cloud)
 
-You can deploy the bot to a cloud provider (recommended: **[Google Cloud](https://console.cloud.google.com/?utm_source=github_readme&utm_medium=referral&utm_campaign=evm_sniper&utm_content=gcp_console&utm_term=google_cloud)**) for 24/7 uptime.
+You can deploy the bot to a cloud provider (recommended: **<a href="https://console.cloud.google.com/?utm_source=github_readme&amp;utm_medium=referral&amp;utm_campaign=evm_sniper&amp;utm_content=gcp_console&amp;utm_term=google_cloud" target="_blank" rel="noopener noreferrer">Google Cloud</a>**) for 24/7 uptime.
 
 ### Steps:
 
@@ -89,9 +89,9 @@ You can deploy the bot to a cloud provider (recommended: **[Google Cloud](https:
    git --version
    ```
 
-4. Follow the [setup section](#setup-instructions) above.
+4. Follow the <a href="#setup-instructions" target="_blank" rel="noopener noreferrer">setup section</a> above.
 
-5. Install **[pm2 process manager](https://pm2.keymetrics.io/?utm_source=github_readme&utm_medium=referral&utm_campaign=evm_sniper&utm_content=pm2_docs&utm_term=pm2)** to run the bot continuously:
+5. Install **<a href="https://pm2.keymetrics.io/?utm_source=github_readme&amp;utm_medium=referral&amp;utm_campaign=evm_sniper&amp;utm_content=pm2_docs&amp;utm_term=pm2" target="_blank" rel="noopener noreferrer">pm2 process manager</a>** to run the bot continuously:
 
    ```sh
    sudo npm install -g pm2
@@ -106,20 +106,20 @@ You can deploy the bot to a cloud provider (recommended: **[Google Cloud](https:
 
 | Component                  | Description                           | Docs                                                                                                                                                                                                                  |
 | -------------------------- | ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Bitquery API**           | Blockchain data API for token streams | [bitquery.io](https://bitquery.io/?utm_source=github_readme&utm_medium=referral&utm_campaign=evm_sniper&utm_content=bitquery_home&utm_term=bitquery)                                                                  |
-| **Protobuf Kafka Streams** | Real-time blockchain event streaming  | [Protobuf Docs](https://docs.bitquery.io/docs/streams/protobuf/chains/Bitcoin-protobuf/?utm_source=github_readme&utm_medium=referral&utm_campaign=evm_sniper&utm_content=protobuf_kafka_docs&utm_term=protobuf_kafka) |
-| **ethers.js**              | Smart contract interaction            | [ethers docs](https://docs.ethers.org/v5/?utm_source=github_readme&utm_medium=referral&utm_campaign=evm_sniper&utm_content=ethers_docs&utm_term=ethers)                                                               |
-| **Node.js**                | Runtime environment (20 LTS)          | [NodeSource Setup](https://deb.nodesource.com/setup_20.x?utm_source=github_readme&utm_medium=referral&utm_campaign=evm_sniper&utm_content=node_setup&utm_term=node20)                                                 |
-| **pm2**                    | Process manager for uptime            | [PM2 Docs](https://pm2.keymetrics.io/?utm_source=github_readme&utm_medium=referral&utm_campaign=evm_sniper&utm_content=pm2_docs&utm_term=pm2)                                                                         |
+| **Bitquery API**           | Blockchain data API for token streams | <a href="https://bitquery.io/?utm_source=github_readme&amp;utm_medium=referral&amp;utm_campaign=evm_sniper&amp;utm_content=bitquery_home&amp;utm_term=bitquery" target="_blank" rel="noopener noreferrer">bitquery.io</a>                                                                  |
+| **Protobuf Kafka Streams** | Real-time blockchain event streaming  | <a href="https://docs.bitquery.io/docs/streams/protobuf/chains/Bitcoin-protobuf/?utm_source=github_readme&amp;utm_medium=referral&amp;utm_campaign=evm_sniper&amp;utm_content=protobuf_kafka_docs&amp;utm_term=protobuf_kafka" target="_blank" rel="noopener noreferrer">Protobuf Docs</a> |
+| **ethers.js**              | Smart contract interaction            | <a href="https://docs.ethers.org/v5/?utm_source=github_readme&amp;utm_medium=referral&amp;utm_campaign=evm_sniper&amp;utm_content=ethers_docs&amp;utm_term=ethers" target="_blank" rel="noopener noreferrer">ethers docs</a>                                                               |
+| **Node.js**                | Runtime environment (20 LTS)          | <a href="https://deb.nodesource.com/setup_20.x?utm_source=github_readme&amp;utm_medium=referral&amp;utm_campaign=evm_sniper&amp;utm_content=node_setup&amp;utm_term=node20" target="_blank" rel="noopener noreferrer">NodeSource Setup</a>                                                 |
+| **pm2**                    | Process manager for uptime            | <a href="https://pm2.keymetrics.io/?utm_source=github_readme&amp;utm_medium=referral&amp;utm_campaign=evm_sniper&amp;utm_content=pm2_docs&amp;utm_term=pm2" target="_blank" rel="noopener noreferrer">PM2 Docs</a>                                                                         |
 
 ---
 
 ## 🧩 Related Resources
 
-* [Bitquery Documentation Hub](https://docs.bitquery.io/?utm_source=github_readme&utm_medium=referral&utm_campaign=evm_sniper&utm_content=bitquery_docs&utm_term=bitquery_docs)
-* [Bitquery IDE](http://ide.bitquery.io/?utm_source=github_readme&utm_medium=referral&utm_campaign=evm_sniper&utm_content=api_playground&utm_term=bitquery_explorer)
-* [Documented Tutorial](https://docs.bitquery.io/docs/streams/sniper-trade-using-bitquery-kafka-stream?utm_source=github_readme&utm_medium=referral&utm_campaign=evm_sniper)
-* [Tutorial Video](https://www.youtube.com/watch?v=vgOHgqTJmj0/?utm_source=github_readme&utm_medium=referral&utm_campaign=evm_sniper)
+* <a href="https://docs.bitquery.io/?utm_source=github_readme&amp;utm_medium=referral&amp;utm_campaign=evm_sniper&amp;utm_content=bitquery_docs&amp;utm_term=bitquery_docs" target="_blank" rel="noopener noreferrer">Bitquery Documentation Hub</a>
+* <a href="http://ide.bitquery.io/?utm_source=github_readme&amp;utm_medium=referral&amp;utm_campaign=evm_sniper&amp;utm_content=api_playground&amp;utm_term=bitquery_explorer" target="_blank" rel="noopener noreferrer">Bitquery IDE</a>
+* <a href="https://docs.bitquery.io/docs/streams/sniper-trade-using-bitquery-kafka-stream?utm_source=github_readme&amp;utm_medium=referral&amp;utm_campaign=evm_sniper" target="_blank" rel="noopener noreferrer">Documented Tutorial</a>
+* <a href="https://www.youtube.com/watch?v=vgOHgqTJmj0/?utm_source=github_readme&amp;utm_medium=referral&amp;utm_campaign=evm_sniper" target="_blank" rel="noopener noreferrer">Tutorial Video</a>
 ---
 
 ## 🏁 License
@@ -129,6 +129,6 @@ You’re free to use, modify, and distribute — attribution appreciated.
 
 ---
 
-### ✨ Created by [Bitquery](https://bitquery.io/?utm_source=github_readme&utm_medium=referral&utm_campaign=evm_sniper&utm_content=bitquery_home&utm_term=bitquery)
+### ✨ Created by <a href="https://bitquery.io/?utm_source=github_readme&amp;utm_medium=referral&amp;utm_campaign=evm_sniper&amp;utm_content=bitquery_home&amp;utm_term=bitquery" target="_blank" rel="noopener noreferrer">Bitquery</a>
 
-Empowering developers with blockchain data APIs and real-time event streams. [Signup](https://account.bitquery.io/auth/signup?redirect_to=https://ide.bitquery.io/?utm_source=github_readme&utm_medium=referral&utm_campaign=evm_sniper) today.
+Empowering developers with blockchain data APIs and real-time event streams. <a href="https://account.bitquery.io/auth/signup?redirect_to=https://ide.bitquery.io/?utm_source=github_readme&amp;utm_medium=referral&amp;utm_campaign=evm_sniper" target="_blank" rel="noopener noreferrer">Signup</a> today.

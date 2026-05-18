@@ -2,11 +2,11 @@
 
 Minimal **Go 1.23** consumer using **`confluent-kafka-go`** and Bitquery’s official **`streaming_protobuf/v2`** module (**`ParsedIdlBlockMessage`** and related types).
 
-**Official tutorial:** [Go — Kafka protobuf streams](https://docs.bitquery.io/docs/streams/protobuf/kafka-protobuf-go/)
+**Official tutorial:** <a href="https://docs.bitquery.io/docs/streams/protobuf/kafka-protobuf-go/" target="_blank" rel="noopener noreferrer">Go — Kafka protobuf streams</a>
 
-**Reference implementation (broader scope):** [`bitquery/stream_protobuf_example`](https://github.com/bitquery/stream_protobuf_example) (YAML, worker pools, etc.). This folder stays **minimal**: single goroutine, **`.env`** secrets, parity with Python/Node baselines.
+**Reference implementation (broader scope):** <a href="https://github.com/bitquery/stream_protobuf_example" target="_blank" rel="noopener noreferrer">`bitquery/stream_protobuf_example`</a> (YAML, worker pools, etc.). This folder stays **minimal**: single goroutine, **`.env`** secrets, parity with Python/Node baselines.
 
-**Parent hub:** [Kafka streams documentation](https://docs.bitquery.io/docs/category/kafka-streams/)
+**Parent hub:** <a href="https://docs.bitquery.io/docs/category/kafka-streams/" target="_blank" rel="noopener noreferrer">Kafka streams documentation</a>
 
 ---
 
@@ -19,13 +19,13 @@ Minimal **Go 1.23** consumer using **`confluent-kafka-go`** and Bitquery’s off
 
 No partition/offset prefixes on stdout.
 
-**Protobuf in Go:** there is no separate “protobuf-only” pip package — types come from **`github.com/bitquery/streaming_protobuf/v2/solana/messages`** ([`pkg.go.dev`](https://pkg.go.dev/github.com/bitquery/streaming_protobuf/v2/solana/messages)).
+**Protobuf in Go:** there is no separate “protobuf-only” pip package — types come from **`github.com/bitquery/streaming_protobuf/v2/solana/messages`** (<a href="https://pkg.go.dev/github.com/bitquery/streaming_protobuf/v2/solana/messages" target="_blank" rel="noopener noreferrer">`pkg.go.dev`</a>).
 
 ---
 
 ## Requirements
 
-1. **[Go 1.23+](https://go.dev/dl/)** — **`go version`** must satisfy **`go.mod`** / **`toolchain`**.
+1. **<a href="https://go.dev/dl/" target="_blank" rel="noopener noreferrer">Go 1.23+</a>** — **`go version`** must satisfy **`go.mod`** / **`toolchain`**.
 2. **C toolchain + librdkafka** (CGO — required by **`confluent-kafka-go`**):
    - **macOS:** `brew install librdkafka pkg-config`
    - **Debian/Ubuntu:** `sudo apt-get install -y librdkafka-dev pkg-config gcc`
@@ -54,9 +54,9 @@ go run .
 
 **This sample defaults to non-TLS Kafka:** **`security.protocol=SASL_PLAINTEXT`** + **SCRAM-SHA-512** on **port 9092**. SASL authenticates you; the **Kafka bytes are not TLS-encrypted**, so **no TLS version** applies to that mode.
 
-**Official TLS reference:** **[Kafka streams concepts — SSL connection (SASL_SSL)](https://docs.bitquery.io/docs/streams/kafka-streaming-concepts/#ssl-connection-sasl_ssl-)** lists **`9093`**, **`SASL_SSL`**, and the PEM keys (**`ssl.ca.location`**, **`ssl.certificate.location`**, **`ssl.key.location`**, **`ssl.endpoint.identification.algorithm`**).
+**Official TLS reference:** **<a href="https://docs.bitquery.io/docs/streams/kafka-streaming-concepts/#ssl-connection-sasl_ssl-" target="_blank" rel="noopener noreferrer">Kafka streams concepts — SSL connection (SASL_SSL)</a>** lists **`9093`**, **`SASL_SSL`**, and the PEM keys (**`ssl.ca.location`**, **`ssl.certificate.location`**, **`ssl.key.location`**, **`ssl.endpoint.identification.algorithm`**).
 
-**Certificates:** Download **`server.cer.pem`**, **`client.cer.pem`**, and **`client.key.pem`** from **[`bitquery/kafka-consumer-example`](https://github.com/bitquery/kafka-consumer-example)** (repo root). See **[root `README.md` — Optional: TLS](../README.md#optional-tls-sasl_ssl-port-9093)**.
+**Certificates:** Download **`server.cer.pem`**, **`client.cer.pem`**, and **`client.key.pem`** from **<a href="https://github.com/bitquery/kafka-consumer-example" target="_blank" rel="noopener noreferrer">`bitquery/kafka-consumer-example`</a>** (repo root). See **<a href="../README.md#optional-tls-sasl_ssl-port-9093" target="_blank" rel="noopener noreferrer">root `README.md` — Optional: TLS</a>**.
 
 **To switch this consumer to TLS**, extend the **`kafka.ConfigMap`** in **`main.go`** along Bitquery’s lines. Adjust **`ssl.*.location`** to wherever you saved the PEMs (example: same directory you run **`go run`** from):
 
@@ -76,7 +76,7 @@ go run .
 
 **TLS protocol version** is negotiated by **OpenSSL inside librdkafka** (no single **`ssl.version`** drop-down in **`confluent-kafka-go`**).
 
-Same cert concepts as Bitquery’s **Java keystore** example, different file format: [`kafka-consumer-example` / `Java`](https://github.com/bitquery/kafka-consumer-example/tree/main/Java).
+Same cert concepts as Bitquery’s **Java keystore** example, different file format: <a href="https://github.com/bitquery/kafka-consumer-example/tree/main/Java" target="_blank" rel="noopener noreferrer">`kafka-consumer-example` / `Java`</a>.
 
 ---
 
@@ -94,7 +94,7 @@ Env alone is insufficient: switch **`solanapb`** import / decode type in **`main
 
 ### Env vs YAML
 
-Bitquery’s larger Go samples sometimes use **`config.yml`**. This repo standardises on **`.env`** for secrets and parity across languages; rationale is summarized in the **root** [`README.md`](../README.md#conventions-all-baseline-consumers).
+Bitquery’s larger Go samples sometimes use **`config.yml`**. This repo standardises on **`.env`** for secrets and parity across languages; rationale is summarized in the **root** <a href="../README.md#conventions-all-baseline-consumers" target="_blank" rel="noopener noreferrer">`README.md`</a>.
 
 ---
 

@@ -1,6 +1,6 @@
 # Bitquery Kafka Streams — Examples and Use Cases
 
-Examples for consuming [Bitquery Kafka streams](https://docs.bitquery.io/docs/category/kafka-streams/) (protobuf over Kafka): **Python**, **Go**, and **Node.js** baseline consumers and scenario-sized projects under [`usecases/`](./usecases/). See [docs.bitquery.io](https://docs.bitquery.io) for Kafka concepts, authentication, and topic details.
+Examples for consuming <a href="https://docs.bitquery.io/docs/category/kafka-streams/" target="_blank" rel="noopener noreferrer">Bitquery Kafka streams</a> (protobuf over Kafka): **Python**, **Go**, and **Node.js** baseline consumers and scenario-sized projects under <a href="./usecases/" target="_blank" rel="noopener noreferrer">`usecases/`</a>. See <a href="https://docs.bitquery.io" target="_blank" rel="noopener noreferrer">docs.bitquery.io</a> for Kafka concepts, authentication, and topic details.
 
 Shared conventions apply across baseline consumers (default transport settings, **`KAFKA_USERNAME` / `KAFKA_PASSWORD`** via **`.env`**, protobuf on stdout / logs on stderr).
 
@@ -12,10 +12,10 @@ Shared conventions apply across baseline consumers (default transport settings, 
 
 | Folder                                                   | Role                                                                                                                                                 |
 | -------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`python-consumer-example/`](./python-consumer-example/) | Kafka consumer using **`confluent_kafka`** + Bitquery Solana protobuf helpers.                                                                       |
-| [`js-consumer-example/`](./js-consumer-example/)         | Kafka consumer using **KafkaJS** + **`bitquery-protobuf-schema`**.                                                                                   |
-| [`go-consumer-example/`](./go-consumer-example/)         | Kafka consumer using **`confluent-kafka-go`** + **`github.com/bitquery/streaming_protobuf/v2`**.                                                     |
-| [`usecases/`](./usecases/)                               | Additional examples keyed to specific chains or workflows. Each subfolder includes its own README. See [`usecases/README.md`](./usecases/README.md). |
+| <a href="./python-consumer-example/" target="_blank" rel="noopener noreferrer">`python-consumer-example/`</a> | Kafka consumer using **`confluent_kafka`** + Bitquery Solana protobuf helpers.                                                                       |
+| <a href="./js-consumer-example/" target="_blank" rel="noopener noreferrer">`js-consumer-example/`</a>         | Kafka consumer using **KafkaJS** + **`bitquery-protobuf-schema`**.                                                                                   |
+| <a href="./go-consumer-example/" target="_blank" rel="noopener noreferrer">`go-consumer-example/`</a>         | Kafka consumer using **`confluent-kafka-go`** + **`github.com/bitquery/streaming_protobuf/v2`**.                                                     |
+| <a href="./usecases/" target="_blank" rel="noopener noreferrer">`usecases/`</a>                               | Additional examples keyed to specific chains or workflows. Each subfolder includes its own README. See <a href="./usecases/README.md" target="_blank" rel="noopener noreferrer">`usecases/README.md`</a>. |
 
 Each baseline consumer folder is **self-contained** (no cross-imports between language folders).
 
@@ -27,15 +27,15 @@ Baseline consumers use Bitquery-published helpers for protobuf decoding:
 
 | Language       | Package                                                                                                                                                |
 | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Python**     | [`bitquery-pb2-kafka-package`](https://pypi.org/project/bitquery-pb2-kafka-package/) (PyPI)                                                            |
-| **JavaScript** | [`bitquery-protobuf-schema`](https://www.npmjs.com/package/bitquery-protobuf-schema) (npm)                                                             |
-| **Go**         | [`github.com/bitquery/streaming_protobuf/v2`](https://pkg.go.dev/github.com/bitquery/streaming_protobuf/v2) — import paths depend on chain and message |
+| **Python**     | <a href="https://pypi.org/project/bitquery-pb2-kafka-package/" target="_blank" rel="noopener noreferrer">`bitquery-pb2-kafka-package`</a> (PyPI)                                                            |
+| **JavaScript** | <a href="https://www.npmjs.com/package/bitquery-protobuf-schema" target="_blank" rel="noopener noreferrer">`bitquery-protobuf-schema`</a> (npm)                                                             |
+| **Go**         | <a href="https://pkg.go.dev/github.com/bitquery/streaming_protobuf/v2" target="_blank" rel="noopener noreferrer">`github.com/bitquery/streaming_protobuf/v2`</a> — import paths depend on chain and message |
 
 ---
 
 ## Sample payloads (`kafka-data-sample`)
 
-JSON mirror payloads for inspecting topic structure offline — **[bitquery/kafka-data-sample](https://github.com/bitquery/kafka-data-sample)**. Live Kafka streams use **Protobuf**; those samples document fields and nesting before you decode binary messages.
+JSON mirror payloads for inspecting topic structure offline — **<a href="https://github.com/bitquery/kafka-data-sample" target="_blank" rel="noopener noreferrer">bitquery/kafka-data-sample</a>**. Live Kafka streams use **Protobuf**; those samples document fields and nesting before you decode binary messages.
 
 ---
 
@@ -45,7 +45,7 @@ These defaults keep behavior consistent across languages and make stdout easy to
 
 | Topic                | Convention                                                                                                                                                                                                                                                                                                            |
 | -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Transport & auth** | **`SASL_PLAINTEXT`** + **SCRAM-SHA-512** on **`9092`**. Optional **TLS**: **`SASL_SSL`** on **`9093`** and PEM paths — **[Optional TLS](#optional-tls-sasl_ssl-port-9093)** and Bitquery’s **[SSL connection (SASL_SSL)](https://docs.bitquery.io/docs/streams/kafka-streaming-concepts/#ssl-connection-sasl_ssl-)**. |
+| **Transport & auth** | **`SASL_PLAINTEXT`** + **SCRAM-SHA-512** on **`9092`**. Optional **TLS**: **`SASL_SSL`** on **`9093`** and PEM paths — **<a href="#optional-tls-sasl_ssl-port-9093" target="_blank" rel="noopener noreferrer">Optional TLS</a>** and Bitquery’s **<a href="https://docs.bitquery.io/docs/streams/kafka-streaming-concepts/#ssl-connection-sasl_ssl-" target="_blank" rel="noopener noreferrer">SSL connection (SASL_SSL)</a>**. |
 | **Credentials**      | **`KAFKA_USERNAME`**, **`KAFKA_PASSWORD`** from the environment or **`.env`** (see each **`/.env.example`**).                                                                                                                                                                                                         |
 | **Stdout**           | Decoded protobuf only (readable field tree; **`bytes`** encoded as Solana-style **base58**). Omit partition/offset noise.                                                                                                                                                                                             |
 | **Stderr**           | Logging, errors, lifecycle messages.                                                                                                                                                                                                                                                                                  |
@@ -55,7 +55,7 @@ These defaults keep behavior consistent across languages and make stdout easy to
 
 ## Optional: TLS (`SASL_SSL`, port `9093`)
 
-Baseline consumers use **`SASL_PLAINTEXT`** on **`9092`** by default. For TLS + SASL, follow Bitquery’s **[Kafka streams concepts — SSL connection (SASL_SSL)](https://docs.bitquery.io/docs/streams/kafka-streaming-concepts/#ssl-connection-sasl_ssl-)**.
+Baseline consumers use **`SASL_PLAINTEXT`** on **`9092`** by default. For TLS + SASL, follow Bitquery’s **<a href="https://docs.bitquery.io/docs/streams/kafka-streaming-concepts/#ssl-connection-sasl_ssl-" target="_blank" rel="noopener noreferrer">Kafka streams concepts — SSL connection (SASL_SSL)</a>**.
 
 Use these PEM filenames (aligned with Bitquery docs):
 
@@ -65,7 +65,7 @@ Use these PEM filenames (aligned with Bitquery docs):
 | **`client.cer.pem`** | **`ssl.certificate.location`** |
 | **`client.key.pem`** | **`ssl.key.location`**         |
 
-Official copies alongside sample clients: **[bitquery/kafka-consumer-example](https://github.com/bitquery/kafka-consumer-example)** (`server.cer.pem`, `client.cer.pem`, `client.key.pem` at repo root). Example fetch:
+Official copies alongside sample clients: **<a href="https://github.com/bitquery/kafka-consumer-example" target="_blank" rel="noopener noreferrer">bitquery/kafka-consumer-example</a>** (`server.cer.pem`, `client.cer.pem`, `client.key.pem` at repo root). Example fetch:
 
 ```bash
 curl -fsSLO https://raw.githubusercontent.com/bitquery/kafka-consumer-example/main/server.cer.pem
@@ -81,13 +81,13 @@ Language-specific **`SASL_SSL`** snippets appear under **“Encryption in transi
 
 ## Documentation
 
-- [Kafka streams — category hub](https://docs.bitquery.io/docs/category/kafka-streams/)
-- [Go — Kafka protobuf streams](https://docs.bitquery.io/docs/streams/protobuf/kafka-protobuf-go/)
-- [Python — Solana shreds from Kafka](https://docs.bitquery.io/docs/streams/protobuf/kafka-protobuf-python/)
-- [JavaScript — Solana Kafka shred stream](https://docs.bitquery.io/docs/streams/protobuf/kafka-protobuf-js/)
-- [Filtering Kafka streams](https://docs.bitquery.io/docs/streams/protobuf/filtering-kafka-streams/)
-- [Kafka streams concepts — SASL_SSL / certificates](https://docs.bitquery.io/docs/streams/kafka-streaming-concepts/#ssl-connection-sasl_ssl-)
-- [Kafka topic JSON samples (`kafka-data-sample`)](https://github.com/bitquery/kafka-data-sample)
+- <a href="https://docs.bitquery.io/docs/category/kafka-streams/" target="_blank" rel="noopener noreferrer">Kafka streams — category hub</a>
+- <a href="https://docs.bitquery.io/docs/streams/protobuf/kafka-protobuf-go/" target="_blank" rel="noopener noreferrer">Go — Kafka protobuf streams</a>
+- <a href="https://docs.bitquery.io/docs/streams/protobuf/kafka-protobuf-python/" target="_blank" rel="noopener noreferrer">Python — Solana shreds from Kafka</a>
+- <a href="https://docs.bitquery.io/docs/streams/protobuf/kafka-protobuf-js/" target="_blank" rel="noopener noreferrer">JavaScript — Solana Kafka shred stream</a>
+- <a href="https://docs.bitquery.io/docs/streams/protobuf/filtering-kafka-streams/" target="_blank" rel="noopener noreferrer">Filtering Kafka streams</a>
+- <a href="https://docs.bitquery.io/docs/streams/kafka-streaming-concepts/#ssl-connection-sasl_ssl-" target="_blank" rel="noopener noreferrer">Kafka streams concepts — SASL_SSL / certificates</a>
+- <a href="https://github.com/bitquery/kafka-data-sample" target="_blank" rel="noopener noreferrer">Kafka topic JSON samples (`kafka-data-sample`)</a>
 
 ---
 
@@ -103,10 +103,10 @@ Multi-chain streams (not tied to a single chain prefix). Both use the **same Kaf
 
 | Topic                | Description                                                                                                                                                                                                                                                                                                                          |
 | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **`trading.prices`** | Multi-chain **Price Index** streams. See the **[Crypto Price APIs](https://docs.bitquery.io/docs/category/crypto-price-apis/)** documentation for usage.                                                                                                                                                                             |
-| **`trading.trades`** | Multi-chain Real-time Trader focused **DEX trades**, aligned with the **[Crypto Trades API](https://docs.bitquery.io/docs/category/crypto-trades-api/)**. Message layout is defined in **[`market/trades.proto`](https://github.com/bitquery/streaming_protobuf/blob/main/market/trades.proto)** in Bitquery **Streaming Protobuf**. |
+| **`trading.prices`** | Multi-chain **Price Index** streams. See the **<a href="https://docs.bitquery.io/docs/category/crypto-price-apis/" target="_blank" rel="noopener noreferrer">Crypto Price APIs</a>** documentation for usage.                                                                                                                                                                             |
+| **`trading.trades`** | Multi-chain Real-time Trader focused **DEX trades**, aligned with the **<a href="https://docs.bitquery.io/docs/category/crypto-trades-api/" target="_blank" rel="noopener noreferrer">Crypto Trades API</a>**. Message layout is defined in **<a href="https://github.com/bitquery/streaming_protobuf/blob/main/market/trades.proto" target="_blank" rel="noopener noreferrer">`market/trades.proto`</a>** in Bitquery **Streaming Protobuf**. |
 
-Example JSON mirrors: **[kafka-data-sample](https://github.com/bitquery/kafka-data-sample)** (`trading_prices_sample.json`, `trading_trades.json`).
+Example JSON mirrors: **<a href="https://github.com/bitquery/kafka-data-sample" target="_blank" rel="noopener noreferrer">kafka-data-sample</a>** (`trading_prices_sample.json`, `trading_trades.json`).
 
 ### Bitcoin
 
@@ -116,16 +116,64 @@ Example JSON mirrors: **[kafka-data-sample](https://github.com/bitquery/kafka-da
 
 ### Ethereum (`eth`)
 
-| Topic                                | Top-level protobuf message                      |
-| ------------------------------------ | ----------------------------------------------- |
-| `eth.transactions.proto`             | **`ParsedAbiBlockMessage`**                     |
-| `eth.tokens.proto`                   | **`TokenBlockMessage`**                         |
-| `eth.dextrades.proto`                | **`DexBlockMessage`**                           |
-| `eth.raw.proto`                      | **`BlockMessage`** (raw block data)             |
-| `eth.broadcasted.transactions.proto` | **`ParsedAbiBlockMessage`**                     |
-| `eth.broadcasted.tokens.proto`       | **`TokenBlockMessage`**                         |
-| `eth.broadcasted.dextrades.proto`    | **`DexBlockMessage`**                           |
-| `eth.broadcasted.raw.proto`          | **`BlockMessage`** (raw broadcasted block data) |
+These shapes apply to **committed** blocks. For **mempool / broadcasted** variants on EVM chains, use **`*.broadcasted.transactions.proto`** → **`ParsedAbiBlockMessage`**, **`*.broadcasted.tokens.proto`** → **`TokenBlockMessage`**, **`*.broadcasted.dextrades.proto`** → **`DexBlockMessage`**, **`*.broadcasted.raw.proto`** → **`BlockMessage`** (see <a href="https://docs.bitquery.io/docs/streams/kafka-streaming-concepts/" target="_blank" rel="noopener noreferrer">Kafka streams concepts — EVM chains</a>).
+
+| Topic                                | Top-level protobuf message                                                                                                                                                                                                                                      |
+| ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `eth.transactions.proto`             | **`ParsedAbiBlockMessage`**                                                                                                                                                                                                                                     |
+| `eth.tokens.proto`                   | **`TokenBlockMessage`**                                                                                                                                                                                                                                         |
+| `eth.dextrades.proto`                | **`DexBlockMessage`**                                                                                                                                                                                                                                           |
+| `eth.dexpools.proto`                 | DEX pool stream — **<a href="https://docs.bitquery.io/docs/cubes/evm-dexpool/" target="_blank" rel="noopener noreferrer">DEXPools Cube documentation</a>**                                                                                                      |
+| `eth.raw.proto`                      | **`BlockMessage`** (raw block data)                                                                                                                                                                                                                             |
+| `eth.broadcasted.transactions.proto` | **`ParsedAbiBlockMessage`**                                                                                                                                                                                                                                     |
+| `eth.broadcasted.tokens.proto`       | **`TokenBlockMessage`**                                                                                                                                                                                                                                         |
+| `eth.broadcasted.dextrades.proto`    | **`DexBlockMessage`**                                                                                                                                                                                                                                           |
+| `eth.broadcasted.raw.proto`          | **`BlockMessage`** (raw broadcasted block data)                                                                                                                                                                                                                 |
+
+### BNB Chain (`bsc`)
+
+| Topic                     | Top-level protobuf message                                                                                                                                                                                                                                      |
+| ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `bsc.transactions.proto`  | **`ParsedAbiBlockMessage`**                                                                                                                                                                                                                                     |
+| `bsc.tokens.proto`       | **`TokenBlockMessage`**                                                                                                                                                                                                                                         |
+| `bsc.dextrades.proto`    | **`DexBlockMessage`**                                                                                                                                                                                                                                           |
+| `bsc.dexpools.proto`     | DEX pool stream — **<a href="https://docs.bitquery.io/docs/cubes/evm-dexpool/" target="_blank" rel="noopener noreferrer">DEXPools Cube documentation</a>**                                                                                                      |
+
+_Add **`broadcasted`** in the topic name (e.g. `bsc.broadcasted.transactions.proto`) for mempool-level EVM variants — same protobuf mapping as in the Ethereum table._
+
+### Base (`base`)
+
+| Topic                      | Top-level protobuf message                                                                                                                                                                                                                                      |
+| -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `base.transactions.proto`  | **`ParsedAbiBlockMessage`**                                                                                                                                                                                                                                     |
+| `base.tokens.proto`        | **`TokenBlockMessage`**                                                                                                                                                                                                                                         |
+| `base.dextrades.proto`     | **`DexBlockMessage`**                                                                                                                                                                                                                                           |
+| `base.dexpools.proto`      | DEX pool stream — **<a href="https://docs.bitquery.io/docs/cubes/evm-dexpool/" target="_blank" rel="noopener noreferrer">DEXPools Cube documentation</a>**                                                                                                      |
+
+_Add **`broadcasted`** segment after the chain prefix for mempool-level streams where Bitquery exposes them._
+
+### Polygon (`matic`)
+
+| Topic                                  | Top-level protobuf message                                                                                                                                                                                                                                      |
+| -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `matic.transactions.proto`             | **`ParsedAbiBlockMessage`**                                                                                                                                                                                                                                     |
+| `matic.tokens.proto`                   | **`TokenBlockMessage`**                                                                                                                                                                                                                                         |
+| `matic.dextrades.proto`                | **`DexBlockMessage`**                                                                                                                                                                                                                                           |
+| `matic.dexpools.proto`                 | DEX pool stream — **<a href="https://docs.bitquery.io/docs/cubes/evm-dexpool/" target="_blank" rel="noopener noreferrer">DEXPools Cube documentation</a>**                                                                                                      |
+| `matic.predictions.proto`              | Prediction markets stream — decode using **<a href="https://github.com/bitquery/streaming_protobuf" target="_blank" rel="noopener noreferrer">Bitquery Streaming Protobuf</a>** for Polygon prediction topics                                                      |
+| `matic.broadcasted.predictions.proto` | Prediction markets (**broadcasted**) — same schema source as **`matic.predictions.proto`**                                                                                                                                                                       |
+
+_Add **`broadcasted`** variants for standard EVM **`transactions` / `tokens` / `dextrades` / `raw`** topics where provisioned._
+
+### Optimism (`optimism`)
+
+| Topic                         | Top-level protobuf message                                                                                                                                                                                                                                      |
+| ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `optimism.transactions.proto` | **`ParsedAbiBlockMessage`**                                                                                                                                                                                                                                     |
+| `optimism.tokens.proto`       | **`TokenBlockMessage`**                                                                                                                                                                                                                                         |
+| `optimism.dextrades.proto`    | **`DexBlockMessage`**                                                                                                                                                                                                                                           |
+
+_Add **`broadcasted`** variants where Bitquery exposes them for Optimism._
 
 ### Solana (`solana`)
 
@@ -148,9 +196,9 @@ Example JSON mirrors: **[kafka-data-sample](https://github.com/bitquery/kafka-da
 | `tron.broadcasted.tokens.proto`       | Broadcasted token transfers |
 | `tron.broadcasted.dextrades.proto`    | Broadcasted DEX trades      |
 
-For Tron message type names and imports, use the **streaming protobuf** definitions aligned with each topic ([schemas overview](https://github.com/bitquery/streaming_protobuf)).
+For Tron message type names and imports, use the **streaming protobuf** definitions aligned with each topic (<a href="https://github.com/bitquery/streaming_protobuf" target="_blank" rel="noopener noreferrer">schemas overview</a>).
 
-Authoritative naming and additions beyond this list appear in Bitquery docs (for example the [Kafka streams concepts](https://docs.bitquery.io/docs/streams/kafka-streaming-concepts/) topic lists).
+Authoritative naming and additions beyond this list appear in Bitquery docs (for example the <a href="https://docs.bitquery.io/docs/streams/kafka-streaming-concepts/" target="_blank" rel="noopener noreferrer">Kafka streams concepts</a> topic lists).
 
 ---
 
@@ -159,7 +207,7 @@ Authoritative naming and additions beyond this list appear in Bitquery docs (for
 | Area                                    | Status                                                               |
 | --------------------------------------- | -------------------------------------------------------------------- |
 | Baseline consumers (Python / Node / Go) | Provided                                                             |
-| [`usecases/`](./usecases/)              | Scenario examples — see [`usecases/README.md`](./usecases/README.md) |
+| <a href="./usecases/" target="_blank" rel="noopener noreferrer">`usecases/`</a>              | Scenario examples — see <a href="./usecases/README.md" target="_blank" rel="noopener noreferrer">`usecases/README.md`</a> |
 
 ---
 

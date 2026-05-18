@@ -2,9 +2,9 @@
 
 Minimal consumer using **`confluent_kafka`**, Bitquery’s **`bitquery-pb2-kafka-package`** (Solana **`ParsedIdlBlockMessage`**), **`base58`**, and **`.env`** for credentials.
 
-**Official tutorial:** [Python — Solana shreds / protobuf from Kafka](https://docs.bitquery.io/docs/streams/protobuf/kafka-protobuf-python/)
+**Official tutorial:** <a href="https://docs.bitquery.io/docs/streams/protobuf/kafka-protobuf-python/" target="_blank" rel="noopener noreferrer">Python — Solana shreds / protobuf from Kafka</a>
 
-**Parent hub:** [Kafka streams documentation](https://docs.bitquery.io/docs/category/kafka-streams/)
+**Parent hub:** <a href="https://docs.bitquery.io/docs/category/kafka-streams/" target="_blank" rel="noopener noreferrer">Kafka streams documentation</a>
 
 ---
 
@@ -49,9 +49,9 @@ Without activating the venv: **`.venv/bin/python consumer.py`**
 
 **This sample defaults to non-TLS Kafka:** **`security.protocol=SASL_PLAINTEXT`** + **SCRAM-SHA-512** on **port 9092**. The connection is **authenticated** (SASL) but the **Kafka wire is not wrapped in TLS**, so **no TLS version** (1.2 vs 1.3) is negotiated on that socket.
 
-**Official TLS reference:** Bitquery documents **`SASL_SSL`** on **`9093`** with PEM paths in **[Kafka streams concepts — SSL connection (SASL_SSL)](https://docs.bitquery.io/docs/streams/kafka-streaming-concepts/#ssl-connection-sasl_ssl-)**.
+**Official TLS reference:** Bitquery documents **`SASL_SSL`** on **`9093`** with PEM paths in **<a href="https://docs.bitquery.io/docs/streams/kafka-streaming-concepts/#ssl-connection-sasl_ssl-" target="_blank" rel="noopener noreferrer">Kafka streams concepts — SSL connection (SASL_SSL)</a>**.
 
-**Certificates:** Download **`server.cer.pem`**, **`client.cer.pem`**, and **`client.key.pem`** from Bitquery’s reference repo **[`bitquery/kafka-consumer-example`](https://github.com/bitquery/kafka-consumer-example)** (repo root). Overview and **`curl`** one-liners: **[root `README.md` — Optional: TLS](../README.md#optional-tls-sasl_ssl-port-9093)**.
+**Certificates:** Download **`server.cer.pem`**, **`client.cer.pem`**, and **`client.key.pem`** from Bitquery’s reference repo **<a href="https://github.com/bitquery/kafka-consumer-example" target="_blank" rel="noopener noreferrer">`bitquery/kafka-consumer-example`</a>** (repo root). Overview and **`curl`** one-liners: **<a href="../README.md#optional-tls-sasl_ssl-port-9093" target="_blank" rel="noopener noreferrer">root `README.md` — Optional: TLS</a>**.
 
 **To switch this consumer to TLS**, extend **`settings.py`** so the **`conf`** dict matches Bitquery’s snippet (bootstrap **`9093`**, **`security.protocol=SASL_SSL`**, SCRAM credentials unchanged). Point **`ssl.*.location`** at wherever you saved those files (example below assumes they sit **next to `consumer.py`** — adjust paths as needed):
 
@@ -70,7 +70,7 @@ Without activating the venv: **`.venv/bin/python consumer.py`**
 
 **TLS protocol version** is **not** a single `sslVersion` field in **`confluent_kafka`** — OpenSSL inside librdkafka negotiates with the broker (typically **TLS 1.2+**).
 
-See also Bitquery’s **Java + keystore** walkthrough for another packaging of the same idea: [`kafka-consumer-example` / `Java`](https://github.com/bitquery/kafka-consumer-example/tree/main/Java).
+See also Bitquery’s **Java + keystore** walkthrough for another packaging of the same idea: <a href="https://github.com/bitquery/kafka-consumer-example/tree/main/Java" target="_blank" rel="noopener noreferrer">`kafka-consumer-example` / `Java`</a>.
 
 ---
 
