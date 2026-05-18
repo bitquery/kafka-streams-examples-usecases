@@ -114,6 +114,14 @@ Example JSON mirrors: **<a href="https://github.com/bitquery/kafka-data-sample" 
 | ------------------------ | ----------------------------------------------------------------------------- |
 | `btc.transactions.proto` | _(Bitcoin transactions — decode using Bitquery Bitcoin protobuf definitions)_ |
 
+### Solana (`solana`)
+
+| Topic                       | Top-level protobuf message  |
+| --------------------------- | --------------------------- |
+| `solana.transactions.proto` | **`ParsedIdlBlockMessage`** |
+| `solana.tokens.proto`       | **`TokenBlockMessage`**     |
+| `solana.dextrades.proto`    | **`DexParsedBlockMessage`** |
+
 ### Ethereum (`eth`)
 
 These shapes apply to **committed** blocks. For **mempool / broadcasted** variants on EVM chains, use **`*.broadcasted.transactions.proto`** → **`ParsedAbiBlockMessage`**, **`*.broadcasted.tokens.proto`** → **`TokenBlockMessage`**, **`*.broadcasted.dextrades.proto`** → **`DexBlockMessage`**, **`*.broadcasted.raw.proto`** → **`BlockMessage`** (see <a href="https://docs.bitquery.io/docs/streams/kafka-streaming-concepts/" target="_blank" rel="noopener noreferrer">Kafka streams concepts — EVM chains</a>).
@@ -174,14 +182,6 @@ _Add **`broadcasted`** variants for standard EVM **`transactions` / `tokens` / `
 | `optimism.dextrades.proto`    | **`DexBlockMessage`**                                                                                                                                                                                                                                           |
 
 _Add **`broadcasted`** variants where Bitquery exposes them for Optimism._
-
-### Solana (`solana`)
-
-| Topic                       | Top-level protobuf message  |
-| --------------------------- | --------------------------- |
-| `solana.transactions.proto` | **`ParsedIdlBlockMessage`** |
-| `solana.tokens.proto`       | **`TokenBlockMessage`**     |
-| `solana.dextrades.proto`    | **`DexParsedBlockMessage`** |
 
 ### Tron (`tron`)
 
