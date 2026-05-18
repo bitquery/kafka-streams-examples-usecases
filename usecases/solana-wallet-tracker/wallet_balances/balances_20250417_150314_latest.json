@@ -1,0 +1,6049 @@
+{
+  "timestamp": "2025-04-17T15:03:52.804825",
+  "stats": {
+    "messages_processed": 1,
+    "balance_updates_received": 2202,
+    "unique_addresses": 630,
+    "unique_tokens": 7,
+    "start_time": 1744882394.046986,
+    "last_export_time": 1744882394.046987,
+    "elapsed_seconds": 38.7577588558197,
+    "updates_per_second": 56.814430581281066
+  },
+  "wallets": {
+    "5asKWJfxCYEGyC8Yocyi9KGVQyhi8rmTbzP72pgajUnF": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 6631301035,
+        "human_balance": 6.631301035,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "RyavMNseg7BDK96KrBGN3zMa2yd7z7bTFiaQ3xSbHaG": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 320493255273,
+        "human_balance": 320.493255273,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      },
+      "So11111111111111111111111111111111111111112": {
+        "raw_balance": 320491215993,
+        "human_balance": 320.491215993,
+        "symbol": "WSOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "31PVkrAionqyca8x3YY6kCFBF7U5ynp7oRUjpeaDRYRU": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 3433937,
+        "human_balance": 0.003433937,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      },
+      "So11111111111111111111111111111111111111112": {
+        "raw_balance": 1394657,
+        "human_balance": 0.001394657,
+        "symbol": "WSOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "4SapmAQtUdrshAtP1UwCECFugtfJZ2xkU9ht3XMVpagQ": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 71437440,
+        "human_balance": 0.07143744,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "8YF7Y6UwNy3tALFG4TZ1R8hLscMvX8gnHhnRiLBdy3Wz": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 71437440,
+        "human_balance": 0.07143744,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "DstcnY7gyVuLtVi2Ye9v7pjbtFgFr9WrBC1LZwwuDUXN": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 23385600,
+        "human_balance": 0.0233856,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "EGaXn2qg8AA5axjUL4AeEGKTpD2aCLY8wUr65y2A6bWu": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2039280,
+        "human_balance": 0.00203928,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      },
+      "BdQR2zt6eJ5vJNWBHbE9wnjc6iDBYyQbfoSwCRX6pump": {
+        "raw_balance": 0,
+        "human_balance": 0.0,
+        "symbol": "FUN",
+        "decimals": 6,
+        "last_updated": 1744882414
+      }
+    },
+    "FwkABVRRadjZYyShg3SSdSSS5s5r4PjiG9zdsMvG5dCh": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2039280,
+        "human_balance": 0.00203928,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      },
+      "BdQR2zt6eJ5vJNWBHbE9wnjc6iDBYyQbfoSwCRX6pump": {
+        "raw_balance": 567634257,
+        "human_balance": 567.634257,
+        "symbol": "FUN",
+        "decimals": 6,
+        "last_updated": 1744882414
+      }
+    },
+    "HvgDh54nyeAZa8YsAhQHxvfWUNWwaafjTjU7fjSNG4SJ": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 71437440,
+        "human_balance": 0.07143744,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "HxWKUQUBBiQmHZKY2HSDk7mmndtK7jheCkLjM3phuNvx": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 7182720,
+        "human_balance": 0.00718272,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "11111111111111111111111111111111": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1,
+        "human_balance": 1e-09,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "ComputeBudget111111111111111111111111111111": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1,
+        "human_balance": 1e-09,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "2M86GVGn3AHgAX9afQrYeSEETJBs9qmDtxb3f6kEa87H": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1398960,
+        "human_balance": 0.00139896,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "7xQYoUjUJF1Kg6WVczoTAkaNhn5syQYcbvjmFrhjWpx": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 3122765844050,
+        "human_balance": 3122.76584405,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      },
+      "So11111111111111111111111111111111111111112": {
+        "raw_balance": 3122763804770,
+        "human_balance": 3122.76380477,
+        "symbol": "WSOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "6YNSLmhTgo6pFJmWHWeeLGP7NWw49wCYXmMAZChhkhHj": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2039280,
+        "human_balance": 0.00203928,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      },
+      "BdQR2zt6eJ5vJNWBHbE9wnjc6iDBYyQbfoSwCRX6pump": {
+        "raw_balance": 51732409137578,
+        "human_balance": 51732409.137578,
+        "symbol": "FUN",
+        "decimals": 6,
+        "last_updated": 1744882414
+      }
+    },
+    "BSePTkkenj5xMfLEURRSYhasjE4xRYjHgeAKjyRcJDLK": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 632455414864,
+        "human_balance": 632.455414864,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      },
+      "So11111111111111111111111111111111111111112": {
+        "raw_balance": 632453375584,
+        "human_balance": 632.453375584,
+        "symbol": "WSOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "FWsW1xNtWscwNmKv6wVsU1iTzRN6wmmk3MjxRP5tT7hz": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 8877554521660,
+        "human_balance": 8877.55452166,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "Xs8rs5MXYLtheBNakWQKCyUXCrkmPj3KJ1NKZXT6BDB": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 71437440,
+        "human_balance": 0.07143744,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "2G1XHy88mL8j1Di3FbHcueaZUfLf9dxeZ8e3nqw9hMh8": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 17572708710,
+        "human_balance": 17.57270871,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      },
+      "So11111111111111111111111111111111111111112": {
+        "raw_balance": 17570669430,
+        "human_balance": 17.57066943,
+        "symbol": "WSOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "2uEQaP9ys2Ksuv9N9No8bxwJMarPXvTqPMvQj1FpCDTD": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 23385600,
+        "human_balance": 0.0233856,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "3hdds4kSzoHK4zPUchJRtTrQZYEvCDcfVV4fQYco9xQ5": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2039280,
+        "human_balance": 0.00203928,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      },
+      "BdQR2zt6eJ5vJNWBHbE9wnjc6iDBYyQbfoSwCRX6pump": {
+        "raw_balance": 5393160732882,
+        "human_balance": 5393160.732882,
+        "symbol": "FUN",
+        "decimals": 6,
+        "last_updated": 1744882414
+      }
+    },
+    "4beBkrVSGevXz2hzPK1ymZZRAacfXX461A5N7hLb6AuP": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 71437440,
+        "human_balance": 0.07143744,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "4uFagX52QZUAd2NyDABLkzLy799CYMGjmiAacQ7E2Ymd": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 71437440,
+        "human_balance": 0.07143744,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "5aPKb9FQ2dofPyyidY3UTNedu9SBxmeZNL8JJvCxxMyj": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 71437440,
+        "human_balance": 0.07143744,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "5yzMAgiuX9AMc2vWdPhfV3WeFJcmn1FzrLQvqfC1LyKu": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 7182720,
+        "human_balance": 0.00718272,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "65ABQraLrTr1hdTE7DXkzA5F7K1tNM3rFwFcRWuXduBi": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 71437440,
+        "human_balance": 0.07143744,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "9xgAPqi9AAAKu9mtViUAuoJXkecjfPkxMBinYsxzz9hD": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 7182720,
+        "human_balance": 0.00718272,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "AcjPJm5R3kVe6QYsFK9cUmWXmAT12tG2hivJ9y6BaCBv": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 71437440,
+        "human_balance": 0.07143744,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "BqDgKZNApVJzr2XgddETmPc7ZAq5wKZSvy8TzxsujyWJ": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2039280,
+        "human_balance": 0.00203928,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      },
+      "BdQR2zt6eJ5vJNWBHbE9wnjc6iDBYyQbfoSwCRX6pump": {
+        "raw_balance": 16102001673616,
+        "human_balance": 16102001.673616,
+        "symbol": "FUN",
+        "decimals": 6,
+        "last_updated": 1744882414
+      }
+    },
+    "C35rnJvWVsR6bAuwPHS3sKvBUrMees56sWvPe1vpP5ok": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 71437440,
+        "human_balance": 0.07143744,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "Dbx2VNBffvRJ4Zdmz7ZYqGZqqwGKqEugkCpqf8GhhVoD": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2039280,
+        "human_balance": 0.00203928,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      },
+      "BdQR2zt6eJ5vJNWBHbE9wnjc6iDBYyQbfoSwCRX6pump": {
+        "raw_balance": 4889437025191,
+        "human_balance": 4889437.025191,
+        "symbol": "FUN",
+        "decimals": 6,
+        "last_updated": 1744882414
+      }
+    },
+    "E4zQBLkySipgHpSMsC4PoPSmL2yTZ9uZP2SX1diSDoWf": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 635264525079,
+        "human_balance": 635.264525079,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      },
+      "So11111111111111111111111111111111111111112": {
+        "raw_balance": 635262485799,
+        "human_balance": 635.262485799,
+        "symbol": "WSOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "EEVAJjZP2YUZNW2rmxn8MxaZGcKY7yd2GQVkYNwk975P": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 71437440,
+        "human_balance": 0.07143744,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "EKi3JFrsiFRR8qZAkras17RkwZtPMdmCTvNzT3j6JErH": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 23385600,
+        "human_balance": 0.0233856,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "Ey8AGPTpAC46Xk999NvFiP8TgmpiAmdGeTs3VNGEXYer": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 71437440,
+        "human_balance": 0.07143744,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "F9ETq8N7yZZssBMrvY9ftjy2XCtjDq1zVgBM481KeH9W": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 7182720,
+        "human_balance": 0.00718272,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "HgUSzRqbK7K3KpcgHiUYCoqforMkf95LGymVTSvg61V8": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 23385600,
+        "human_balance": 0.0233856,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "JC3gzXPozTU84ZaB8kVqRXoXMwp4rh4DpLxx1aX4Mi7s": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 135961490821,
+        "human_balance": 135.961490821,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      },
+      "So11111111111111111111111111111111111111112": {
+        "raw_balance": 135959451541,
+        "human_balance": 135.959451541,
+        "symbol": "WSOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1141440,
+        "human_balance": 0.00114144,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "So11111111111111111111111111111111111111112": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1019894057534,
+        "human_balance": 1019.894057534,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 934087680,
+        "human_balance": 0.93408768,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1141440,
+        "human_balance": 0.00114144,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "ADyA8hdefvWN2dbGGWFotbzWxrAvLW83WG6QCVXvJKqw": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 3069360,
+        "human_balance": 0.00306936,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 731913600,
+        "human_balance": 0.7319136,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "BdQR2zt6eJ5vJNWBHbE9wnjc6iDBYyQbfoSwCRX6pump": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 6234472270,
+        "human_balance": 6.23447227,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "FdqUvWCzhRSwyhetWGWuHsva9czU3GxSKRqLozJbd58Y": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2359440,
+        "human_balance": 0.00235944,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "GS4CU59F31iL7aR2Q8zVS8DRrcRnXX1yjQ66TqNVQnaR": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 0,
+        "human_balance": 0.0,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "D1ZN9Wj1fRSUQfCjhvnu1hqDMT7hzjzBBpi12nVniYD6": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 4000000,
+        "human_balance": 0.004,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "7GFUN3bWzJMKMRZ34JLsvcqdssDbXnp589SiE33KVwcC": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1445204209102,
+        "human_balance": 1445.204209102,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      },
+      "So11111111111111111111111111111111111111112": {
+        "raw_balance": 1445202169822,
+        "human_balance": 1445.202169822,
+        "symbol": "WSOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "7VtfL8fvgNfhz17qKRMjzQEXgbdpnHHHQRh54R9jP2RJ": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 7841403240245,
+        "human_balance": 7841.403240245,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "7sZtPSeKENmWG8YREniiDiyfLRM2QcD7ufLJWA5nT5nd": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 13273098956,
+        "human_balance": 13.273098956,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "6ucYiTKmE92yvGLR8DKwL86UHFwYYdPmVRHKNPbe7kxQ": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2039280,
+        "human_balance": 0.00203928,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      },
+      "BdQR2zt6eJ5vJNWBHbE9wnjc6iDBYyQbfoSwCRX6pump": {
+        "raw_balance": 0,
+        "human_balance": 0.0,
+        "symbol": "FUN",
+        "decimals": 6,
+        "last_updated": 1744882414
+      }
+    },
+    "9pTQWVjWUoijHH9Gob9A9EPVoeHTNLfsjxg9zxMpxsQz": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 7937454242,
+        "human_balance": 7.937454242,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      },
+      "So11111111111111111111111111111111111111112": {
+        "raw_balance": 7935414962,
+        "human_balance": 7.935414962,
+        "symbol": "WSOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "KLend2g3cP87fffoy8q1mQqGKjrxjC8boSyAYavgmjD": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1141440,
+        "human_balance": 0.00114144,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "MEViEnscUm6tsQRoGd9h6nLQaQspKj7DB2M5FwM3Xvz": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1141440,
+        "human_balance": 0.00114144,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "CPMMoo8L3F4NbTegBCKVNunggL7H1ZpdTHKxQB5qKP1C": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1141440,
+        "human_balance": 0.00114144,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "GpMZbSM2GgvTKHJirzeGfMFoaZ8UR2X7F4v8vHTvxFbL": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1070584056326,
+        "human_balance": 1070.584056326,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "JCRGumoE9Qi5BBgULTgdgTLjSgkCMSbF62ZZfGs84JeU": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1000000,
+        "human_balance": 0.001,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "ywaaLvG7t1vXJo8sT3UzE8yzzZtxLM7Fmev64Jbooye": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 234148374026666,
+        "human_balance": 234148.374026666,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      },
+      "So11111111111111111111111111111111111111112": {
+        "raw_balance": 234148371987386,
+        "human_balance": 234148.371987386,
+        "symbol": "WSOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "6AGB9kqgSp2mQXwYpdrV4QVV8urvCaDS35U1wsLssy6H": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 916472225,
+        "human_balance": 0.916472225,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      },
+      "So11111111111111111111111111111111111111112": {
+        "raw_balance": 914432945,
+        "human_balance": 0.914432945,
+        "symbol": "WSOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "6gTJfuPHEg6uRAijRkMqNc9kan4sVZejKMxmvx2grT1p": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 60913920,
+        "human_balance": 0.06091392,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "EQ7hw63aBS7aPQqXsoxaaBxiwbEzaAiY9Js6tCekkqxf": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 518549150294,
+        "human_balance": 518.549150294,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      },
+      "So11111111111111111111111111111111111111112": {
+        "raw_balance": 518547111014,
+        "human_balance": 518.547111014,
+        "symbol": "WSOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "DWpvfqzGWuVy9jVSKSShdM2733nrEsnnhsUStYbkj6Nn": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2201651596621,
+        "human_balance": 2201.651596621,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      },
+      "So11111111111111111111111111111111111111112": {
+        "raw_balance": 2201649557341,
+        "human_balance": 2201.649557341,
+        "symbol": "WSOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "Sysvar1nstructions1111111111111111111111111": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 0,
+        "human_balance": 0.0,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 24254548488,
+        "human_balance": 24.254548488,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1141440,
+        "human_balance": 0.00114144,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "Dx8iy2o46sK1DzWbEcznqSKeLbLVeu7otkibA3WohGAj": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 0,
+        "human_balance": 0.0,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "H6rHXmXoCQvq8Ue81MqNh7ow5ysPa1dSozwW3PU1dDH6": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 33352320,
+        "human_balance": 0.03335232,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "62qc2CNXwrYqQScmEdiZFFAnJR262PxWEuNQtxfafNgV": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 78473389863477,
+        "human_balance": 78473.389863477,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "94qWNrtmfn42h3ZjUZwWvK1MEo9uVmmrBPd2hpNjYDjb": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 4488018978013,
+        "human_balance": 4488.018978013,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      },
+      "So11111111111111111111111111111111111111112": {
+        "raw_balance": 4488016938733,
+        "human_balance": 4488.016938733,
+        "symbol": "WSOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "23j7kJe9CYaiBqLSzoKAgyLkbPdvDe54eteHRYwekpTv": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 45458225481,
+        "human_balance": 45.458225481,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      },
+      "So11111111111111111111111111111111111111112": {
+        "raw_balance": 45456186201,
+        "human_balance": 45.456186201,
+        "symbol": "WSOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "4M7UMCZBGmRRsZKvP7ZCZnVerbY4g3Kqe7z95pYhnDuu": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2039280,
+        "human_balance": 0.00203928,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      },
+      "8T7RjdERSeQNqUhthUgEEUr33g6xdVVxND5YmgjSpump": {
+        "raw_balance": 2411732514615,
+        "human_balance": 2411732.514615,
+        "symbol": "Kekels",
+        "decimals": 6,
+        "last_updated": 1744882414
+      }
+    },
+    "5ZRJUdas8qPzczhrN2y5EnzJ53x2ZvUTEBzCBcizrYo3": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2039280,
+        "human_balance": 0.00203928,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      },
+      "8T7RjdERSeQNqUhthUgEEUr33g6xdVVxND5YmgjSpump": {
+        "raw_balance": 0,
+        "human_balance": 0.0,
+        "symbol": "Kekels",
+        "decimals": 6,
+        "last_updated": 1744882414
+      }
+    },
+    "63NPAG8uLaLcEZa9Mr1sEXbH69jyswxPoc8qpgY5CrS7": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 71437440,
+        "human_balance": 0.07143744,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "83p7eYbfwT5S597Fxx1CXA8QcTYZssowthN1EPQgwi6x": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 71437440,
+        "human_balance": 0.07143744,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "AfBni5ngdhzqQE7RwaeiasbFGmwUjRYFDF1aUjrJ3SeM": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 71437440,
+        "human_balance": 0.07143744,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "ESXV2rrZZuQwbpgDCovSpeaGk7B3FbMkx9USd9Sn28Ad": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 23385600,
+        "human_balance": 0.0233856,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "GH16rViP6EbPmJr8JUCDHnRiYre6xqPUP8aYHQ2WFfMY": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 7182720,
+        "human_balance": 0.00718272,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "4dtWCxLkwUEP92JZ7xFjZ8yBQkAJi7WndpU29QNynhJ7": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2039280,
+        "human_balance": 0.00203928,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      },
+      "8T7RjdERSeQNqUhthUgEEUr33g6xdVVxND5YmgjSpump": {
+        "raw_balance": 47725383424559,
+        "human_balance": 47725383.424559,
+        "symbol": "Kekels",
+        "decimals": 6,
+        "last_updated": 1744882414
+      }
+    },
+    "9rPYyANsfQZw3DnDmKE3YCQF5E8oD89UXoHn9JFEhJUz": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 7913376070976,
+        "human_balance": 7913.376070976,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "BVCDvs7SHsS3FSBqnrcctoUikMPdVHojzjeUWgqqjKzh": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 423306835721,
+        "human_balance": 423.306835721,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      },
+      "So11111111111111111111111111111111111111112": {
+        "raw_balance": 423304796441,
+        "human_balance": 423.304796441,
+        "symbol": "WSOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "Bvtgim23rfocUzxVX9j9QFxTbBnH8JZxnaGLCEkXvjKS": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2443585951638,
+        "human_balance": 2443.585951638,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      },
+      "So11111111111111111111111111111111111111112": {
+        "raw_balance": 2443583912358,
+        "human_balance": 2443.583912358,
+        "symbol": "WSOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "GZ2xJKNSDwkRqN7YMLghuXyBm6Xnc27JRugD6jKkJJb": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2039280,
+        "human_balance": 0.00203928,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      },
+      "8T7RjdERSeQNqUhthUgEEUr33g6xdVVxND5YmgjSpump": {
+        "raw_balance": 2188724716755,
+        "human_balance": 2188724.716755,
+        "symbol": "Kekels",
+        "decimals": 6,
+        "last_updated": 1744882414
+      }
+    },
+    "6Xsi2b23bpCYo6NSpo8f3Rdvw5BDM2CvzXBUGS6q9qLw": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 7182720,
+        "human_balance": 0.00718272,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "6fjtpz2dDMdnyevDBkBQE2KfJ39f1AN6s2q1LeJwXXMu": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 71437440,
+        "human_balance": 0.07143744,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "6sJWSed1gifYCqA1MY4DJ1ZcKUcBDsYUvFFan1zh1DFF": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 161805559276,
+        "human_balance": 161.805559276,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      },
+      "So11111111111111111111111111111111111111112": {
+        "raw_balance": 161803519996,
+        "human_balance": 161.803519996,
+        "symbol": "WSOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "7nmPAaFMuse5PtsDG8BxKvEB63uzbjYGd2nqcUGKzwiN": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 71437440,
+        "human_balance": 0.07143744,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "7zzRCq1QULyZ7VbJ1vDbdmjvZK41EsPztZEMRRwyocEQ": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 23385600,
+        "human_balance": 0.0233856,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "CxAd47245r2k2buWwjdMGTQSmzZprruaPdkp9hPTtNiJ": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 71437440,
+        "human_balance": 0.07143744,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "8T7RjdERSeQNqUhthUgEEUr33g6xdVVxND5YmgjSpump": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 23272792,
+        "human_balance": 0.023272792,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "9atxDpnmn9M8hKXXiDnUPkdm87JwSTcyYmGsvfrEC6Kq": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2359440,
+        "human_balance": 0.00235944,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "AVmoTthdrX6tKt4nDjco2D775W2YK3sDhxPcMmzUAmTY": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 7848015672119,
+        "human_balance": 7848.015672119,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "FGptqdxjahafaCzpZ1T6EDtCzYMv7Dyn5MgBLyB3VUFW": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2035421194073,
+        "human_balance": 2035.421194073,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      },
+      "So11111111111111111111111111111111111111112": {
+        "raw_balance": 2035419154793,
+        "human_balance": 2035.419154793,
+        "symbol": "WSOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "GNnzdXxX5B8QHwBwPNuC5EwZPsa8iUVV4YEd4Bg4hRVC": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 8548861021,
+        "human_balance": 8.548861021,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "NAXCyyYATrip21gUPjRvbGoGTdBxW93bNEMeGH3S566": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 109386825426,
+        "human_balance": 109.386825426,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      },
+      "So11111111111111111111111111111111111111112": {
+        "raw_balance": 109384786146,
+        "human_balance": 109.384786146,
+        "symbol": "WSOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "5J9yb4aFKVx3KPeHBG3M5fDBFSrd65qQdt11vQptnZQm": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 71437440,
+        "human_balance": 0.07143744,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "8tjxKH17HzvzBQKNrhv1MFqUh1FcJJfvj2Dz97dtk6Xj": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 71437440,
+        "human_balance": 0.07143744,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "BUDXU6EH46cGfnjNkXtjySxRRtcRXHeug5agBRpTFWpG": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 71437440,
+        "human_balance": 0.07143744,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "BxnQCF41sHv13NWu7MRBHscLGB6cypK6UF6qEWyYFGYq": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 71437440,
+        "human_balance": 0.07143744,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "Gmbg5WY3JmjZx2nybs3ntVSKdkYc1KpC1evdJEiSBsNk": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 71437440,
+        "human_balance": 0.07143744,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "HsT49mg8Yt8pjnbqp4A2rmZrKnP8z8EVCMgSqa9TSsXF": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 71437440,
+        "human_balance": 0.07143744,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "Gngn4So5DeS4kKPttx66H2fMQcoPKfosMZ8T6A9Ghnf": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 23385600,
+        "human_balance": 0.0233856,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "31YVG2QYv3VuHsxmhmFJ6cy5SHMXJaGiBE9diS91XD9b": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 383668163437,
+        "human_balance": 383.668163437,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      },
+      "So11111111111111111111111111111111111111112": {
+        "raw_balance": 383666124157,
+        "human_balance": 383.666124157,
+        "symbol": "WSOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "649kC3TPcQQ36h8XAe1v5sXnSFF2UG5rRZjVHWZ7B6VY": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2039280,
+        "human_balance": 0.00203928,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      },
+      "Eqpvgps4py3nDkgvRnVGv7JsSwBF3oa3i1Zvaszqpump": {
+        "raw_balance": 10382488761254,
+        "human_balance": 10382488.761254,
+        "symbol": "Fur",
+        "decimals": 6,
+        "last_updated": 1744882414
+      }
+    },
+    "71qnE9YXPfUP47KrNJ75MkrNbcE5QuAyt5qaarcg2avP": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 7182720,
+        "human_balance": 0.00718272,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "9bkpCTLRoGHnEwGne3Tp7ZRJy817iRrPz3jVE5t3QRxU": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2039280,
+        "human_balance": 0.00203928,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      },
+      "Eqpvgps4py3nDkgvRnVGv7JsSwBF3oa3i1Zvaszqpump": {
+        "raw_balance": 63688722434160,
+        "human_balance": 63688722.43416,
+        "symbol": "Fur",
+        "decimals": 6,
+        "last_updated": 1744882414
+      }
+    },
+    "BdZ5niE7n3EqnGj79qoDVshC4HA3ksLfy8wbrHP7MDwM": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 686283156429,
+        "human_balance": 686.283156429,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      },
+      "So11111111111111111111111111111111111111112": {
+        "raw_balance": 686281117149,
+        "human_balance": 686.281117149,
+        "symbol": "WSOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "Hz6puf97zCaGSHx9YJh7a6ypsivpAXk1Xsb7nwEURAMc": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2039280,
+        "human_balance": 0.00203928,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      },
+      "Eqpvgps4py3nDkgvRnVGv7JsSwBF3oa3i1Zvaszqpump": {
+        "raw_balance": 0,
+        "human_balance": 0.0,
+        "symbol": "Fur",
+        "decimals": 6,
+        "last_updated": 1744882414
+      }
+    },
+    "2QfpkVdZLDRiDtPcPadvosNDfpnjzYTsBM1jjqJNoRo7": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2039280,
+        "human_balance": 0.00203928,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      },
+      "BdQR2zt6eJ5vJNWBHbE9wnjc6iDBYyQbfoSwCRX6pump": {
+        "raw_balance": 0,
+        "human_balance": 0.0,
+        "symbol": "FUN",
+        "decimals": 6,
+        "last_updated": 1744882414
+      }
+    },
+    "6E2caL5yaRhJRPCLepGm1Tz3x2ViUMSxcws8syGLwiKR": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1392900360924,
+        "human_balance": 1392.900360924,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      },
+      "So11111111111111111111111111111111111111112": {
+        "raw_balance": 1392898321644,
+        "human_balance": 1392.898321644,
+        "symbol": "WSOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "8wJymmvXgo7eK7kGgvwU3GaKaTN9nvZV2S36WC9gbrq4": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 7182720,
+        "human_balance": 0.00718272,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "BqNnSnd41coA8gY2bn4d1Tj4NoM6mioAb5pAPmmvNbur": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2039280,
+        "human_balance": 0.00203928,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      },
+      "13TVvChoA7S2qdB7GhP8sDret3aPBetBjvWHtL3Ymeme": {
+        "raw_balance": 0,
+        "human_balance": 0.0,
+        "symbol": "TIME",
+        "decimals": 6,
+        "last_updated": 1744882414
+      }
+    },
+    "DrVWWu8y13x5ZdSX7JTNH3XJJwptzh8xJ8nUphJZxY94": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2758143521165,
+        "human_balance": 2758.143521165,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      },
+      "So11111111111111111111111111111111111111112": {
+        "raw_balance": 2758141481885,
+        "human_balance": 2758.141481885,
+        "symbol": "WSOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "EmHeAVsEgT3Ja9r84yAnMz2ut7hAa43gHrbrPa4wnchX": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 6125161,
+        "human_balance": 0.006125161,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "FKmetxwQVkf18fECSsD3UAixDqqLpCUjvXYPXqwNb9FC": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2039280,
+        "human_balance": 0.00203928,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      },
+      "13TVvChoA7S2qdB7GhP8sDret3aPBetBjvWHtL3Ymeme": {
+        "raw_balance": 31368903040600,
+        "human_balance": 31368903.0406,
+        "symbol": "TIME",
+        "decimals": 6,
+        "last_updated": 1744882414
+      }
+    },
+    "GWH4jduKuERw8RJifha1dsUrPSQiHTwidbjQKyYi3Jp2": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2039280,
+        "human_balance": 0.00203928,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      },
+      "13TVvChoA7S2qdB7GhP8sDret3aPBetBjvWHtL3Ymeme": {
+        "raw_balance": 19724759025820,
+        "human_balance": 19724759.02582,
+        "symbol": "TIME",
+        "decimals": 6,
+        "last_updated": 1744882414
+      }
+    },
+    "HFGHNxk1zfXcmy9Dx8EK3W1HBts8jbRMGsjnMSgWNuEn": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 23385600,
+        "human_balance": 0.0233856,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "Eqpvgps4py3nDkgvRnVGv7JsSwBF3oa3i1Zvaszqpump": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 305071782,
+        "human_balance": 0.305071782,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "GSg2nNSm4zSMxjVQ7x3KxRWJ7JpTtRGyaSMsX4PwtH5N": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2359440,
+        "human_balance": 0.00235944,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "13TVvChoA7S2qdB7GhP8sDret3aPBetBjvWHtL3Ymeme": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 6023003460,
+        "human_balance": 6.02300346,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "X5QPJcpph4mBAJDzc4hRziFftSbcygV59kRb2Fu6Je1": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 3169953560884,
+        "human_balance": 3169.953560884,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      },
+      "So11111111111111111111111111111111111111112": {
+        "raw_balance": 3169951521604,
+        "human_balance": 3169.951521604,
+        "symbol": "WSOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "7hTckgnGnLQR6sdH7YkqFTAA7VwTfYFaZ6EhEsU3saCX": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 7817037412081,
+        "human_balance": 7817.037412081,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "BWXT6RUhit9FfJQM3pBmqeFLPYmuxgmyhMGC5sGr8RbA": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2366102658033,
+        "human_balance": 2366.102658033,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      },
+      "So11111111111111111111111111111111111111112": {
+        "raw_balance": 2366100618753,
+        "human_balance": 2366.100618753,
+        "symbol": "WSOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "G5UZAVbAf46s7cKWoyKu8kYTip9DGTpbLZ2qa9Aq69dP": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 7866750277311,
+        "human_balance": 7866.750277311,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "G1rzZDMxQctyTGrkApFb6KRPn8rA38wGzzbAuv3UeZQ5": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 3006632054,
+        "human_balance": 3.006632054,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "2YCX7CUWbZUZoeFMcTJEzEbPEp39iHmD3wnhWq4Dy9Eo": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2039280,
+        "human_balance": 0.00203928,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      },
+      "J3PCLjNH3FzYcqxQPWyMswnPx4bgiG3hvTHuWWdNpump": {
+        "raw_balance": 0,
+        "human_balance": 0.0,
+        "symbol": "Deshawn",
+        "decimals": 6,
+        "last_updated": 1744882414
+      }
+    },
+    "3MFcX1QLBEoff6MmPgqqCHvrx4T3hA5R1uqRSMzZgvrN": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 71437440,
+        "human_balance": 0.07143744,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "8Wv6hcmrWG51BL1njQmhjQAMjRUz7gap3bHfowXmfC5k": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 71437440,
+        "human_balance": 0.07143744,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "92TBSQoSzRKp8HN2FSenbBSzznkiNRFJKSTtFxV7cJws": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 23385600,
+        "human_balance": 0.0233856,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "DKqQyyutjKK9sAEi3B4h2Syfwqa9N4LB7C7T2JbzbU7W": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 47249106765,
+        "human_balance": 47.249106765,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      },
+      "So11111111111111111111111111111111111111112": {
+        "raw_balance": 47247067485,
+        "human_balance": 47.247067485,
+        "symbol": "WSOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "EeY4bp1qkChvKoKthdgvxyhLQrq4mR1nxLd2zQbGNYWZ": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 0,
+        "human_balance": 0.0,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "44EjFcDxsfZxdcUZNw9JVqTPFJHBEf8tTirNTcAdaoNx": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 7182720,
+        "human_balance": 0.00718272,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "5NfvQPF5JxHW18y5AmoHCgn7i6cALQ132vhZbSTvFDiX": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2039280,
+        "human_balance": 0.00203928,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      },
+      "J3PCLjNH3FzYcqxQPWyMswnPx4bgiG3hvTHuWWdNpump": {
+        "raw_balance": 151078145605834,
+        "human_balance": 151078145.605834,
+        "symbol": "Deshawn",
+        "decimals": 6,
+        "last_updated": 1744882414
+      }
+    },
+    "6Aovm2EnBpKsTGrXQTPRUH6GmDJgiuibQXWtXLn4P83F": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 131222103056,
+        "human_balance": 131.222103056,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      },
+      "So11111111111111111111111111111111111111112": {
+        "raw_balance": 131220063776,
+        "human_balance": 131.220063776,
+        "symbol": "WSOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "9jodwrZsoX9c5jAsEdqFWGzdNJUB8pG1Bhy3vi3ExtWK": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2039280,
+        "human_balance": 0.00203928,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      },
+      "J3PCLjNH3FzYcqxQPWyMswnPx4bgiG3hvTHuWWdNpump": {
+        "raw_balance": 9403511930451,
+        "human_balance": 9403511.930451,
+        "symbol": "Deshawn",
+        "decimals": 6,
+        "last_updated": 1744882414
+      }
+    },
+    "CmKhR4FA21u74E5dCWyBKhCX6aEHChTsETNDJG59YwuG": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 23588393055,
+        "human_balance": 23.588393055,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      },
+      "So11111111111111111111111111111111111111112": {
+        "raw_balance": 23586353775,
+        "human_balance": 23.586353775,
+        "symbol": "WSOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "4BnAZbNoj68sAMRm17mqB8a2C52nhhppotSt41EviCNy": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2359440,
+        "human_balance": 0.00235944,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "J3PCLjNH3FzYcqxQPWyMswnPx4bgiG3hvTHuWWdNpump": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1461600,
+        "human_balance": 0.0014616,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "9eYBqUdboeE5K1JXnbSrxLGVqu3Dnfv8B8L3dc1rShvC": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1120304790,
+        "human_balance": 1.12030479,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "2i5GgVq8gq13CsbZgvL8yqFoPbqBdmWKz6QncHEoTCGJ": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2039280,
+        "human_balance": 0.00203928,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      },
+      "BdQR2zt6eJ5vJNWBHbE9wnjc6iDBYyQbfoSwCRX6pump": {
+        "raw_balance": 0,
+        "human_balance": 0.0,
+        "symbol": "FUN",
+        "decimals": 6,
+        "last_updated": 1744882414
+      }
+    },
+    "EYVcphxrNfrr8ztaDdjy3cMhcVp6xzkZ1Xg4qP1911Wd": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 10779635073,
+        "human_balance": 10.779635073,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      },
+      "So11111111111111111111111111111111111111112": {
+        "raw_balance": 10777595793,
+        "human_balance": 10.777595793,
+        "symbol": "WSOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "7uhiFHKK7XXtKkE2wU2Hr9GQ4kZZxEnUU85SMnhRcnw2": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 4659197638,
+        "human_balance": 4.659197638,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "ND8GULxYdQsKXpdYgeeFUKmckWSC9wtMtvF6pgYwszD": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1500000,
+        "human_balance": 0.0015,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "EjsrAPWU4D9ftwyX9ErEptxBbqt8YaihnWqYp4RM65mz": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 31347840,
+        "human_balance": 0.03134784,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "8Gucvca1cCAaQRfHFEcjiUeJ8aG2TUGj2hgY5cpupcDR": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2561280,
+        "human_balance": 0.00256128,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "7V6rMXyUpGFvBKRUNX32QTrMkzFUDnfVYh7AEd4kyXfk": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 31347840,
+        "human_balance": 0.03134784,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "AnNiCcN2Tj6XQ4NzZ9Vvs3nj1aVDnmwDpBW513CFBfve": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2561280,
+        "human_balance": 0.00256128,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "SysvarRecentB1ockHashes11111111111111111111": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 42706560,
+        "human_balance": 0.04270656,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "6kZ4AusxHi2cTsnuetB6pUrMiq2BSQyvdaquT9iZSNMe": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1141440,
+        "human_balance": 0.00114144,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "dRiftyHA39MWEi3m9aunc5MzRF1JYuBsbn6VPcn33UH": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1141440,
+        "human_balance": 0.00114144,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 521498880,
+        "human_balance": 0.52149888,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "2UZMvVTBQR9yWxrEdzEQzXWE61bUjqQ5VpJAGqVb3B19": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 9354240,
+        "human_balance": 0.00935424,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "5zpq7DvB6UdFFvpmBPspGPNfUGoBRRCE2HHg5u3gxcsN": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 7795202,
+        "human_balance": 0.007795202,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "6gMq3mRCKf8aP3ttTyYhuijVZ2LGi14oDsBbkgubfLB3": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 6291840,
+        "human_balance": 0.00629184,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "8UJgxaiQx5nTrdDgph5FiahMmzduuLTLf5WmsPegYA6W": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 9354240,
+        "human_balance": 0.00935424,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "EBsU7BPiCDw7Q7GqQBzNcFGdFDU9bEmE4TjuW76fA62r": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 9354240,
+        "human_balance": 0.00935424,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "2dCbfkVE9sa9eweSrx7ZymvfgxPEJSdHGv79mr66Kgqn": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 9354240,
+        "human_balance": 0.00935424,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "91NsaUmTNNdLGbYtwmoiYSn9SgWHCsZiChfMYMYZ2nQx": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 9354240,
+        "human_balance": 0.00935424,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "7n5TsndCSku7Q4T4EURZcahWT3pjRR5DziFCJZ9oaoaC": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 9354240,
+        "human_balance": 0.00935424,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "8DdB5hHSZtPT3oqbsiHUytCrrodApNC31k3MuZhxJH61": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 9354240,
+        "human_balance": 0.00935424,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "9VCioxmni2gDLv11qufWzT3RDERhQE4iY5Gf7NTfYyAV": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1224960,
+        "human_balance": 0.00122496,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "35MbvS1Juz2wf7GsyHrkCw8yfKciRLxVpEhfZDZFrB4R": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1224960,
+        "human_balance": 0.00122496,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "3m6i4RFWEDw2Ft4tFHPJtYgmpPe21k56M3FHeWYrgGBz": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1224960,
+        "human_balance": 0.00122496,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "Edk1TWipQtsaD8nnBXYQV1CEAiQb1GFtEAKeFZCi2A4C": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1224960,
+        "human_balance": 0.00122496,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "5VJou4ufN2vE11zyZUaLsKLTXhyzCTgiq6QDsts2YnnD": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1224960,
+        "human_balance": 0.00122496,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "HmeJeBKgceqvSBd5XBXZUYECLabnbS1SefLkeJKH8ERK": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1224960,
+        "human_balance": 0.00122496,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "4A3KroGPjZxPAeBNF287V3NyRwV2q8iBi1vX7kHxTCh7": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1224960,
+        "human_balance": 0.00122496,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "DXqKSHyhTBKEW4qgnL7ycbf3Jca5hCvUgWHFYWsh4KJa": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1224960,
+        "human_balance": 0.00122496,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "Nh3p5FiRR5zDmcZz7YfYq7FVz26RmwigguU3ob9REFe": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1500000,
+        "human_balance": 0.0015,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "BuByMGQuKXScN466zNRzbz68SKw2kbLdfmByrxJfC8Hd": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1141440,
+        "human_balance": 0.00114144,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "Bat6DHawBwy8k4fqsrgkSMb33UWWCDyiXH9AUQBrWiGX": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 18382439650,
+        "human_balance": 18.38243965,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "GCUWGuMnmtMv3BFMx8EmeWxst18sihXxyU3skeNGTj8A": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 9297573801,
+        "human_balance": 9.297573801,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "Vote111111111111111111111111111111111111111": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1,
+        "human_balance": 1e-09,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "DDnAqxJVFo2GVTujibHt5cjevHMSE9bo8HJaydHoshdp": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 177735396493,
+        "human_balance": 177.735396493,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "9GJmEHGom9eWo4np4L5vC6b6ri1Df2xN8KFoWixvD1Bs": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 48016438539,
+        "human_balance": 48.016438539,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "5pPRHniefFjkiaArbGX3Y8NUysJmQ9tMZg3FrFGwHzSm": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 273550169554,
+        "human_balance": 273.550169554,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "DdCNGDpP7qMgoAy6paFzhhak2EeyCZcgjH7ak5u5v28m": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1073149665339,
+        "human_balance": 1073.149665339,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "EgxVyTgh2Msg781wt9EsqYx4fW8wSvfFAHGLaJQjghiL": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1999157150600,
+        "human_balance": 1999.1571506,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "3Ty8DYNBkK237zPvACti83EJYGxDcMcoDMCou5r3eV5Q": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1244809054069,
+        "human_balance": 1244.809054069,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "3qUV4z9h4JMjuaCkS5xQEuqb3G7okBHFasmqDWXZmtq9": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 12500641602,
+        "human_balance": 12.500641602,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "Cu7QrQpCjuiaCzuibF3tWDmDxmjhAdvJdBQYQXjZwEYf": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 27074400,
+        "human_balance": 0.0270744,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "4CKFRwj6YzVygMptmFtZgBNNn7zyCsVibM8Aq5pG252v": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 10826726686,
+        "human_balance": 10.826726686,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "3kV8UahWWN7Fh41PddYczuismJSLjtrKhYRZW5RUqiEK": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 484928908,
+        "human_balance": 0.484928908,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "Dom1Nby86HyVxAh9bmCZk6Gere2SxbniwTMeXF5SqCEj": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 4577244439,
+        "human_balance": 4.577244439,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "3EJEfeyNRdvzbjXuzXCbqpJHRi9ugP1sL9YWGPuNCppw": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 107074400,
+        "human_balance": 0.1070744,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "siriXy5CcarNiz4XL8ssBQGiy2PwReVLny3Bcxq6Ymb": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 5565785766,
+        "human_balance": 5.565785766,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "a1exajFBsggm7R7ydb4LwyEAdsLCUKNAiUrre9B12kV": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 54752649806,
+        "human_balance": 54.752649806,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "FG5w8e7nBXivh4N5zwMDyFrj5sMx11NUnd5wCmNfPZ6b": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1804677711,
+        "human_balance": 1.804677711,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "3RhKQt1L4RtZMGMY111bjymGqKcd6ZbExux9NCm8t1hd": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 490640452,
+        "human_balance": 0.490640452,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "A963nwma1r6tr6VgASiHgj9VKmvXvbFeZHoMW6XT1aiQ": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 4467912279,
+        "human_balance": 4.467912279,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "3z4NrwnS72RkSmnZ89MNr3GMxga1WWjjW7qGArg8wCng": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 44018819,
+        "human_balance": 0.044018819,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "BP1epAhFXxXEqo47GkFTdf9UuRUU2spKnuRxhWrAFED2": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 20598593454,
+        "human_balance": 20.598593454,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "ifHMQAxuzMPF19jsZXpLMTA9wNzPzB8XkNaWyCi8Zg8": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 7609218016,
+        "human_balance": 7.609218016,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "87sZBKaGtRseDxuSkF7pUCERd3Hs98ESRJVipdscTCXc": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 5368051756,
+        "human_balance": 5.368051756,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "jKDESr1NRt5frYqhBfBZdEJezXfuWifjfTaTWRZFvW3": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1472227503,
+        "human_balance": 1.472227503,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "FZg9duNJfiSDCPnbphbcKrucFRiLNpjDsdZMAa8HjPtx": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 349609676,
+        "human_balance": 0.349609676,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "GYRsheZ78JMfMNETuAZNrs6L1U3GsHP5crzzLPeETDYm": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 166985667,
+        "human_balance": 0.166985667,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "FniyXWNu3EXWX9fXubLpFcDJ4h4T8VDCJEXCwVY2wFRh": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1669426553,
+        "human_balance": 1.669426553,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "Ea3QDFfHSEPbTDKPaDSKwcYYK4unXR5HEuqeiQKU5Scr": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 12187931176,
+        "human_balance": 12.187931176,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "DaHuNTwBvgAFcJsp2KVfNRnwMuATaRvBnuKFjaqVi12J": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 261312653,
+        "human_balance": 0.261312653,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "46aWpTtjQaTRL81dWXg19H5V2Jf2rg1Cy3hzr76vJDSf": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 27074400,
+        "human_balance": 0.0270744,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "mythxvB89eT3C1TKwwhsvdHfYq2aoCt2es8vLoDFYyk": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 7171606102,
+        "human_balance": 7.171606102,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "mythxna3hpzXSbaseyR12vu5Vvym1HxS92eCgXLvY7w": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1718449416,
+        "human_balance": 1.718449416,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "EyhATWGrsfmfRZtUpCDiyW8vH7CfkT5gy15RtvNPmqby": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2032357916,
+        "human_balance": 2.032357916,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "A8f4eVZPybix5Ep4W8Q6iAPZ83jo5Y2wWXttwF42MH87": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 27074400,
+        "human_balance": 0.0270744,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "HtzxUabNfYNJR43FUmcpkgmtANZahbq5iASB5oiboXzF": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 10131414744,
+        "human_balance": 10.131414744,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "GZzcHTsorXLrWEevXYo51ED15NTYPLPLzgGxddYMNdn5": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 474105471,
+        "human_balance": 0.474105471,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "omegahqefiV3bcrbwwx654NqiMrLVwDiewqnqekpNgo": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 36240923133,
+        "human_balance": 36.240923133,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "EMVmh5hF6LT1sZM9G7dEX1bykRYEymWY2vtE7QHBBAW6": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 14947043302,
+        "human_balance": 14.947043302,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "SQDS9iwyWvT2mQbSZzuNKGoxuBug5jRHouF6SuMRBkA": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 23699114423,
+        "human_balance": 23.699114423,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "SQDSVTDfE5HqL7D6RjZk1vvZhaheWoskrDdDHCki68w": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 124622634541,
+        "human_balance": 124.622634541,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "9vE5CDEtr7GHQfZ7aRBJmMbTJZqCFGjkdZarYL1AYeGu": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1240949778,
+        "human_balance": 1.240949778,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "5HVnkucygxhRqnVqch1vEoH36CEpb9TRJAQHW1gKwuzD": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 27074400,
+        "human_balance": 0.0270744,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "DBfh9QUCZde2U6buTbNhxSEnaqPV9Z2cfmjsBJu9qrLw": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 214170802132,
+        "human_balance": 214.170802132,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "WkP89qGBLsdu2XNVigu7WZThfCEsBJEvDBwWxUCv5vj": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 138325140,
+        "human_balance": 0.13832514,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "D4NAMzyruddCwjxwPfmKf1R2MNhviszUJAb568koCZ4H": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 717998024,
+        "human_balance": 0.717998024,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "5qdCvzzeCXfGH7EPjfu1fBNjL6DtcwV2w24A2m1xRM9p": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 405880866,
+        "human_balance": 0.405880866,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "EK26xTH6QLS5uubx12av6XrmKH2eotCwAG9r7SBhbhGb": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 20055536799,
+        "human_balance": 20.055536799,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "2UuXvFqNmyxsNygvFUfjmDGMGn7pGQ61t5CUzvgczazW": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 19885819044,
+        "human_balance": 19.885819044,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "7JCgnNDTewhSAx8jX813kLgPLKrd5oXvAB3CeJ2xf7o2": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 494828181,
+        "human_balance": 0.494828181,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "76j8TGM73QzGLd2KATNsCwewPVESCkVpkePQdm5PwQXT": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 27074400,
+        "human_balance": 0.0270744,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "Frdg1NUoQaaTmASWNTrtDrBU5PbTnWtUvtdCr1XPNn1c": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 4508350011,
+        "human_balance": 4.508350011,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "6MP6Bun9VmkGcRVU4iF14Q8P7jTkGtQW9zVwmB9kCYyK": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2284989517,
+        "human_balance": 2.284989517,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "6YDWxPaJWpZxJ6JLGaBeTJaGQn3gi3Pwtivii9cDyDHo": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 14578796079,
+        "human_balance": 14.578796079,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "EdkhvJYa3kWQkFJAPzmGsQyi1D2JA5a7vwWw4hDuwbt": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1570246990,
+        "human_balance": 1.57024699,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "32jCuWyy4aJjyv4gd4DSGBHmFU5KUSSfqbmPb9GpMin6": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 19739194974,
+        "human_balance": 19.739194974,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "HFpuMHuQqUY9o5D4g5ByAJKEYQrMLjwcusDNjozXa4Dg": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 5412481651,
+        "human_balance": 5.412481651,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "hnhCMmnrmod4rcyc3QRKkLEC9XnPTvYJ2gBvjgFiV4o": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 7153925548,
+        "human_balance": 7.153925548,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "hnhxfrndd827LET6jvnQV4aWqpS2EedaHcT4gj8ArSu": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 27074400,
+        "human_balance": 0.0270744,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "FdH9QEQBxPQfaF2JpcjgdfcMnDb7rjZkCDRCWLRjTQwj": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 5593561040,
+        "human_balance": 5.59356104,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "HcbE5huUVDgsf7SURsRfQqnFMp3Zz3i49eXMddugPyAP": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 339475845,
+        "human_balance": 0.339475845,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "ppppoqHcHVzigV6SK4856BAsNxhTAi32hqQQWrziyHE": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 22025492633,
+        "human_balance": 22.025492633,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "vvvvXsU6iG2enDVvs4KeVqS4YrZczTujSv5p3dSeNHx": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 791504499,
+        "human_balance": 0.791504499,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "4vdWYn2KbmQ3Dns5wVBfz4CFQDds4b7CpsC8MHBhHAib": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 4368236780,
+        "human_balance": 4.36823678,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "DvFTFLrEQSfEadPQdesvf5bpYWYqXK9iaJAjq95piQBs": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1281455758,
+        "human_balance": 1.281455758,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "burncPhAzPbo9QCzN9j8ig2FKZjwDhM5zgN2eW3GmWa": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 14915423721,
+        "human_balance": 14.915423721,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "burnn86ebxJnhtk3cfpHoZxy5nUaC3K9U8VwzgqhEEt": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2690254356,
+        "human_balance": 2.690254356,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "4Kbcyn7JVPAWLRLPsNGTPmcNMvCkLTw51ZLRhqsUC6jP": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 30270818448,
+        "human_balance": 30.270818448,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "9gX9MV3nGHRs1R9E52Q3vMg1tNGe5NHvzdfo3AMHnr5t": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 379464896,
+        "human_balance": 0.379464896,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "8AkVj5aAtJ27tYXeq89cnSf68V43NarFHMx2iSDjZv7c": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 41433078166,
+        "human_balance": 41.433078166,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "CV7uvPY1Hk5Avb2NvkGJoUzGnipZrEZK27j5rQJoUae9": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 484429920,
+        "human_balance": 0.48442992,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "LodeuWMHPiPj2PUHUyca2bkpFv9HyzR3gaDBmGJ9TSS": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 54315382779,
+        "human_balance": 54.315382779,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "LodezVTbz3v5GK6oULfWNFfcs7D4rtMZQkmRjnh65gq": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 18988375363,
+        "human_balance": 18.988375363,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "3sEWErVW8kK2frAk1KZQ5p3YZt1vzL6Pb6dTZJRVSPpz": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 4030128781,
+        "human_balance": 4.030128781,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "CJznrtFkWvkK91W57btS77cXqRKce3DcoX8KXRp2WzpR": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 213042413,
+        "human_balance": 0.213042413,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "67joanjyAoVmb9nZLyX8p3Gx9tAxzXaUgHDe3kaUH4wf": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 88736974764,
+        "human_balance": 88.736974764,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "9vNLTLdwAdHw8EdiZrLzDtUpm3hp7E2MGaNi6SmdfBGz": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 10792551782,
+        "human_balance": 10.792551782,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "SaGAgdkowooXBrHihpmE8gsjf1dUG7n5SqnyJxYFnXJ": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 14575852908,
+        "human_balance": 14.575852908,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "sagasJDjjAHND4hien3bbo5xXkzCT5Ss6nKjyUJ45aw": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 107355974901,
+        "human_balance": 107.355974901,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "7CR3Jq4ny2tsr3DX3DvyjoU8TYs776MGkU6nLMWjAqCT": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 35948312513,
+        "human_balance": 35.948312513,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "EcLPNfLFgCkbcTuvdeQ85pnQMgAfBDqi2dkoNVPrSyr5": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 792657957,
+        "human_balance": 0.792657957,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "7GkMBmtrTZz8QbjSe1sXvAUtz7Pp42SQxfT5ymmJD4We": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 3217222977299,
+        "human_balance": 3217.222977299,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "J2nUHEAgZFRyuJbFjdqPrAa9gyWDuc7hErtDQHPhsYRp": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 206370558838,
+        "human_balance": 206.370558838,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "B94PGWcxE9iEDov8sZobTkqEY96Yb5gfcsYWSWpQxh6S": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 3212661417,
+        "human_balance": 3.212661417,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "FgiteGaHbA22Wt4Quzv3muscQtvX7gzVwvUHbFnb3rTJ": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 834868473,
+        "human_balance": 0.834868473,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "A4hyMd3FyvUJSRafDUSwtLLaQcxRP4r1BRC9w2AJ1to2": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 9997430169,
+        "human_balance": 9.997430169,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "J1to2NAwajc8hD6E6kujdQiPn1Bbt2mGKKZLY9kSQKdB": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 46308476752,
+        "human_balance": 46.308476752,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "8uPW9msN75rfaKiwy8y8NxEX5zSk2WejtVv5YhZr3jCo": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 11002296854,
+        "human_balance": 11.002296854,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "5daP6pZoPSak6UEKuRg2HHjvTPpqqwB113oNamGNKuuZ": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 5972200812,
+        "human_balance": 5.972200812,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "HbidP4hpQdwhkzrxder3x3VNPt6DQnE25gFG46napD2p": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 86334565371,
+        "human_balance": 86.334565371,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "HhYEE3dAShc3772wEiy73XDYnLjVxyBL8eAWKyRcF14y": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 724416830560,
+        "human_balance": 724.41683056,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "C1ocKDYMCm2ooWptMMnpd5VEB2Nx4UMJgRuYofysyzcA": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 28552235560,
+        "human_balance": 28.55223556,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "AS3nKBQfKs8fJ8ncyHrdvo4FDT6S8HMRhD75JjCcyr1t": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 196483156,
+        "human_balance": 0.196483156,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "nateKhsYkrVc992UuTfAhEEFQqr2zQfpGg9RafNkxdC": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 27186231242,
+        "human_balance": 27.186231242,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "nateBZg7oHVPLB2samBLkKvfzedU3ALZBexMFPMKjn1": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2583439754,
+        "human_balance": 2.583439754,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "EdGevanA2MZsDpxDXK6b36FH7RCcTuDZZRcc6MEyE9hy": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 25168502751,
+        "human_balance": 25.168502751,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "EdGevanAjM8a6Gg9KxBVrmVdZAUGAZ9xaVd7t9R4H2x": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 93979476975,
+        "human_balance": 93.979476975,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "7tegjkVvZmYSpGJQVpiRqKuehxtiAEEXyWk1NEbXriGC": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1595531212152,
+        "human_balance": 1595.531212152,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "9jVU1ET9Xxqnrsqjw8FGxmHgcXs6Hbj1HECckWqn2LUD": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 7074442019503,
+        "human_balance": 7074.442019503,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "Xoir1BnQX9TbEvon9HRbD8tkjcD9dorsxmNjZAV64Re": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 5428399745,
+        "human_balance": 5.428399745,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "DzPT1ZWDeURdTj38QBSceWnrpYFxZRBLPRXmUgHVDAGR": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 128022240,
+        "human_balance": 0.12802224,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "6dwKX2BK1JowEVXvKemcfw2arNeTe6RHYrs4FomxSVPw": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 44435657381,
+        "human_balance": 44.435657381,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "BT8LZUvQVwFHRGw2Dwv7UeqDUq7btfjegLpuz5bwgziD": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 45615840,
+        "human_balance": 0.04561584,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "7tqeaFKsg2K9xKnQWe61w71AtCZVMQvG4hbFAiFAngYw": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 69953606709,
+        "human_balance": 69.953606709,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "4CjWMmjGtRAZH6unY8EAzDYHWKUoPKqkZoFNrgxSGnyc": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 693708253376,
+        "human_balance": 693.708253376,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "2D2v7sMqDuq2ekZnFhaQm4k2ErWHemZQuYf5qaVTPFmg": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 14953223536,
+        "human_balance": 14.953223536,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "7rFAeD5UT4fy8cQCnY8Y5F8GW1Wgw345Nxb7diXu5cjG": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 12912171451,
+        "human_balance": 12.912171451,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "str4t8cca1qmHtdNkZVYUkkpyfAGbBQKE8MRQBFQLCx": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2680042616,
+        "human_balance": 2.680042616,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "56CV9agH7K12coC6aiTqgprWcbxihGu1GCw6mwd34YhQ": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1461162559,
+        "human_balance": 1.461162559,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "97MtLX5ajrR319PH8iLnctBpaLFoT3TNuUAtZfZaEn7U": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 27698970657,
+        "human_balance": 27.698970657,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "Fgevrsfh8KsFN7eomRWS3N2bjKvqRBGMcEo9oQbT1ikX": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 13523786030,
+        "human_balance": 13.52378603,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "Aw5wEMXhbygFLR7jHtHpih8QvxVBGAMTqsQ2SjWPk1ex": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 165440225980,
+        "human_balance": 165.44022598,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "33hurzEz6aEnzfESL6pnNyR6DCgcKzssT1pwSzDCBTRQ": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 12575925065044,
+        "human_balance": 12575.925065044,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "GoeW4aFK4dGoekJySgUynWDxBZiQJqm8GDAF4H53tDK9": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 40161090842,
+        "human_balance": 40.161090842,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "Ak5BJzQe2R8qFuyYmaAFPjXuD7XPux3ZNTv52D7rfiqR": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1000000000,
+        "human_balance": 1.0,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "Bs4zTJBSuBZhFQeEHLVSnmuDz9q43zZNF4Tr52dgmgog": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 376347982,
+        "human_balance": 0.376347982,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "CupiTuW5Napdp3WS5gEf9PLVkeaHee669MDBsV3uqkDK": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 4621440,
+        "human_balance": 0.00462144,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "9BSPXmLfvHVJz7peeC5X6WpevFLuaWDqaQSovEaedT3U": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1760880,
+        "human_balance": 0.00176088,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "CNw9h5mfJrjWn6W22ryp61Xs8UZ9KFCdBPs7C9XVJf8Y": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2143680,
+        "human_balance": 0.00214368,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "SAGE2HAwep459SNq61LHvjxPk4pLPEJLoMETef7f7EE": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1141440,
+        "human_balance": 0.00114144,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "8gZyzhBj1ya6gW1UmYRDxi5bTfpn5aDfXK8dtGbJf9SE": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 8338080,
+        "human_balance": 0.00833808,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "9eZWenEnR6wPVpZ62FLpgHuLiHexzPq1QchsKtHSsmyd": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1190160,
+        "human_balance": 0.00119016,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "DeXGvdhyVUMSbmGWZtwFm5NM3q3TmRDKaAF3KgGx3dBJ": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 16112400,
+        "human_balance": 0.0161124,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "98BPRXnQFBMAtEjH9fWzDJQE5ssLLrrMg6VWup82jDbw": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2039280,
+        "human_balance": 0.00203928,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "FD4JupoTrDErRvSaCFfPm1UXN2VzeUyHDbvpuqSt5mKX": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 5414880,
+        "human_balance": 0.00541488,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "6ny545QXZbGDWXo6F7UEVC7MncAzNNxB62tbVoYWG5gs": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1920960,
+        "human_balance": 0.00192096,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "GAMEzqJehF8yAnKiTARUuhZMvLvkZVAsCVri5vSfemLr": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 7231440,
+        "human_balance": 0.00723144,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "HctDXX6qb77pcm8CAaWQLd2dTFPAF9wqJ6NNgmdAerFX": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 3577440,
+        "human_balance": 0.00357744,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "Xbk4tCYoTmxDH98ymRKyh95h5LEUaH229YbiP5avzyW": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 60331351117,
+        "human_balance": 60.331351117,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "BUS3ixL7siraZR1tLhtquN4useHGRT87m5NJHLuMSSMp": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 92999520,
+        "human_balance": 0.09299952,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "ANSEMDVtnp4EDAT1ig9Ld3wcrgaStvUGSNe9yTHYhStK": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2586339376,
+        "human_balance": 2.586339376,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "ansem6fRAAmAPhc9HuaQtxp7KXbi9RCLCF8XR85F1Td": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 31194720,
+        "human_balance": 0.03119472,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "DSgY41vCWSi57q3DK9V5FzFpegSXM6YpjmhiSKjByiU7": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 44905300917,
+        "human_balance": 44.905300917,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "B88zXQkusXcsMn3e28ZCjZHWAAYv9ryBHXZj3EwcsSPm": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 97119840,
+        "human_balance": 0.09711984,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "pitMDEaMmWmr7qP8HsNqarPQkd3jhZbLJibhhQnL5RG": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 8339007656,
+        "human_balance": 8.339007656,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "BLX5PkLh7GsHaqCpLDxiW3UjxfT2GMyteVAhRZBYhCts": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1045827989,
+        "human_balance": 1.045827989,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "BRyrzHyP1YBfY8CZ4rSsafnf5G6nUrgywHd2ztMRW9Gk": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1191265091,
+        "human_balance": 1.191265091,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "6fiUHL6s3iGgp19H7PfbEuJGgu4LQsWMu625fya16xgb": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 27074400,
+        "human_balance": 0.0270744,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "sh4rk6QkkaHkYtn9TCNjTPmAk7yBHCNw35pp1KHo4UC": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 5582482277,
+        "human_balance": 5.582482277,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "sh4rko7QjstESbderAwDEGitkXuuHdXLK4h8BQkr81i": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 150684000,
+        "human_balance": 0.150684,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "Love31pnbDJNVzZZVbtV4h2ftvTPVcBpXW11BSTCa6s": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 5371464056,
+        "human_balance": 5.371464056,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "Love31JHTTweTzCu3BjyjhXJadjRrd57hiNZn7M1fLj": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1304947572,
+        "human_balance": 1.304947572,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "EnizqkyVhbnMiQLwECv3fXydJvkoFzMjrdVtdpFWxNQt": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 8965285165,
+        "human_balance": 8.965285165,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "Bp1F9Ma65vJCecNQBauQ3yvbARDbC1kZXEvfmcux9HLy": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1261511087,
+        "human_balance": 1.261511087,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "A8vNkfP4Rv6msJyuXgwvUSUUu5vPfLxMJB5ddNkHaCGJ": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 22418650268,
+        "human_balance": 22.418650268,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "HC1NSDR9cbBeQ8V1XJ62VNceUAbjGdnCcH7f5wVFVZw3": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 31036869574,
+        "human_balance": 31.036869574,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "EAW9vxqogvdPNapq7QTDpiVTHK6o7begUhPVnf854VTc": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 3211402195,
+        "human_balance": 3.211402195,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "DyDjFYB6i51FMHQvB4eKSwGHmgMxVf1i3FWwANAngqyY": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 4567883589,
+        "human_balance": 4.567883589,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "H5EhFXGKY29BNcDbz2k2pcBeRiFXXGLQ9exHmirfRuFn": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 24425701315,
+        "human_balance": 24.425701315,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "ArgSLuXhyJzchuv8cN7oYzsVaqiAZwgdvG6nQgyg3Mhw": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 4389370500,
+        "human_balance": 4.3893705,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "FUyx2W6wDt7u363QgQRWQYuytE5uJWZLGJpuVh3RDiCa": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 4058635107,
+        "human_balance": 4.058635107,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "AZUYzQX7nrbN1iE25YsSCSZAywZcyr1C1anMnwZtaqX9": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 770293216,
+        "human_balance": 0.770293216,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "HMWXfjaeSHhww1wvdBhqhHVP9v96mFB4LJ9xP2MXbDGH": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 4447266051,
+        "human_balance": 4.447266051,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "FwLsjPJdnSiuCvs1NXyR1cV6Sw5GRE6Lj2s1gZ9NNTmv": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 334080967,
+        "human_balance": 0.334080967,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "sw111gPaikSJLqobN3s6KogBD1zGH2w92ahqdKEzjCw": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 172637391712,
+        "human_balance": 172.637391712,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "sw222BfVDABppvydacSCj3JVaPSC83RoRtyvLmr6pNx": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 169983459346,
+        "human_balance": 169.983459346,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "XRAYzQwAcSqPt4T78ibJAUPmz9rjsqkWzCxmXHv3nir": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 17402294364,
+        "human_balance": 17.402294364,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "9mB171rzHzYFJTSoLBEDTX4ZvzzyWW2mtBBJovy1qD2E": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 175405920,
+        "human_balance": 0.17540592,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "DohaxzeUj6ma9shCykxGxi7FbWnMyW9hzNjwQjZHEDV7": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 32101933848,
+        "human_balance": 32.101933848,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "AdtBv6jyEjY74XhkxZkowMuGfV1r58j44WCRyeToic99": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 16012622601,
+        "human_balance": 16.012622601,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "BP4XZG94R74uK5WgNewUa6uBcQGfmPtQnoVRpSYY31FV": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 5759126303,
+        "human_balance": 5.759126303,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "BHuk6wv9pskvSuMxzAFksmFNxEWZDHDsYWSwvTKcCnhx": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 53856480,
+        "human_balance": 0.05385648,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "2tKR4mX7LzhjfdNsR6HfBaDDh2RM3wdpUrJqUU42aJTc": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 16303622989,
+        "human_balance": 16.303622989,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "J4oLW1wjuALZhiDUQeZF4fo9ZMwTCmup6YyjxAxwsjbH": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 16146482942,
+        "human_balance": 16.146482942,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "STaKesuXJH6UGRizuEVSWG1tyLu5ycKgWj3i1HUdvs5": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 9902165001,
+        "human_balance": 9.902165001,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "2PEyBgsPYBQ8pMdXQtEaPGNqWQHE9GCnmV2tTVN4GMru": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 100000000,
+        "human_balance": 0.1,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "6ppK739xi1QmYhugesiMaNYLsuVPi1HzU6qwGeMnStkV": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 9529751285,
+        "human_balance": 9.529751285,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "BtUD8v5vEXJ8CSUo2qQq4vqQxKSiLKUp1bxeeGLJsPXM": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1267958194,
+        "human_balance": 1.267958194,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "2swwdmPFEPFUJ38nJbJJBA9kKooJzaeUZBJ9o1mYHepc": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 6744873416,
+        "human_balance": 6.744873416,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "GRWCUtxwiSLtLGERyNyZymr77NJdko2HdDHxpVcJz6E9": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2712685569,
+        "human_balance": 2.712685569,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "WENqavduvNNv1LbwCJPRDr4ZmrdvdfF2SZNrKTAV7pm": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 84580311875,
+        "human_balance": 84.580311875,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "WENuuMXGi8adKogNbQj33Vxgia9oA2erkWAPF4szWN1": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2365044619,
+        "human_balance": 2.365044619,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "AmhQFcGvH2hjkucP78rn6GMKSbstYwyFpCDVKZUwBGrG": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 128922289678,
+        "human_balance": 128.922289678,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "BdM7KCd6ZYWcaCMmHVi8YeL4jFzDVM9cRLJUeRAGSvMS": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 123213792227,
+        "human_balance": 123.213792227,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "2PawEGWYNpMF6a9daRSVbUgWZw3PkLeY5VR31sKu5MYx": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2270098657,
+        "human_balance": 2.270098657,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "Aq9DBA3EtBRU19Vk1NKBCEReRaZNv9eSR2VexgbZteu3": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 404452329,
+        "human_balance": 0.404452329,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "3W3NxpDqirkLbdm76zPV9giJycwFF9K18f6YgwHpma8P": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 671859538,
+        "human_balance": 0.671859538,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "6rC1zg98a89eQurdnvXz6uJ3zZZa2f683WwCDB41Us8w": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 312402085,
+        "human_balance": 0.312402085,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "Cu4M3yd2LfMoGhmYxKszhVH18SPgt6TQvqnE4AWjNKwd": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 20742100673,
+        "human_balance": 20.742100673,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "HfXwCe7o66x2bDC9LvXLPcP7FpxcDzDhWzxgrCJ9r44w": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 27074400,
+        "human_balance": 0.0270744,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "CnevKtH5zaThFqJmpWZSBzjEMY8bsWiVkkeP6GVSMVgf": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 4310990632,
+        "human_balance": 4.310990632,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "EgKg7McUZ57vW5EztfqjgFzCm2ztRG4rkSvh5FdsQhSV": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 369332231,
+        "human_balance": 0.369332231,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "2UBhtRuyr9nvWsUnrbWrvJiYWEU8TVBD4PLYQJKiRa9H": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 9685887337,
+        "human_balance": 9.685887337,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "Luna8BkZNpZ9DKmszrZYPvFpTr4eJJfxxTnGDwTrYkv": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 27074400,
+        "human_balance": 0.0270744,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "61QB1Evn9E3noQtpJm4auFYyHSXS5FPgqKtPgwJJfEQk": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 10959766501,
+        "human_balance": 10.959766501,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "5iZ5PQPy5Z9XDnkfoWPi6nvUgtxWnRFwZ36WaftPuaVM": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 50185449,
+        "human_balance": 0.050185449,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "GwHH8ciFhR8vejWCqmg8FWZUCNtubPY2esALvy5tBvji": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 38446171430,
+        "human_balance": 38.44617143,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "3iPuTgpWaaC6jYEY7kd993QBthGsQTK3yPCrNJyPMhCD": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 478249440,
+        "human_balance": 0.47824944,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "2Q3t4UqyZeVZQ5WURvuGVb73x8cwbu5M7jNbb1jEvGsB": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 11160849969,
+        "human_balance": 11.160849969,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "Bix8KEPNvWfzempbXrwhTP5nqjG3dpsoDafp97afkT6V": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1324566685,
+        "human_balance": 1.324566685,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "chdvWr6T14nqGRFD37KY36dsvhkCtDaufW5rpu3AfHe": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 5912772309,
+        "human_balance": 5.912772309,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "chdv8H9fPfk2zFqSVaxRjsEo2qEDmswbju3BVgAHPNb": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 27074400,
+        "human_balance": 0.0270744,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "FLWc77X8dKh5RdJe5xMFxry8kvSVUbo9G4MQ8hCAg5ve": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 11379207506,
+        "human_balance": 11.379207506,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "EcZBjDPzSZLdsyKCBq26MZMYFfiinZsfcL3SwWMK1eNL": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 3388516322,
+        "human_balance": 3.388516322,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "7mYeuc2iBaWRpkxATYteXxe2pMjzQ7XhPgP1xG6vTjDh": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 88977802140,
+        "human_balance": 88.97780214,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "EwsDhgfbT6H4FRC7AHdhXNBxfBSbWCbDfknrw6g5Dph6": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 614710338070,
+        "human_balance": 614.71033807,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "FU8F2V8yCFhseHDc1CJ5Sj1e5AbGNh3MnSe4REYX7a3P": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 61456627164,
+        "human_balance": 61.456627164,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "A9YmK82uhCXieM9Cw9gN7W1F2KCxa8U1ArA6qxnyYcXQ": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 470289363,
+        "human_balance": 0.470289363,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "J87afqF2bDQQLTQpks4SdF7hXPr96SPTdJ28UJXXWr9N": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1068661644,
+        "human_balance": 1.068661644,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "CMHSLFkNiRSkM5fd3ve8cXLX6DSCqoaPhDmjxkGh2L7E": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 27074400,
+        "human_balance": 0.0270744,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "AYY1TCe347UZ7zueBmF4MyoFkeEZquRUNVBNoUZiRoew": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 130100588002,
+        "human_balance": 130.100588002,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "AfyTzhTXBRBCxGdTEMc9LNEkVGVGfGA9wHf1VikaNb37": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 527857760,
+        "human_balance": 0.52785776,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "43Am3PKFeo9cACpqYL5Sk95rpVdxLw3Mc22PqRqZXEW2": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 104611626520,
+        "human_balance": 104.61162652,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "EBVj3uwSKZpqEb1K267JaPxDQhULVqCy6hYeQqjsPh81": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 14087335843,
+        "human_balance": 14.087335843,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "CAo1dCGYrB6NhHh5xb1cGjUiu86iyCfMTENxgHumSve4": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 16126647783,
+        "human_balance": 16.126647783,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 10000000000,
+        "human_balance": 10.0,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "9jxgosAfHgHzwnxsHw4RAZYaLVokMbnYtmiZBreynGFP": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 4734560769092,
+        "human_balance": 4734.560769092,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "HZKopZYvv8v6un2H6KUNVQCnK5zM9emKKezvqhTBSpEc": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1215748147135,
+        "human_balance": 1215.748147135,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "574rvsKGZg8rBuSNX7k8gG2mHFvUMwt22sSgJJBMCQVy": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 15734737595,
+        "human_balance": 15.734737595,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "DhU3Q2NoCxU5ArXJWm3zxFDRuBiPU4fGrJ8kUasPxMnQ": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 419890078,
+        "human_balance": 0.419890078,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "HM1KjNaXa4w8K4gCXbieoMh5gUTNeUhg9fvdXMKeBW3L": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 355136414041,
+        "human_balance": 355.136414041,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "HMV14UAuULSwqmZhsKHzaVkYAd94iWpEeURgbUegfQLc": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 78578400,
+        "human_balance": 0.0785784,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "FfdKMwFrWJSBdF5N3RPVc4r16K9KnQcVw2boCpkY5zVi": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 4315299832,
+        "human_balance": 4.315299832,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "BBGumW2W9u8NEpkKeK4Gq1dCL2dUzAcLVPoPFYHwHHjm": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 27074400,
+        "human_balance": 0.0270744,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "9HiuHYVDnoQz7xdL2NFmZdv6S2jYNUQxGg7taDwrZ3gy": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 22805741947,
+        "human_balance": 22.805741947,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "GwT72fNWtBrFa9GsBru2kPso1NEw3AnzrjPwprVAv32X": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 9238187365,
+        "human_balance": 9.238187365,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "SoLiDJGk4WkdinyLiRWjkFbgLUhjL3idGJK8H1rUWqH": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 10772176315,
+        "human_balance": 10.772176315,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "SoLiDDVm88uWUMk2rQpG7B9wC55a6xveYEz3JnS6tzC": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 10446293183,
+        "human_balance": 10.446293183,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "h3ZXAE168mNxsszYYrUfkMVSCWx6DU2Uvrx97Kb1Nch": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 91030312729,
+        "human_balance": 91.030312729,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "Ec37CQZjwRgGnuMmUi3BnEBXS5Xa3siakAPxPkHtahSf": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 60549198273,
+        "human_balance": 60.549198273,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "VymDdiepH77edNcNcKBKtRUb3gbQPtPyGh5NLcWaynj": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 31694123611,
+        "human_balance": 31.694123611,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "8Pep3GmYiijRALqrMKpez92cxvF4YPTzoZg83uXh14pW": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 27074400,
+        "human_balance": 0.0270744,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "4PeGtW7j4Fceg35WTXk7FLo4rE4pP8FHF2EytRezk9bY": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1698062201,
+        "human_balance": 1.698062201,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "F9yuGStLA8Mq67nQKGwp9SRG4JzQNU5U4zFPmgbS1YS": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1685147424,
+        "human_balance": 1.685147424,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "7Lp6sJYnJL2p33oPshdfAx5FSvYDFYRpng2gHJDTEQeN": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 407863633,
+        "human_balance": 0.407863633,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "97im1Mxgn8FFcwhoVoqgGc7QegAokpQS2sxzrPVggKA3": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 27074400,
+        "human_balance": 0.0270744,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "FUiUtbEoUVbtghgftxJwQackskGkW7MPbLFMQzHzsfb2": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2048889921,
+        "human_balance": 2.048889921,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "AvDxkBtVZgauCHTMLMUMFCG2GfnsN9zv2qXbrgAoWUmA": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 347442893,
+        "human_balance": 0.347442893,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "9kTTMvxVjE5Doyr9QeFzrx7ccK3B6nmFQZtn61JFe4uD": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2087427208,
+        "human_balance": 2.087427208,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "E8SMqsquNDQQPPunKkKCrMcDayNXKYzKaX5e7hswcPVj": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 4953445180,
+        "human_balance": 4.95344518,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "pGUjdSpmoYcNwY4SVfnMtQxDc6W4eyUjyu3FhArgucg": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 3230660236,
+        "human_balance": 3.230660236,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "9KUA3BzMqFb5R8KLLdaMDHGkdKWUDwev7B3xY6a3VubD": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 154243962278,
+        "human_balance": 154.243962278,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "CVAAQGA8GBzKi4kLdmpDuJnpkSik6PMWSvRk3RDds9K8": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 560794656,
+        "human_balance": 0.560794656,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "XBtfuT5gYU27UAukT3pEzgiKgHpHNQhSoa3zX2PYtiT": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 50679302883,
+        "human_balance": 50.679302883,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "4J9HoqBamEDyEKGDZgeRjCpiGCirHzqP1CadWmznrghF": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1584150402,
+        "human_balance": 1.584150402,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "Cqg1VwU4pdC8zAYMZZUViJuy1v1G8vxdYeUW3UNCqpfV": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 506110829,
+        "human_balance": 0.506110829,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "GgaSrLLpHC9N3sXP4Tyw49NHS4HRooCNAqR8QgNcKAUz": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 12560106950,
+        "human_balance": 12.56010695,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "B8kmCsDCzhztpiNTL1nhJzsQyxEyW4Ks9Z8kvXXLbvzv": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 94734091631,
+        "human_balance": 94.734091631,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "BM3HeTqJyYnZ8cnTFFFZUe79FzixzUL4hZNCdcQYg2it": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 11487714849,
+        "human_balance": 11.487714849,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "4MpRU9fDDSQNNTeb4v5DPZZTKupYancGksH679AKLBnt": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 914081000890,
+        "human_balance": 914.08100089,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "DTvHtb9Y9H9xdwcwpmmAsRcfqgx3RV8BSDFYScLpgqT6": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2682269096,
+        "human_balance": 2.682269096,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "6H2opQ2ebr3B6PPnjVFoMQK8pFiJhjb6AqWTjAYGqLYH": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 3261518712,
+        "human_balance": 3.261518712,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "Arvv3uwEyDPKckw3wEFiCq9hgxMw8kawFU6doxFAWGYR": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 112178457878,
+        "human_balance": 112.178457878,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "27MtjMSAQ2BGkXNuJEJkxFyCJT8dugGAaHJ9T7Gc6x4x": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 26849039630,
+        "human_balance": 26.84903963,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "Fumin2Kx6BjkbUGMi4E7ZkRQg4KmgDv2j5xJBi98nUAD": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 625535841,
+        "human_balance": 0.625535841,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "ELLB9W7ZCwRCV3FzWcCWoyKP6NjZJKArLyGtkqefnHcG": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 328723200,
+        "human_balance": 0.3287232,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "73ET66kH1rxnkTByem6r7CX37Wc1FGmmBtP5uWYzjAs9": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 16547176951,
+        "human_balance": 16.547176951,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "6CSENi9ZT4iMQGgWi7mBBe9bKwe5qKamcJg6MAANTzrN": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 23937363181,
+        "human_balance": 23.937363181,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "ADjyeNzWd8yhEjCVyAqT87eqoyGRbimERQsNhFQcXjop": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 11713394748,
+        "human_balance": 11.713394748,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "26RGqX3mezgYDxJnGh94gnMM4L2k9grH1eWcTSCHnaxR": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 380808876,
+        "human_balance": 0.380808876,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "xx6jU8CRzoUCT2RNCoomRqAokWmvgVymxRKtyfvQ4CG": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 4414700641,
+        "human_balance": 4.414700641,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "AqP3MyNwDP4L1GJKYhzmaAUdrjzpqJUZjahM7kHpgavm": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1431035813,
+        "human_balance": 1.431035813,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "KBoNKoxPjdEmR4TrV9wH9wi96x9vSAs9NET94h91SGJ": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 300810527835,
+        "human_balance": 300.810527835,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "KBoNKQQj7QpVEzKKFbzxASVUjXx8TauASwYb546hCqS": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 307256160,
+        "human_balance": 0.30725616,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "Asju9nresVBNjVMygiCUZCgWJVi7reT8aHE6PMc2tTha": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 6209576868,
+        "human_balance": 6.209576868,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "Hocu6Vb6cDRYy5MnUj28tvDwda43wWx1Vc3fiCXziJ4x": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2398013264,
+        "human_balance": 2.398013264,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "B9KuBnmo5kMstTENiWY5HErMgzyMcj3x2mrLFeYyumdq": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 3092307693,
+        "human_balance": 3.092307693,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "92W6sFsim2fAYVBVVXHcQ4Q2DoARyDfuXZM3KYBnsRVN": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 927045052,
+        "human_balance": 0.927045052,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "HrM8x5Xn6ugoHqfLc7MCr8K7D34Z3NBc1TcuohCJ2ksz": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 55758947192,
+        "human_balance": 55.758947192,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "7zFvisPXq7xCFoSAL4oxZhRpDonmf8NxQFuLNGW4UYFh": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 253692000,
+        "human_balance": 0.253692,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "tkmaiSoZ3F8MofkQBVWG6JYSCzyN6ioe7ReYXohx3WJ": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 15308395858,
+        "human_balance": 15.308395858,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "TKMA1fBGq4M7gF2CNnhphX6vNateFc2cm2FL2mYwq7e": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2092809555,
+        "human_balance": 2.092809555,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "2t53LvZfskcpXkdwLaBnfZLbNgyVHPu2BNFpcRBaEBhM": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 10633731428,
+        "human_balance": 10.633731428,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "Gvt8s5Bwnhg4G27VbnT1Zkfh7Jsztq6CNvZcc5anPonS": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 522725602,
+        "human_balance": 0.522725602,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "BdoWLiPQSizJiHHS6WKHNW2cFZ4yNyidGcSkzkm1n3oH": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 14258672323,
+        "human_balance": 14.258672323,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "2Z3wkL3hKB9ERwcPCDXLok7ZY5SKWC6m2ExhmDRRuCEv": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 339360255,
+        "human_balance": 0.339360255,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "DtY5Bzxd75iWQRvKwM2xLUxqwLT1RRoeNwmVvgS2JANA": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 12479021982,
+        "human_balance": 12.479021982,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "BSRRvjdKd8SHApi3KtTGbzrdhUojitiwAt4xt4nAxbFh": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1010972678,
+        "human_balance": 1.010972678,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "FzaAiLVXh6xXAFCfJNfBVQVYJ884zWz3LZVVmC8iRgdP": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 31014749874,
+        "human_balance": 31.014749874,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "AaxfteYTX2ftBRQfW1x6FiC8wY5dCJYgsPr8JwwMUuPZ": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 7567111806,
+        "human_balance": 7.567111806,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "F8Db4M7hZRQRjedfMcY7Vu6dMJ8drSQxHC8Rrn7DJq6A": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 5933265027,
+        "human_balance": 5.933265027,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "CxFe8PsDXAuzgZzP7N8um59iL517Lz8SWtPahbfU9zVo": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 154804320,
+        "human_balance": 0.15480432,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "hxMhrsuGPDmkLJ4mTxEjyeMST3VGhTiwJvS9XgHwePj": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 12992527595,
+        "human_balance": 12.992527595,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "hxVjzDmta9TuN1gM981TRKnfwG2uZ9TQDGwSCs3uDow": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1908605693,
+        "human_balance": 1.908605693,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "jqHuv48qXtPtDi7sL7erTLiTeVGC9UFRpKCLSsi6HKn": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 28207156510,
+        "human_balance": 28.20715651,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "ARK2Lvris4VzGVuY2je4sC6EzsNJhkDiik1ZAoL6KKgZ": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 508863077,
+        "human_balance": 0.508863077,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "7TYbdqaFpHbLUWBe6fTc19XPweUMN6fB3GBW3TzZWu1i": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 38501881559,
+        "human_balance": 38.501881559,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "7YCDRyGNn8g3WgZg25JLB9wKuERMkj99AFc8zHAQVwSt": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 142443360,
+        "human_balance": 0.14244336,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "BxkAkLR2W3agWtjMXBNvhxmB8vsn7zhjNQcyfost99KY": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 7668586825,
+        "human_balance": 7.668586825,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "FSDKGroWxgBf7VmV6X1NLDhnncrWW2ekztwRWiJrPf3k": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 17422891447,
+        "human_balance": 17.422891447,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "B8m79Xf3kp19suGMJkfXZDDHCmMP5vWHuYAdirtswEzD": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 5270681761,
+        "human_balance": 5.270681761,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "BXf5pMTSWJdfwaiRYpwJjkTUuUe2sdvcJx7X7UNbyGe1": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 3226198965,
+        "human_balance": 3.226198965,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "D3htsc6iRQJLqCNWcC2xcZgUuvcd1JT8zoYNqraNcTQz": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 7645374076,
+        "human_balance": 7.645374076,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "3xjfK9C9YNcta8MvK1US4sQ3bc6DEjoJoR3qLExGf9xE": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 10006632688,
+        "human_balance": 10.006632688,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "7LMg8n5DRe5UzSH1Qyn7say9HQshWjjnaURMBaNgxCYE": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 3834967743,
+        "human_balance": 3.834967743,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "8SRc8gaFpmnb2behQp6KXZxrt9KcV56eFTzUDhzk4qei": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 27074400,
+        "human_balance": 0.0270744,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "basedN8GQrnMHdVuKo5G361oYFfNy35Sx4UUKwztRfH": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 59808445791,
+        "human_balance": 59.808445791,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "basedoziCpdswZX6J6bJB7EnJwh38i1K2zwLjt4JeAo": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 29776462297,
+        "human_balance": 29.776462297,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "Cu9Ls6dsTL6cxFHZdStHwVSh1uy2ynXz8qPJMS5FRq86": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 9976009235,
+        "human_balance": 9.976009235,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "5iJDEVRi1nMLwKAWhYbEokZnvBAe15rgFaHGkggVEP9z": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 207327273,
+        "human_balance": 0.207327273,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "9hQqNe3DQTiwhspatewA8EXhz12e6sq5UJVJ2qNRwnTf": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 396916962338,
+        "human_balance": 396.916962338,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "2Y2opv8Kq8zFATg6ipqb2AjgCf18tkv1CLMLXQGif2NH": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 127779496457,
+        "human_balance": 127.779496457,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "3YVoK8UN62dyiPZnGBzBTkGdwsVmmK1MpRoLcxNRs9BE": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 347881121528,
+        "human_balance": 347.881121528,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "FRTcwF2LHHLV2VxKB9nzNpqyBXjpKvkEs5aRuMXrrk8X": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 228709490948,
+        "human_balance": 228.709490948,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "BCS95L5JHBWHvWkcEJBEF3BH5QHxKcPeaTgoYmHLvfFh": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 17767638823,
+        "human_balance": 17.767638823,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "Hx4UJCvf8amGeuW9fPFfTckRoznDHxPSYiU9HuUSZKLT": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 93608070396,
+        "human_balance": 93.608070396,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "6k1YkmTKwPRUhChnxA9ryJmbtuQMbro4xFTL6mL9jycB": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 23769936695,
+        "human_balance": 23.769936695,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "91413b9eEvG6UofpSgwdUgH9Lz4QBF1G3J325Bw7JwGR": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 908645823,
+        "human_balance": 0.908645823,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "GREEDkgav1ox1jYyd9Anv6exLqKV2vYnxMw5prGwmNKc": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 53793276981,
+        "human_balance": 53.793276981,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "GREEDkpTvpKzcGvBu9qd36yk6BfjTWPShB67gLWuixMv": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 329917921,
+        "human_balance": 0.329917921,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "Cogent51kHgGLHr7zpkpRjGYFXM57LgjHjDdqXd4ypdA": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 7579166435,
+        "human_balance": 7.579166435,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "CogentC52e7kktFfWHwsqSmr8LiS1yAtfqhHcftCPcBJ": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 143350639202,
+        "human_balance": 143.350639202,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "6Rk694kh1QTyQkirdb1uDZmS5xqG9bNaYtxx8d311Mr7": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 4987718372,
+        "human_balance": 4.987718372,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "AnodeNCzJGQ7QwheFqJr6EknKGa72m6XHiLtDQiXcmEc": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 27074400,
+        "human_balance": 0.0270744,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "EUcJwf7jXskRE6NZBtFPVH2EedNvNYko8LL2WT62XctB": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2588841433,
+        "human_balance": 2.588841433,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "Bwkz1ddKoGE8hgiSV6HZLXi9RBLqfBi3HZb2QujzVGgz": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 21898740382,
+        "human_balance": 21.898740382,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "BeSovDCzhEAfgwDyXBuhmCFKsu5WQ3PaX61GEfteNzXM": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 63451506262,
+        "human_balance": 63.451506262,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "BeSov1og3sEYyH9JY3ap7QcQDvVX8f4sugfNPf9YLkcV": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 51144796557,
+        "human_balance": 51.144796557,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "AMukCLCr52XxsEjXoDxKKxjNg4FpnsReXNaQx8aR6DJF": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 20050279834,
+        "human_balance": 20.050279834,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "71nnaeTyVeA4pTozAPjRuQyMydQTZCrFUkz7Pzy5tiDJ": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2588361259,
+        "human_balance": 2.588361259,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "EReBoRDj5Lv9y1FGPXxFCt1KAgZeKqa8zJNZvkoA4Uoa": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 22616279140,
+        "human_balance": 22.61627914,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "9xEFsHZt2mbuGQjtVGABxpeQiNeDvj54pfsJrrrUUev6": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1317038348,
+        "human_balance": 1.317038348,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "D8kuk3qEiVBGwYkuMGKfBDwuRi6jjRkzjAZg45fdaRLx": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 30506359198,
+        "human_balance": 30.506359198,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "7X7oVv6K6wawMNzVriczSAEk18GzqyrYrvqyJbwLAY3s": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 17562422175,
+        "human_balance": 17.562422175,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "BSNJGveGPVYzdt2bhTh3YfqbzWPH5Sq38zT1Br88Pn1N": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 11823969182,
+        "human_balance": 11.823969182,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "FKU3YWq3AUuN2mJVR2pJgbsVQHdGeaK1Yj1iMBhJugd1": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2141938812,
+        "human_balance": 2.141938812,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "HH5dA42XF1HxNk1TRpG6LuKfLViMYNdAz5iWrFM4hWFi": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 47473221963,
+        "human_balance": 47.473221963,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "FiijvR2ibXEHaFqB127CxrL3vSj19K2Kx1jf2RbK4BWS": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 55617506169,
+        "human_balance": 55.617506169,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "EfPYQ4BUMiKa6736qqrtnCBGkUSRDGSr1WvtyUgWHuyp": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 615184353132,
+        "human_balance": 615.184353132,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "6x9uLhegx488uA3dPoq8DWHS488K4FsEqeeMXeW7kQPx": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 528344348678,
+        "human_balance": 528.344348678,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "iggyroq4YSBgSfmruSxuz3uj7dZvnsFXyZFXYcYy3FR": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 352695908429,
+        "human_balance": 352.695908429,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "motHerBDDLoLpk1VwWmztHvw81sMdyoQKtcGsdbYzYq": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 214548960,
+        "human_balance": 0.21454896,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "updtkJ8HAhh3rSkBCd3p9Z1Q74yJW4rMhSbScRskDPM": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2776725204,
+        "human_balance": 2.776725204,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "NNMft6JEuythzFWhZYvXRDJ8v3qz88UhSxej7SXMzsp": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1500000,
+        "human_balance": 0.0015,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "Du4WfVEeXmYtgwvX5FYzJaW5J8LokjFRNFbPFMXYfe4": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 52784640,
+        "human_balance": 0.05278464,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "ZERor4xhbUycZ6gb9ntrhqscUcZmAbQDjEAtCf4hbZY": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1141440,
+        "human_balance": 0.00114144,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "Cx8Bd26EPfnhoAM94hNW1ot3vESEDsMDqD7Jgw31Pzqj": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 9303511602,
+        "human_balance": 9.303511602,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "BDPvsofXRrM6NErBXparLfFXdPG5QRLNcaDGeaWJkspa": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 27074400,
+        "human_balance": 0.0270744,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "PhanqzjXBf2w2ctxCmTUaspqPmFrQLn8svP6svBm5dQ": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 16238313840,
+        "human_balance": 16.23831384,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "PhanYoJW5cNR5fdkj4b7XKFpECYJRom3RP8WoYoK4eN": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 27074400,
+        "human_balance": 0.0270744,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "GiGa4gzsvLHmtPdN4MXFnr5U8cRbxS2FoVkZ8xq2uus5": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2369846795,
+        "human_balance": 2.369846795,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "CHED2jBWgvh53kd6fbdbqhZFipUE8VdF7orQr8dz22HQ": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 27074400,
+        "human_balance": 0.0270744,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "C17WLnQTPjqXgmnpu2F1WfbeXdSbzufvnMHuS6XHjsAZ": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1680490085,
+        "human_balance": 1.680490085,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "3zxkHtntSzfW2rukRFqhN9SDPzqicvF6WwN6yDwdSvxQ": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 51796320,
+        "human_balance": 0.05179632,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "HW7ntfUHapD5o7McDuPfGvkfzrPcmuPSbZMMoe2gksKQ": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 30923987644,
+        "human_balance": 30.923987644,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "5TFdzjKE6LnkhQArxWjt26yVCXskPo3fUXE8F351Cfn7": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 753780055,
+        "human_balance": 0.753780055,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "7nzTzRZzezmugqE5ZjHRMxarhXunpwZ2PUdjV7uYzt7A": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 33770607719,
+        "human_balance": 33.770607719,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "so1arJJbp9sis5XpovLyjTZPk8bDjfs37Meghi5wXbu": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 46724518,
+        "human_balance": 0.046724518,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "9Ukj3PkyD3igEDJGt1QTj9ThzjK6hMiadQfa3gm7kjf1": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1260465042886,
+        "human_balance": 1260.465042886,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "37BPVW1Ne1XHrzK15xguAS2BTdobVfThDzTE2mv8SsnJ": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 8990224617,
+        "human_balance": 8.990224617,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "makot6hiF2ZEWy1yPF5otx73VuXpP5SCUeCbZiiGSt4": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 16919274909,
+        "human_balance": 16.919274909,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "mak1EDQANhaKaDiNZeShT2GWe51cXgYZWCYpzV4Gzvk": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 281232677,
+        "human_balance": 0.281232677,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "C64HQzVeuUakYPTFAbKsrhmzSiQYJDKtE8B3A1bDGrqG": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 35525002,
+        "human_balance": 0.035525002,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "5WF1VwByGfW31Nmk1xcfz9k5YyZLskX4659JXyAA3rpb": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 32396803,
+        "human_balance": 0.032396803,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "hykfH9jUQqe2yqv3VqVAK5AmMYqrmMWmdwDcbfsm6My": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 6428743918,
+        "human_balance": 6.428743918,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "HAYEKSWg2EY21k38St9X5yM7QMW6SunKDefs5SqYSFty": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 27074400,
+        "human_balance": 0.0270744,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "HgrgNPfY8DsPxxPdmjxNTFXZpgiknZvPMXv9ipbZbbVM": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2108268732,
+        "human_balance": 2.108268732,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "7jp9iA5QF4VJrV1YZ47FqFDziuZALp9wJSWRLWBa4Lg7": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1063670700,
+        "human_balance": 1.0636707,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "SerGoB2ZUyi9A1uBFTRpGxxaaMtrFwbwBpRytHefSWZ": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 3535296802,
+        "human_balance": 3.535296802,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "BWkvytz3MAiLkUbMuYK5yV1VYThbBYYQYG3gdef8NLw5": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 8666064749,
+        "human_balance": 8.666064749,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "GmJZNahpvdqMFTtrqjLHC9UcsuE83Xk3DmgrSpqdWhWr": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 593024883,
+        "human_balance": 0.593024883,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "JBaE8QhwFwka2kZxdF1DJHKb7XGdSRuiWutVB9SyENbJ": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 4097242686,
+        "human_balance": 4.097242686,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "5LpsYxnc9m9E3ZZDa9EiqHqr3VcJW418kmMK4N7JHSL8": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 15009939793,
+        "human_balance": 15.009939793,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "6sHtpsxU8KPY5cd6EbutSBUGaXnwu8r3voM3kgjSKoW9": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 7442198175,
+        "human_balance": 7.442198175,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "31yTzM6jWsuMkfmhNZkYGTPLDaiAQ3vYDZHEwjb5uRRq": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1385748377,
+        "human_balance": 1.385748377,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "2yruMEFWuAJ9C2jv5JyjAfgTZVGhCmv5945TUwdP17kk": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1592372504,
+        "human_balance": 1.592372504,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "BMW2PUr7yweA54zC5CoBnjWqNFwL8W9vHUvYvb7cPbLN": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2039913914,
+        "human_balance": 2.039913914,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "BMWeZiBXAzBxnM8NktnCgh4TWMhQ1Trq3NWiCWNmqxXi": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 43555680,
+        "human_balance": 0.04355568,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "indMGAW9rPd6d4Pe8YoN2gYRhUpLmEDdSGeQVo6kJ46": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2442507837,
+        "human_balance": 2.442507837,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "indVHvxmQVkK4VsdHiK8kXjLDSjHfHRfP3yvZ947Gn3": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 30000603,
+        "human_balance": 0.030000603,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "7tUdS2aVLhsGJR8JVbkvCUi8qQUjZSj1Bqqu73LCoJQn": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 12761053558,
+        "human_balance": 12.761053558,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "D7rALJCR3KUMhTwtmjvk4ursBLbDNvAVRf2FwdQtbVF9": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1128288332,
+        "human_balance": 1.128288332,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "HNz9KC2vFPfC7TPmNtzh7nCDWDBYTLpCbmn5QD2UYX9u": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2321615271,
+        "human_balance": 2.321615271,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "4gg56BTsCSEXW3CLw7BuT31x3ptEjSz6aeVE1Xjby22R": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 523051862,
+        "human_balance": 0.523051862,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "THWsLPufeq9LWs2H9vYPbtFwdxAHbQHvSbT6pztG8x1": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 11752208510,
+        "human_balance": 11.75220851,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "THWfRpcJSC7oDrNMSCcixTZmCHVBTEVQL4qnd1UTD1x": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 27074401,
+        "human_balance": 0.027074401,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "Fudp7uPDYNYQRxoq1Q4JiwJnzyxhVz37bGqRki3PBzS": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 25881937343,
+        "human_balance": 25.881937343,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "4QhNoG3PN1FXXFhAEA2QWdor6xjXvM9pjq6MXAUV8Zg2": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 6943590166,
+        "human_balance": 6.943590166,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "SP9K2c8Z1aaQaqdQgC6hZMJ5UCTTnE76XNYVse7H94b": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 9078279587,
+        "human_balance": 9.078279587,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "SP2JKHyxhs8eMQUi1wrJEcganVJoMhPe1hygowsusaP": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 795345682,
+        "human_balance": 0.795345682,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "GYZdxwPwV3wTFVC8DdZuJQZDDRCg45AtqUai8cpSyAga": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 17434534529,
+        "human_balance": 17.434534529,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "BQMvUHC6wqpd3TR8B5tAF8WXQ9xBRkopVqzAC65BSd4A": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2096545742,
+        "human_balance": 2.096545742,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "GUvRSvhhQRA1PhTpMaqW5hELHcPP9QP4W45tHFEbtqRi": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 4447357421,
+        "human_balance": 4.447357421,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "sBcuGeMJCRkdtMNgskLTX7MePb4CzCqZuyMKDrcPP8v": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 280474080,
+        "human_balance": 0.28047408,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "mineL1YNwcRnxN93B2sX6q22R11WfRqxnY4NBV8KfFY": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 30485387005,
+        "human_balance": 30.485387005,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "6q1VNp8Vy2Go12vb8CwbjUqqj2SXr2JYftJRWs71sW23": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 15854863137,
+        "human_balance": 15.854863137,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "AYNvSS5XV23ezdUBUzMjrZoGpmDibADE7P3edS4wNKAv": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1555682107,
+        "human_balance": 1.555682107,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "4KAmS9X8tGJPPzDdwT9Fa9F1y3GZEoacGhMqJ6zstUXN": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 183646560,
+        "human_balance": 0.18364656,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "2dza8h6n4PkVL5xpYtbVbYJ2PXqQzFFpb7YFP4jeG9fH": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 57260000,
+        "human_balance": 0.05726,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "2DpnT6to3eJsXeg1Tk42XFCXLMKL7pGzMKFwQS5CNK6a": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 209540943,
+        "human_balance": 0.209540943,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "DaVvfMfKshGMtCTrDnsdiGj1FhdCVCJSTjRRwuZgZy5C": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1503730952,
+        "human_balance": 1.503730952,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "8TnaCtjPu6Md3BYs9vBv5YtSrDkm5vANRZL7Kd7amgf9": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1620428978,
+        "human_balance": 1.620428978,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "G35uLP74uj4eCSfMs17ePKtK1ThuH8JKebAP1T2y6CYw": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1100968804,
+        "human_balance": 1.100968804,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "7VKJjStSELiuK9PRQzQmQCGgy627sGSRSJhCVobMLVqL": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1785797008,
+        "human_balance": 1.785797008,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "D2RV1q6FgePVVjrMa7AMzVbvvAeg5oS7TAV7qdNKSDsX": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 6584104780,
+        "human_balance": 6.58410478,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "CCxSNvJogH6LWyoiEbG7JfcWybw2FqqCExs5GuemChGr": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 6784054436,
+        "human_balance": 6.784054436,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "6mCzwUFcdTuz6fFJRA8nY1iXNRJqPpXU1PvCfANfVXhh": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 10233427971,
+        "human_balance": 10.233427971,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "2juzdQw3k2udsuA2JfkXk4Aw4psZEAnnk4sBHzwC5ZX7": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2034707087,
+        "human_balance": 2.034707087,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "3iQqh65Gby53aaYUF8ocoiEyhBs4aoe7BTYYWvy1c9dF": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 45104441900,
+        "human_balance": 45.1044419,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "AEtdq4CwtuktCEUWLLpRTNPBZs6tr7BBqxkHJ1DjAttR": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 67608279345,
+        "human_balance": 67.608279345,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "HpszAuiaoGoZXfvuZds3gtVQ2ywV76eREHBGyyQovMhy": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1487540764,
+        "human_balance": 1.487540764,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "8WVqaMTGPKsVSFBBPgm1vHRvSzTZYhJStQhUva1jtg78": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 27074400,
+        "human_balance": 0.0270744,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "BwG1C3hDdNq2rTDHvcMFwuokefdQvUQUXRQgwjJL86XM": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 26256629712,
+        "human_balance": 26.256629712,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "6JpwHChay7q9meZVBhGp4wBvTGy7L28XsCzwLhGF875r": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 118362544889,
+        "human_balance": 118.362544889,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "wetkjRRRDrSPAzHqfVHtFDbhNnejKm5UPfkHeccFCpo": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 9751410644,
+        "human_balance": 9.751410644,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "wetwJSUHT5afX3gP49q75gkz8FcCfvsw2kuSQ1UjT9R": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2684720084,
+        "human_balance": 2.684720084,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "KTMkUG8WCw9FdH44jLMBpc1teGafnYL6SgP4fHHbsNM": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 6115584080,
+        "human_balance": 6.11558408,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "EpicsoqLdDP8qRn3wQRKTSKAXbjK9dUgFfNPRQS77MQD": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 679760529,
+        "human_balance": 0.679760529,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "ALTph32sY6zWEBa35tNyYZ9eeLq7ShKmybVfJCU7MSLF": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 5350152532,
+        "human_balance": 5.350152532,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "dcwMB2qjmAwid5KNo2qquBPyDxzdLfe9io8JAxeRU5m": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 591552652,
+        "human_balance": 0.591552652,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "3x9nibnhgBHWKMRiGnsXJELRBjviQpKyigfrXtKW27KJ": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 4353401375,
+        "human_balance": 4.353401375,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "5afRnmkFn1pRU9oussqwk1RRBVyoDgUkL16Jz4qNf574": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1092414396,
+        "human_balance": 1.092414396,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "CtBqxQ3fberuV2WxcNvba7C7QiQQe616rumT2F4mD4gn": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 3658856797,
+        "human_balance": 3.658856797,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "GuPUYQmbRN7mdoMNDXW9sq3KTAFjL2GuxQPVhTZoFDhN": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 514495595,
+        "human_balance": 0.514495595,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "nSGZ3tv2UhskkPqiB666yDVj7PTi9qKgDqvjHyw5JgM": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 21149991946,
+        "human_balance": 21.149991946,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "AY271jdvcyo5VzBiWsMGLEjpZFFrarq8FDydJHLmYgCG": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1800342310,
+        "human_balance": 1.80034231,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "ELE1xBTfmHB7vuhSH94q23r6j3tuvTXYTqgm1u4uzMLk": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 20901780491,
+        "human_balance": 20.901780491,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "ELE2xaC6i6pmeu7bfrYjBv4whBeTAbgwcg5hf2ythiBs": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 5970773033,
+        "human_balance": 5.970773033,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "FphFJA451qptiGyCeCN3xvrDi8cApGAnyR5vw2KxxQ1q": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 6764089273,
+        "human_balance": 6.764089273,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "5HScvYkTWL9iojhPv26xK7GqB7oBsj9A2qHCeNRFmdyG": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1503172570,
+        "human_balance": 1.50317257,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "FZrSKKsKfZJovcQWRQFDXz8DbHKCSRZLZqbBAGd1dG57": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 47400511023,
+        "human_balance": 47.400511023,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "8FPz3JG4E3HVXxGbPZVibarva4AGXSZWx3qKLUS5uFtN": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 22815186721,
+        "human_balance": 22.815186721,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "BPKAfGkkzF5u1QRjjB1nWYYbPMUCMPJe1xZPmwEMNMCT": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 6159056850,
+        "human_balance": 6.15905685,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "9Gko8QZBbV5SrEvHKtQHcMrGGSfgFP3KJUozEGifu25x": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 511544317,
+        "human_balance": 0.511544317,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "PLabzYaWC6otdxPfimutQyo6NW3voETNK5Fo8UKqpyZ": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 3441610000,
+        "human_balance": 3.44161,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "PLabz9oscUEPcWeFRwQdGsE5XSuqkUxWQGJWkYUAkFq": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1071816242,
+        "human_balance": 1.071816242,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "mrgn3H4uBbKAWBjdFKSGks3SpLm4q8YaRxUCMGa5ZBY": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 45114785627,
+        "human_balance": 45.114785627,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "mrgn6ETrBDM8mjjYN8rbVwFqVwF8z6rtmvGLbdGuVUU": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 72530185368,
+        "human_balance": 72.530185368,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "CpNnGGhgVATJAbzHUXdrcGfpPiGuZyPka4QUmH7YgavX": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 268406495198,
+        "human_balance": 268.406495198,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "4qvFxnUXYjBdcviCwVV7gKcGJMCENEBfS82hSLJUhyvu": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 10217398585,
+        "human_balance": 10.217398585,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "2EutAcbv7T8it6PfPQ7HbK2KFMnMC6anwkX6C3RifE5M": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 13072487437,
+        "human_balance": 13.072487437,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "3JFt7NBHuz7bR1wbWVKgGLkZx9QPwnkuW2sx2nREgbbr": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 8477934130,
+        "human_balance": 8.47793413,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "5rtCpCsHQUdh48zfWSo3VHmWoPoJ33PqA8BJtxojyz5Q": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 3107297632,
+        "human_balance": 3.107297632,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "2qD6yvLwy3ckWxsS1iQwrkCjLgcvH1u9PLu5m9KRRn5x": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 5030589595,
+        "human_balance": 5.030589595,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "BMJE6zFwTXwPopVdG1ccYMLWWGd5aNPvm5offrqHUxXV": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 66627525442,
+        "human_balance": 66.627525442,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "9SGUxCqs4fpRCRuVKyfqoZxkBSSXgH37ca6XfyLsK31F": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 216702585607,
+        "human_balance": 216.702585607,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "vaoJKVZYPAsqc52T2nNQhABR1gU6Cy2koDKfCQaEiva": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 123345351767,
+        "human_balance": 123.345351767,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "voEskim7SFWrPx1tV2PVisqyrJejxmDEARX11mtZ5vo": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1587844784,
+        "human_balance": 1.587844784,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "4rXCssbNbfGjPH727pBJXix3DPy47PN3ZVGMERdZQQ3D": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 40515850740,
+        "human_balance": 40.51585074,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "GbC2vzt6S2HsUAJ46Qfh3aoG6oB9y3V4T7XD7914K5na": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 4152519024,
+        "human_balance": 4.152519024,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "UUcsYKGXbrecWLTNn4LK1N21Px1Ra5c3VsFJzAtzZPk": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 4564067059,
+        "human_balance": 4.564067059,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "Agsu9fcnH3rKBix59mktDRqJhjR8aStgLDd9njaddcdr": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2035815947,
+        "human_balance": 2.035815947,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "8n4pc4sCJtBeLfJdGyJn6EcZuhtfTiepRa9ExdJFdmEN": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 183285806194,
+        "human_balance": 183.285806194,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "FnAPJkzf19s87sm24Qhv6bHZMZvZ43gjNUBRgjwXpD4v": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 95730217921,
+        "human_balance": 95.730217921,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "HezVqLA51NmYzCkCZg16rjK1ZkcSaCcGEkSsjRGahgGt": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 115971645168,
+        "human_balance": 115.971645168,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "2qNayWrY4rcz6YMduqDG6r6rEBGwQ5a3LkPCJ3uAN2AD": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1166303104724,
+        "human_balance": 1166.303104724,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "BCjGyexo1i7qpN9CbJ9Zt8avWr4Lb2JRtcm43sJvsgQK": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 3400395535,
+        "human_balance": 3.400395535,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "7rwEPPMQgHr3mn5nQX27SADt3tR8yucBgsNapYdrqRhB": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 2056763612,
+        "human_balance": 2.056763612,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "DChRyhfTosLADCyHj1JU69geyrWm4ov2SYyNkqMN9qgp": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 1293126075,
+        "human_balance": 1.293126075,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "5ysJtUNfmASWjzdQy1vyvrVp9jAg5Vq791HABeobrCX5": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 104894722,
+        "human_balance": 0.104894722,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "C1WasioKLnB2D9xiTQ2aDLS2cWKzaHLCVdDNMvgYtNMT": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 114487302754,
+        "human_balance": 114.487302754,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "39xF5qkfK5HBaG4Hkq6bjumUB2k4B5ozEAmfZoobhUVw": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 9747855768,
+        "human_balance": 9.747855768,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "BCeczqpTRPigndHVJu1KEzno1Uhb4hjrE7ttmAndrV1p": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 52724613535,
+        "human_balance": 52.724613535,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "FdGcvmbpebUwYA3vSywnagsaC3Tq3pAVmcR6VoxVcdV9": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 58008322954,
+        "human_balance": 58.008322954,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "2gDeeRa3mwPPtw1CMWPkEhRWo9v5izNBBfEXanr8uibX": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 30244153273,
+        "human_balance": 30.244153273,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "3Xn3K5zeTzs4sURj1PCRaF6rvFg2hPgT49B4SiM998f7": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 59226434867,
+        "human_balance": 59.226434867,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "Bs19Z9SokV1s46jutN9tqqaCgYf1GsVyyytVfkzwn9qK": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 22303490718,
+        "human_balance": 22.303490718,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "5frYQSynysBe1akCVK9tNBJ5j8jgBgUsjAXAgqHxvykJ": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 29400987279,
+        "human_balance": 29.400987279,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "sZAqxCSN5kkVfG2s65Bje4jzCkD2aLyk21qU95PMf2Y": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 114598806366,
+        "human_balance": 114.598806366,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "CNcaYdqkCwxDpKSVK8in5f6kqrTiZ5SuHsHFDqx6jNvu": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 102439724992,
+        "human_balance": 102.439724992,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "FSyAsxcE7g8pSSEu5nx7Hkz44rMZiYio5Wz8Lszh3Nbi": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 92497910387,
+        "human_balance": 92.497910387,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "QXmsTYFK7YT2BpP2AnvXwuRpfwmsJZpovLcUqdSjoK1": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 20009957623,
+        "human_balance": 20.009957623,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "73hojLdq1vZDSxeVQEqVFJ4iwLngdvEJPEpEHkSdv6BZ": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 26506860375,
+        "human_balance": 26.506860375,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "Ehdn9LdjTAURQSMoDPERXLehtvzy7QD762wwPkzGT7RS": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 116914503946,
+        "human_balance": 116.914503946,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "BirdeyeK5yooepHNNgaW2bGGDD2jmib4oSRFTHyELbZ1": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 10232829998,
+        "human_balance": 10.232829998,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "BiRDEYE5K1dr6rQ6memx441BaZk8bYXzCwdShwgvLjtf": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 8635235751,
+        "human_balance": 8.635235751,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "SWnetabTLirPWqEK1V1T7HkVLC5vGvfjEsb89wiqrGh": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 78530347594,
+        "human_balance": 78.530347594,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "SWnetzxKaKtuysePKKAzdPAk3gqWgPYxg31vet69Xnz": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 43675417901,
+        "human_balance": 43.675417901,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "HFTcVVrX93SJwYHAiiHAssb3c4zXqSsF4mNjg5arGPEj": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 74634605077,
+        "human_balance": 74.634605077,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    },
+    "qjUuLxWo29QCBr7ZQw4EPLkAtmjHS2ZdZpZcH9g7fRb": {
+      "11111111111111111111111111111111": {
+        "raw_balance": 16408202503,
+        "human_balance": 16.408202503,
+        "symbol": "SOL",
+        "decimals": 9,
+        "last_updated": 1744882414
+      }
+    }
+  }
+}

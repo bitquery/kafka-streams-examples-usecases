@@ -1,0 +1,24 @@
+{
+  "name": "bitquery-kafka-node-consumer-example",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal Bitquery Kafka consumer for solana.transactions.proto (Node.js + KafkaJS + protobuf).",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:debug": "NODE_DEBUG=kafkajs* node src/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "bitquery-protobuf-schema": "^1.0.0",
+    "bs58": "^5.0.0",
+    "dotenv": "^16.4.5",
+    "kafkajs": "2.2.3",
+    "kafkajs-lz4": "1.2.1",
+    "lz4": "0.6.5",
+    "lz4-asm": "0.4.2",
+    "uuid": "^11.1.0"
+  }
+}

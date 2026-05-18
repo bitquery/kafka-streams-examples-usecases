@@ -1,0 +1,6 @@
+# Kafka + protobuf (Bitquery Streaming). Pins are loose so pip can resolve protobuf deps.
+confluent-kafka>=2.3.0,<3
+bitquery-pb2-kafka-package
+protobuf>=6.30.2,<7
+base58>=2.1.1
+python-dotenv>=1.0.0

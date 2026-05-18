@@ -1,0 +1,14 @@
+{
+  "timestamp": "2025-04-17T15:02:53.003010",
+  "stats": {
+    "messages_processed": 0,
+    "balance_updates_received": 0,
+    "unique_addresses": 0,
+    "unique_tokens": 0,
+    "start_time": 1744882367.9828212,
+    "last_export_time": 1744882367.9828212,
+    "elapsed_seconds": 5.020114898681641,
+    "updates_per_second": 0.0
+  },
+  "wallets": {}
+}
