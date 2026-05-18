@@ -1,69 +1,85 @@
 # Bitquery Kafka — examples and use cases
 
-**Canonical runnable samples** for [Bitquery Kafka streams](https://docs.bitquery.io/docs/category/kafka-streams/). This repository is maintained for **documentation, DevRel, and support**: one place to clone, one set of conventions, and links from the Kafka section of [docs.bitquery.io](https://docs.bitquery.io).
+Examples for consuming [Bitquery Kafka streams](https://docs.bitquery.io/docs/category/kafka-streams/) (protobuf over Kafka): **Python**, **Go**, and **Node.js** baseline consumers and scenario-sized projects under [`usecases/`](./usecases/). See [docs.bitquery.io](https://docs.bitquery.io) for Kafka concepts, authentication, and topic details.
 
-It **replaces a scattered layout** across multiple small GitHub repos with a **single public “front door”** for **Python**, **Go**, and **Node.js** baseline consumers, plus a dedicated [`usecases/`](./usecases/) area for larger recipes (filtering, scale patterns, integrations).
+Shared conventions apply across baseline consumers (default transport settings, **`KAFKA_USERNAME` / `KAFKA_PASSWORD`** via **`.env`**, protobuf on stdout / logs on stderr).
 
-> **Secrets:** This repo is **public**. Never commit real credentials. Use **`.env`** locally (gitignored) and ship only **`.env.example`** templates.
+> **Security:** Treat this repository as **public**. Never commit secrets. Use a local **`.env`** (typically gitignored) and ship only **`.env.example`** templates.
 
 ---
 
 ## Repository layout
 
-| Folder                                                   | Role                                                                                                                                    |
-| -------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| [`python-consumer-example/`](./python-consumer-example/) | Baseline consumer with **`confluent_kafka`** + Bitquery Solana protobuf package.                                                        |
-| [`js-consumer-example/`](./js-consumer-example/)         | Baseline consumer with **KafkaJS** + **`bitquery-protobuf-schema`** (runs with **`node`** / **`npm`**).                                 |
-| [`go-consumer-example/`](./go-consumer-example/)         | Baseline consumer with **`confluent-kafka-go`** + **`github.com/bitquery/streaming_protobuf/v2`**.                                      |
-| [`usecases/`](./usecases/)                               | Scenario-sized projects **vendored** as standalone snapshots (no nested git remotes). See [`usecases/README.md`](./usecases/README.md). |
+| Folder | Role |
+|--------|------|
+| [`python-consumer-example/`](./python-consumer-example/) | Kafka consumer using **`confluent_kafka`** + Bitquery Solana protobuf helpers. |
+| [`js-consumer-example/`](./js-consumer-example/) | Kafka consumer using **KafkaJS** + **`bitquery-protobuf-schema`**. |
+| [`go-consumer-example/`](./go-consumer-example/) | Kafka consumer using **`confluent-kafka-go`** + **`github.com/bitquery/streaming_protobuf/v2`**. |
+| [`usecases/`](./usecases/) | Additional examples keyed to specific chains or workflows. Each subfolder includes its own README. See [`usecases/README.md`](./usecases/README.md). |
 
-Each baseline folder is **self-contained** (no cross-imports between language folders).
+Each baseline consumer folder is **self-contained** (no cross-imports between language folders).
 
 ---
 
-## Conventions (all baseline consumers)
+## Packages
 
-These rules keep samples consistent when linked from docs and when users pipe output:
+Baseline consumers use Bitquery-published helpers for protobuf decoding:
 
-| Topic                | Convention                                                                                                                                                                                                                                                                                                                                                              |
-| -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Transport & auth** | **`SASL_PLAINTEXT`** + **SCRAM-SHA-512** on **`9092`** by default (tutorial posture). **Optional TLS:** **`SASL_SSL`** on **`9093`** + PEM files — see **[Optional: TLS (SASL_SSL)](#optional-tls-sasl_ssl-port-9093)** below and Bitquery’s **[SSL connection (SASL_SSL)](https://docs.bitquery.io/docs/streams/kafka-streaming-concepts/#ssl-connection-sasl_ssl-)**. |
-| **Credentials**      | **`KAFKA_USERNAME`**, **`KAFKA_PASSWORD`** via environment or **`.env`** (see each folder’s **`.env.example`**).                                                                                                                                                                                                                                                        |
-| **Stdout**           | **Decoded protobuf payload only** (human-readable tree; **`bytes`** as Solana-style **base58**). No Kafka partition/offset dumps on stdout.                                                                                                                                                                                                                             |
-| **Stderr**           | Logs, connection errors, shutdown.                                                                                                                                                                                                                                                                                                                                      |
-| **Offsets**          | **`enable.auto.commit` / equivalent disabled** unless a README states otherwise — matches tutorial posture; restarts may re-read messages depending on group id and retention.                                                                                                                                                                                          |
+| Language | Package |
+|----------|---------|
+| **Python** | [`bitquery-pb2-kafka-package`](https://pypi.org/project/bitquery-pb2-kafka-package/) (PyPI) |
+| **JavaScript** | [`bitquery-protobuf-schema`](https://www.npmjs.com/package/bitquery-protobuf-schema) (npm) |
+| **Go** | [`github.com/bitquery/streaming_protobuf/v2`](https://pkg.go.dev/github.com/bitquery/streaming_protobuf/v2) — import paths depend on chain and message |
+
+---
+
+## Sample payloads (`kafka-data-sample`)
+
+JSON mirror payloads for inspecting topic structure offline — **[bitquery/kafka-data-sample](https://github.com/bitquery/kafka-data-sample)**. Live Kafka streams use **Protobuf**; those samples document fields and nesting before you decode binary messages.
+
+---
+
+## Conventions (baseline consumers)
+
+These defaults keep behavior consistent across languages and make stdout easy to pipe or parse:
+
+| Topic | Convention |
+|-------|----------------|
+| **Transport & auth** | **`SASL_PLAINTEXT`** + **SCRAM-SHA-512** on **`9092`**. Optional **TLS**: **`SASL_SSL`** on **`9093`** and PEM paths — **[Optional TLS](#optional-tls-sasl_ssl-port-9093)** and Bitquery’s **[SSL connection (SASL_SSL)](https://docs.bitquery.io/docs/streams/kafka-streaming-concepts/#ssl-connection-sasl_ssl-)**. |
+| **Credentials** | **`KAFKA_USERNAME`**, **`KAFKA_PASSWORD`** from the environment or **`.env`** (see each **`/.env.example`**). |
+| **Stdout** | Decoded protobuf only (readable field tree; **`bytes`** encoded as Solana-style **base58**). Omit partition/offset noise. |
+| **Stderr** | Logging, errors, lifecycle messages. |
+| **Offsets** | **`enable.auto.commit`** (and equivalents) disabled unless documented otherwise — restarts may re-read depending on consumer group and retention. |
 
 ---
 
 ## Optional: TLS (`SASL_SSL`, port `9093`)
 
-The baseline consumers in this repo default to **`SASL_PLAINTEXT`** on **`9092`**. For **encrypted** Kafka (TLS + SASL), Bitquery documents **`SASL_SSL`** on **`9093`** in **[Kafka streams concepts — SSL connection (SASL_SSL)](https://docs.bitquery.io/docs/streams/kafka-streaming-concepts/#ssl-connection-sasl_ssl-)**.
+Baseline consumers use **`SASL_PLAINTEXT`** on **`9092`** by default. For TLS + SASL, follow Bitquery’s **[Kafka streams concepts — SSL connection (SASL_SSL)](https://docs.bitquery.io/docs/streams/kafka-streaming-concepts/#ssl-connection-sasl_ssl-)**.
 
-You need three PEM files (same filenames as in that doc):
+Use these PEM filenames (aligned with Bitquery docs):
 
-| File                 | Typical client setting                                         |
-| -------------------- | -------------------------------------------------------------- |
-| **`server.cer.pem`** | Trust / CA (**`ssl.ca.location`** in librdkafka-style configs) |
-| **`client.cer.pem`** | Client certificate (**`ssl.certificate.location`**)            |
-| **`client.key.pem`** | Client private key (**`ssl.key.location`**)                    |
+| File | Typical librdkafka-style key |
+|------|-------------------------------|
+| **`server.cer.pem`** | **`ssl.ca.location`** |
+| **`client.cer.pem`** | **`ssl.certificate.location`** |
+| **`client.key.pem`** | **`ssl.key.location`** |
 
-**Where to get them:** Bitquery publishes copies at the repo root of **[`bitquery/kafka-consumer-example`](https://github.com/bitquery/kafka-consumer-example)**:
+Official copies alongside sample clients: **[bitquery/kafka-consumer-example](https://github.com/bitquery/kafka-consumer-example)** (`server.cer.pem`, `client.cer.pem`, `client.key.pem` at repo root). Example fetch:
 
-- [`server.cer.pem`](https://github.com/bitquery/kafka-consumer-example/blob/main/server.cer.pem)
-- [`client.cer.pem`](https://github.com/bitquery/kafka-consumer-example/blob/main/client.cer.pem)
-- [`client.key.pem`](https://github.com/bitquery/kafka-consumer-example/blob/main/client.key.pem)
+```bash
+curl -fsSLO https://raw.githubusercontent.com/bitquery/kafka-consumer-example/main/server.cer.pem
+curl -fsSLO https://raw.githubusercontent.com/bitquery/kafka-consumer-example/main/client.cer.pem
+curl -fsSLO https://raw.githubusercontent.com/bitquery/kafka-consumer-example/main/client.key.pem
+```
 
-Download them.
+Store keys **outside revision control**. Protect **`client.key.pem`** as you would any private key. TLS bootstrap brokers are typically **`rpk0.bitquery.io:9093,rpk1.bitquery.io:9093,rpk2.bitquery.io:9093`**.
 
-Save them **outside git** or **gitignored paths** — especially **`client.key.pem`**. Point your consumer config at the paths where you saved them. Bootstrap brokers for TLS are typically **`rpk0.bitquery.io:9093,rpk1.bitquery.io:9093,rpk2.bitquery.io:9093`**.
-
-Per-language TLS snippets live in each **`python-consumer-example`**, **`js-consumer-example`**, and **`go-consumer-example`** README under **“Encryption in transit (TLS / SSL)”**.
+Language-specific **`SASL_SSL`** snippets appear under **“Encryption in transit (TLS / SSL)”** in **`python-consumer-example/`**, **`js-consumer-example/`**, and **`go-consumer-example/`**.
 
 ---
 
-## Documentation links
-
-Point readers here from the Kafka docs hub and language pages:
+## Documentation
 
 - [Kafka streams — category hub](https://docs.bitquery.io/docs/category/kafka-streams/)
 - [Go — Kafka protobuf streams](https://docs.bitquery.io/docs/streams/protobuf/kafka-protobuf-go/)
@@ -71,37 +87,73 @@ Point readers here from the Kafka docs hub and language pages:
 - [JavaScript — Solana Kafka shred stream](https://docs.bitquery.io/docs/streams/protobuf/kafka-protobuf-js/)
 - [Filtering Kafka streams](https://docs.bitquery.io/docs/streams/protobuf/filtering-kafka-streams/)
 - [Kafka streams concepts — SASL_SSL / certificates](https://docs.bitquery.io/docs/streams/kafka-streaming-concepts/#ssl-connection-sasl_ssl-)
+- [Kafka topic JSON samples (`kafka-data-sample`)](https://github.com/bitquery/kafka-data-sample)
 
 ---
 
-## Topics commonly used in samples
+## Kafka topics (examples) and protobuf types
 
-Authoritative topic names for **your** account come from Bitquery provisioning and docs. Typical tutorial topics:
+Which topics you may consume depends on **Bitquery provisioning** for your account. Topic names follow **`chain`.`variant`.`stream`.proto** patterns (including **`broadcasted`** mempool-style variants where listed).
 
-| Topic (example)             | Notes                                                                   |
-| --------------------------- | ----------------------------------------------------------------------- |
-| `solana.transactions.proto` | Solana transaction-level protobuf stream (default in baseline folders). |
-| `solana.dextrades.proto`    | Solana DEX protobuf stream.                                             |
-| `solana.tokens.proto`       | Solana token-related protobuf stream.                                   |
+Match **`KAFKA_TOPIC`** (or subscription config) to the **protobuf message type** your decoder expects — swapping topic alone without the right generated types will fail decode.
 
-Changing **`KAFKA_TOPIC`** requires **matching decode types** for that topic’s schema — not only env vars.
+### Bitcoin
+
+| Topic | Top-level protobuf message |
+|-------|---------------------------|
+| `btc.transactions.proto` | *(Bitcoin transactions — decode using Bitquery Bitcoin protobuf definitions)* |
+
+### Ethereum (`eth`)
+
+| Topic | Top-level protobuf message |
+|-------|---------------------------|
+| `eth.transactions.proto` | **`ParsedAbiBlockMessage`** |
+| `eth.tokens.proto` | **`TokenBlockMessage`** |
+| `eth.dextrades.proto` | **`DexBlockMessage`** |
+| `eth.raw.proto` | **`BlockMessage`** (raw block data) |
+| `eth.broadcasted.transactions.proto` | **`ParsedAbiBlockMessage`** |
+| `eth.broadcasted.tokens.proto` | **`TokenBlockMessage`** |
+| `eth.broadcasted.dextrades.proto` | **`DexBlockMessage`** |
+| `eth.broadcasted.raw.proto` | **`BlockMessage`** (raw broadcasted block data) |
+
+### Solana (`solana`)
+
+| Topic | Top-level protobuf message |
+|-------|---------------------------|
+| `solana.transactions.proto` | **`ParsedIdlBlockMessage`** |
+| `solana.tokens.proto` | **`TokenBlockMessage`** |
+| `solana.dextrades.proto` | **`DexParsedBlockMessage`** |
+
+### Tron (`tron`)
+
+| Topic | Notes |
+|-------|--------|
+| `tron.raw.proto` | Raw block data |
+| `tron.transactions.proto` | Transactions |
+| `tron.tokens.proto` | Token transfers |
+| `tron.dextrades.proto` | DEX trades |
+| `tron.broadcasted.raw.proto` | Raw broadcasted block data |
+| `tron.broadcasted.transactions.proto` | Broadcasted transactions |
+| `tron.broadcasted.tokens.proto` | Broadcasted token transfers |
+| `tron.broadcasted.dextrades.proto` | Broadcasted DEX trades |
+
+For Tron message type names and imports, use the **streaming protobuf** definitions aligned with each topic ([schemas overview](https://github.com/bitquery/streaming_protobuf)).
+
+Authoritative naming and additions beyond this list appear in Bitquery docs (for example the [Kafka streams concepts](https://docs.bitquery.io/docs/streams/kafka-streaming-concepts/) topic lists).
 
 ---
 
-## Roadmap
+## Repository contents
 
-1. Baseline consumers (**Python**, **Node**, **Go**) — **current**.
-2. **`usecases/`** — **current:** BSC sniper, Binance wallet monitoring, Solana wallet tracker, liquidity drain detector (snapshots; refresh manually from upstream when needed — see [`usecases/README.md`](./usecases/README.md)).
-3. **Docs** — update Kafka doc pages to link to **stable paths** in this repo (per-language quick start + troubleshooting).
+| Area | Status |
+|------|--------|
+| Baseline consumers (Python / Node / Go) | Provided |
+| [`usecases/`](./usecases/) | Scenario examples — see [`usecases/README.md`](./usecases/README.md) |
 
 ---
 
 ## Contributing
 
-- Keep examples **small and runnable**.
-- Prefer **`.env.example`** over checked-in secrets.
-- Avoid breaking the **stdout / stderr** split without updating all baselines and docs.
-
----
-
-_Discovery: Bitquery, Kafka, protobuf, blockchain streaming, Solana, real-time data._
+- Keep examples runnable and narrowly scoped.
+- Never commit secrets; prefer **`.env.example`** templates.
+- If you change stdout/stderr behavior in one baseline, align the others and update READMEs accordingly.

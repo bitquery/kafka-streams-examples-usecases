@@ -1,39 +1,37 @@
 # Use cases (Kafka streams)
 
-This directory holds **scenario-sized projects**: filtering, ordering patterns, storage, dashboards, or trading-style flows built **on top of** Bitquery Kafka protobuf streams.
+Larger workflows on Bitquery Kafka protobuf streams — filters, dashboards, liquidity monitoring, wallet sets, trading-adjacent patterns — grouped **one scenario per subdirectory**.
 
-Baseline consumers live one level up (**`python-consumer-example/`**, **`js-consumer-example/`**, **`go-consumer-example/`**). **Use cases** are larger and topic-specific — each lives in **its own subfolder**.
+Minimal consumers live beside this folder (**`python-consumer-example/`**, **`js-consumer-example/`**, **`go-consumer-example/`**).
 
 ---
 
-## Vendored snapshots (not linked to upstream git)
+## Bundled scenarios
 
-The subfolders below are **copies** of code that originally lived in other GitHub repositories. **`.git` is removed** here: they are **not** submodules, **not** forks, and **do not** track remotes. To refresh from upstream, re-clone the URL and replace the folder (or copy files over).
+These directories are copies of published examples cited in Bitquery documentation. They ship **without** a nested `.git` directory so the parent repo is a single clone; they **do not** track upstream history automatically. Align updates with upstream projects as appropriate.
 
-**Upstream sources at vendoring time:**
+| Folder | Scenario | Reference |
+|--------|----------|-----------|
+| [`sniper-bot-bsc/`](./sniper-bot-bsc/) | BSC / launch monitoring with Kafka-backed logic | [`bitquery/sniper-bot-bsc`](https://github.com/bitquery/sniper-bot-bsc) |
+| [`binance-exchange-wallets-monitoring/`](./binance-exchange-wallets-monitoring/) | Many exchange-labeled wallets on BSC (**`bsc.tokens.proto`**) | [`bitquery/binance-exchange-wallets-monitoring`](https://github.com/bitquery/binance-exchange-wallets-monitoring) |
+| [`solana-wallet-tracker/`](./solana-wallet-tracker/) | Large-scale Solana wallet tracking | [Track millions of Solana wallets via Kafka](https://docs.bitquery.io/docs/usecases/track-millions-of-solana-wallets/) |
+| [`realtime-liquidity-drain-detector/`](./realtime-liquidity-drain-detector/) | Real-time liquidity removal patterns | [Realtime liquidity drain detector](https://docs.bitquery.io/docs/usecases/realtime-liquidity-drain-detector/) |
 
-| Folder | Scenario | Clone source |
-|--------|-----------|--------------|
-| [`sniper-bot-bsc/`](./sniper-bot-bsc/) | BSC sniper / Four Meme launch bot (Kafka + on-chain execution) | [`bitquery/sniper-bot-bsc`](https://github.com/bitquery/sniper-bot-bsc) |
-| [`binance-exchange-wallets-monitoring/`](./binance-exchange-wallets-monitoring/) | Monitor many Binance-tagged wallets on BSC (`bsc.tokens.proto`) | [`bitquery/binance-exchange-wallets-monitoring`](https://github.com/bitquery/binance-exchange-wallets-monitoring) |
-| [`solana-wallet-tracker/`](./solana-wallet-tracker/) | Scale — track very large Solana wallet sets | [`Akshat-cs/solana-wallet-tracker`](https://github.com/Akshat-cs/solana-wallet-tracker) ([tutorial](https://docs.bitquery.io/docs/usecases/track-millions-of-solana-wallets/) mentions `bitquery/solana-wallet-tracker`; that repo was not publicly cloneable when this snapshot was imported.) |
-| [`realtime-liquidity-drain-detector/`](./realtime-liquidity-drain-detector/) | Real-time liquidity drain detection | [`Akshat-cs/realtime-liquidity-drain-detector`](https://github.com/Akshat-cs/realtime-liquidity-drain-detector) |
-
-**Bitquery docs for these scenarios:**
+**Bitquery documentation**
 
 - [Binance exchange wallet monitoring](https://docs.bitquery.io/docs/usecases/binance-exchange-wallet-monitoring/)
 - [Track millions of Solana wallets](https://docs.bitquery.io/docs/usecases/track-millions-of-solana-wallets/)
 - [Realtime liquidity drain detector](https://docs.bitquery.io/docs/usecases/realtime-liquidity-drain-detector/)
 
-Each subfolder keeps its **own README** and run instructions from upstream (code is **unchanged** from the snapshot).
+Each subdirectory retains its upstream README for prerequisites and runtime instructions.
 
 ---
 
-## Rules for anything merged here
+## Guidelines for additions
 
-- **No secrets in git** — environment variables, **`.env.example`**, never real passwords or private keys.
-- **Self-contained folder** — do not import sibling baseline consumer folders; external deps and Bitquery-published packages only.
-- **README required** — problem statement, prerequisites, run commands, topic/schema assumptions, limits (ordering, commits, replay).
+- **No secrets in git** — use environment variables or **`.env.example`** templates only.
+- **Self-contained** — no imports from sibling baseline consumer folders unless you intentionally refactor upstream.
+- **README required** — problem statement, setup, commands, Kafka topic/schema assumptions, and behavioral limits (offsets, duplicates, throughput).
 
 ---
 
