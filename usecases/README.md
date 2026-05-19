@@ -29,7 +29,7 @@ Each subdirectory retains its upstream README for prerequisites and runtime inst
 
 ## Guidelines for additions
 
-- **No secrets in git** — use environment variables or **`.env.example`** templates only.
+- **No secrets in git** — use environment variables or **`.env.example`** templates only. **`KAFKA_USERNAME` / `KAFKA_PASSWORD`** are stream credentials (not IDE keys); obtain via Bitquery’s **<a href="https://bitquery.io/forms/api" target="_blank" rel="noopener noreferrer">API request form</a>** or support.
 - **Self-contained** — no imports from sibling baseline consumer folders unless you intentionally refactor upstream.
 - **README required** — problem statement, setup, commands, Kafka topic/schema assumptions, and behavioral limits (offsets, duplicates, throughput).
 

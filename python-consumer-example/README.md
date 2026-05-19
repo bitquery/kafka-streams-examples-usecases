@@ -23,7 +23,7 @@ Default topic: **`solana.transactions.proto`** (`KAFKA_TOPIC` overrides). Kafka 
 
 - **Python 3.10+** (3.9 may work; prefer an active **3.x LTS**).
 - Network access to Bitquery Kafka brokers.
-- **Username and password** from Bitquery for stream access.
+- **Username and password** for **Kafka streams** (not IDE API keys). Request from Bitquery support / sales via the **<a href="https://bitquery.io/forms/api" target="_blank" rel="noopener noreferrer">API request form</a>**.
 
 ---
 
@@ -37,7 +37,7 @@ python3 -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 cp .env.example .env
-# Edit .env: set KAFKA_USERNAME and KAFKA_PASSWORD
+# Edit .env: set KAFKA_USERNAME and KAFKA_PASSWORD (obtain stream credentials via https://bitquery.io/forms/api — not IDE keys)
 python consumer.py
 ```
 
@@ -96,10 +96,10 @@ Older snippets that use **`field.label == LABEL_REPEATED`** can fail on newer pr
 
 ---
 
-## Credentials
+## Credentials and repository hygiene
 
-- **Never commit** **`.env`**.
-- Only **`.env.example`** belongs in git.
+- **Never commit** **`.env`**. Only **`.env.example`** is meant for git—copy it to **`.env`** locally and add your secrets there.
+- **`KAFKA_USERNAME`** / **`KAFKA_PASSWORD`** are **Kafka stream** credentials, **not** IDE API keys. Request access via Bitquery’s **<a href="https://bitquery.io/forms/api" target="_blank" rel="noopener noreferrer">API request form</a>** (support / sales), as in the root **<a href="../README.md" target="_blank" rel="noopener noreferrer">repository README</a>** (Security callout).
 
 ---
 

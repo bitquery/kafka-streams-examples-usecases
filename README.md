@@ -2,9 +2,9 @@
 
 Examples for consuming <a href="https://docs.bitquery.io/docs/category/kafka-streams/" target="_blank" rel="noopener noreferrer">Bitquery Kafka streams</a> (protobuf over Kafka): **Python**, **Go**, and **Node.js** baseline consumers and scenario-sized projects under <a href="./usecases/" target="_blank" rel="noopener noreferrer">`usecases/`</a>. See <a href="https://docs.bitquery.io" target="_blank" rel="noopener noreferrer">docs.bitquery.io</a> for Kafka concepts, authentication, and topic details.
 
-Shared conventions apply across baseline consumers (default transport settings, **`KAFKA_USERNAME` / `KAFKA_PASSWORD`** via **`.env`**, protobuf on stdout / logs on stderr).
+Shared conventions apply across baseline consumers (default transport settings, **`KAFKA_USERNAME` / `KAFKA_PASSWORD`** via **`.env`**, protobuf on stdout / logs on stderr). See the **Security** note below for how to obtain Kafka stream credentials.
 
-> **Security:** Treat this repository as **public**. Never commit secrets. Use a local **`.env`** (typically gitignored) and ship only **`.env.example`** templates.
+> **Security:** Treat this repository as **public**. Never commit secrets. Use a local **`.env`** (typically gitignored) and ship only **`.env.example`** templates. Kafka **`KAFKA_USERNAME`** / **`KAFKA_PASSWORD`** are **stream** credentials — request them from Bitquery via the **<a href="https://bitquery.io/forms/api" target="_blank" rel="noopener noreferrer">API request form</a>** (support / sales), not your IDE API key.
 
 ---
 
@@ -15,9 +15,10 @@ Shared conventions apply across baseline consumers (default transport settings, 
 | <a href="./python-consumer-example/" target="_blank" rel="noopener noreferrer">`python-consumer-example/`</a> | Kafka consumer using **`confluent_kafka`** + Bitquery Solana protobuf helpers.                                                                       |
 | <a href="./js-consumer-example/" target="_blank" rel="noopener noreferrer">`js-consumer-example/`</a>         | Kafka consumer using **KafkaJS** + **`bitquery-protobuf-schema`**.                                                                                   |
 | <a href="./go-consumer-example/" target="_blank" rel="noopener noreferrer">`go-consumer-example/`</a>         | Kafka consumer using **`confluent-kafka-go`** + **`github.com/bitquery/streaming_protobuf/v2`**.                                                     |
+| <a href="./filtering-examples/" target="_blank" rel="noopener noreferrer">`filtering-examples/`</a>           | **Python** filters on Solana/BSC protobuf topics (see <a href="./filtering-examples/README.md" target="_blank" rel="noopener noreferrer">`filtering-examples/README.md`</a>). |
 | <a href="./usecases/" target="_blank" rel="noopener noreferrer">`usecases/`</a>                               | Additional examples keyed to specific chains or workflows. Each subfolder includes its own README. See <a href="./usecases/README.md" target="_blank" rel="noopener noreferrer">`usecases/README.md`</a>. |
 
-Each baseline consumer folder is **self-contained** (no cross-imports between language folders).
+Each baseline consumer folder and **`filtering-examples/`** are **self-contained** (no cross-imports between language folders; run filtering scripts from that directory).
 
 ---
 
@@ -46,7 +47,7 @@ These defaults keep behavior consistent across languages and make stdout easy to
 | Topic                | Convention                                                                                                                                                                                                                                                                                                            |
 | -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Transport & auth** | **`SASL_PLAINTEXT`** + **SCRAM-SHA-512** on **`9092`**. Optional **TLS**: **`SASL_SSL`** on **`9093`** and PEM paths — **<a href="#optional-tls-sasl_ssl-port-9093" target="_blank" rel="noopener noreferrer">Optional TLS</a>** and Bitquery’s **<a href="https://docs.bitquery.io/docs/streams/kafka-streaming-concepts/#ssl-connection-sasl_ssl-" target="_blank" rel="noopener noreferrer">SSL connection (SASL_SSL)</a>**. |
-| **Credentials**      | **`KAFKA_USERNAME`**, **`KAFKA_PASSWORD`** from the environment or **`.env`** (see each **`/.env.example`**).                                                                                                                                                                                                         |
+| **Credentials**      | **`KAFKA_USERNAME`**, **`KAFKA_PASSWORD`** from the environment or **`.env`** (see each **`/.env.example`**). **Stream credentials**, not IDE API keys — obtain via Bitquery’s **<a href="https://bitquery.io/forms/api" target="_blank" rel="noopener noreferrer">API request form</a>** (support / sales).                                                                                                                                                                     |
 | **Stdout**           | Decoded protobuf only (readable field tree; **`bytes`** encoded as Solana-style **base58**). Omit partition/offset noise.                                                                                                                                                                                             |
 | **Stderr**           | Logging, errors, lifecycle messages.                                                                                                                                                                                                                                                                                  |
 | **Offsets**          | **`enable.auto.commit`** (and equivalents) disabled unless documented otherwise — restarts may re-read depending on consumer group and retention.                                                                                                                                                                     |
@@ -215,4 +216,5 @@ Authoritative naming and additions beyond this list appear in Bitquery docs (for
 
 - Keep examples runnable and narrowly scoped.
 - Never commit secrets; prefer **`.env.example`** templates.
+- **`KAFKA_USERNAME` / `KAFKA_PASSWORD`** are stream credentials — obtain via Bitquery’s **<a href="https://bitquery.io/forms/api" target="_blank" rel="noopener noreferrer">API request form</a>** (or support); not IDE API keys.
 - If you change stdout/stderr behavior in one baseline, align the others and update READMEs accordingly.

@@ -26,7 +26,8 @@ No partition/offset prefixes on stdout.
 ## Requirements
 
 1. **<a href="https://go.dev/dl/" target="_blank" rel="noopener noreferrer">Go 1.23+</a>** — **`go version`** must satisfy **`go.mod`** / **`toolchain`**.
-2. **C toolchain + librdkafka** (CGO — required by **`confluent-kafka-go`**):
+2. **Kafka stream credentials** (**`KAFKA_USERNAME`** / **`KAFKA_PASSWORD`** in **`.env`**) — not IDE API keys; request from Bitquery via the **<a href="https://bitquery.io/forms/api" target="_blank" rel="noopener noreferrer">API request form</a>**.
+3. **C toolchain + librdkafka** (CGO — required by **`confluent-kafka-go`**):
    - **macOS:** `brew install librdkafka pkg-config`
    - **Debian/Ubuntu:** `sudo apt-get install -y librdkafka-dev pkg-config gcc`
 
@@ -42,7 +43,7 @@ From the repository root:
 cd go-consumer-example
 go mod tidy
 cp .env.example .env
-# Edit .env: set KAFKA_USERNAME and KAFKA_PASSWORD
+# Edit .env: set KAFKA_USERNAME and KAFKA_PASSWORD (obtain via https://bitquery.io/forms/api — not IDE keys)
 go run .
 ```
 
@@ -94,13 +95,14 @@ Env alone is insufficient: switch **`solanapb`** import / decode type in **`main
 
 ### Env vs YAML
 
-Bitquery’s larger Go samples sometimes use **`config.yml`**. This repo standardises on **`.env`** for secrets and parity across languages; rationale is summarized in the **root** <a href="../README.md#conventions-all-baseline-consumers" target="_blank" rel="noopener noreferrer">`README.md`</a>.
+Bitquery’s larger Go samples sometimes use **`config.yml`**. This repo standardises on **`.env`** for secrets and parity across languages; rationale is summarized in the **root** <a href="../README.md#conventions-baseline-consumers" target="_blank" rel="noopener noreferrer">`README.md`</a>.
 
 ---
 
-## Credentials
+## Credentials and repository hygiene
 
-Never commit **`.env`**. Only **`.env.example`** in git.
+- **Never commit** **`.env`**. Only **`.env.example`** is meant for git—copy it to **`.env`** locally and add your secrets there.
+- **`KAFKA_USERNAME`** / **`KAFKA_PASSWORD`** are **Kafka stream** credentials, **not** IDE API keys. Request access via Bitquery’s **<a href="https://bitquery.io/forms/api" target="_blank" rel="noopener noreferrer">API request form</a>** (support / sales), as in the root **<a href="../README.md" target="_blank" rel="noopener noreferrer">repository README</a>** (Security callout).
 
 ---
 

@@ -24,7 +24,7 @@ Kafka **topic / partition / offset** lines are omitted on stdout by design (easi
 
 - **Node.js 18+** (LTS recommended).
 - **npm** (comes with Node).
-- Bitquery **`KAFKA_USERNAME`** / **`KAFKA_PASSWORD`**.
+- Bitquery **`KAFKA_USERNAME`** / **`KAFKA_PASSWORD`** (Kafka **stream** credentials, not IDE API keys — request via the **<a href="https://bitquery.io/forms/api" target="_blank" rel="noopener noreferrer">API request form</a>**).
 
 ---
 
@@ -36,7 +36,7 @@ From the repository root:
 cd js-consumer-example
 npm install
 cp .env.example .env
-# Edit .env: set KAFKA_USERNAME and KAFKA_PASSWORD
+# Edit .env: set KAFKA_USERNAME and KAFKA_PASSWORD (obtain via https://bitquery.io/forms/api — not IDE keys)
 npm start
 ```
 
@@ -100,9 +100,10 @@ Optional variables are documented in **`.env.example`** (topic, bootstrap server
 
 ---
 
-## Credentials
+## Credentials and repository hygiene
 
-Never commit **`.env`**. Only **`.env.example`** in git.
+- **Never commit** **`.env`**. Only **`.env.example`** is meant for git—copy it to **`.env`** locally and add your secrets there.
+- **`KAFKA_USERNAME`** / **`KAFKA_PASSWORD`** are **Kafka stream** credentials, **not** IDE API keys. Request access via Bitquery’s **<a href="https://bitquery.io/forms/api" target="_blank" rel="noopener noreferrer">API request form</a>** (support / sales), as in the root **<a href="../README.md" target="_blank" rel="noopener noreferrer">repository README</a>** (Security callout).
 
 ---
 
